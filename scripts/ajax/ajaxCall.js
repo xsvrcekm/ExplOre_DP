@@ -1,32 +1,10 @@
-<?php
-class Model
-{
-    public $string;
-
-    public function __construct(){
-        $this->string = "MVC + PHP = Awesome!";
-    }
-}
-
-/*function doAjaxOne(){
-              alert("doAjaxOne");
-              $.ajax({
-                url: 'http://s.sme.sk/r-rss/20102258/plus.sme.sk/kto-prerusi-premiersku-snuru-roberta-fica.html',
-                type: 'GET',
-                success: function(res) {
-                    var headline = $(res.responseText).find('body').text();
-                    alert(headline);
-                }
-              });
-            }
-            
             function doAjax(url){
               // if it is an external URI
               alert("doAjax: " + url);
               if(url.match('^http')){
-                alert("doAjax:");
+                alert("doAjax HTTP");
                 // call YQL
-                $.getJSON("http://s.sme.sk/r-rss/20102258/plus.sme.sk/kto-prerusi-premiersku-snuru-roberta-fica.html",
+                $.getJSON('http://s.sme.sk/r-rss/20102258/plus.sme.sk/kto-prerusi-premiersku-snuru-roberta-fica.html',
                   function(data){
                     // this function gets the data from the successful 
                     // JSON-P call
@@ -48,7 +26,7 @@ class Model
                 );
               // if it is not an external URI, use Ajax load()
               } else {
-                alert("doAjax 0");
+                alert("doAjax NOT HTTP");
                 $('#target').load(url);
               }
             }
@@ -61,4 +39,4 @@ class Model
               data = data.replace(/<script[^>]*>[\S\s]*?<\/script>/g,'');
               data = data.replace(/<script.*\/>/,'');
               return data;
-            }*/
+            }
