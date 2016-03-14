@@ -22,7 +22,7 @@ $config = [
 	'validate_email_strictly' 	=> FALSE,
 
 	'feeds' 					=> [
-		'http://rss.sme.sk/rss/rss.asp?id=frontpage'/*,
+		'http://rss.sme.sk/rss/rss.asp?id=frontpage',
 		'http://rss.sme.sk/rss/rss.asp?id=smenajcit4',
 		'http://rss.sme.sk/rss/rss.asp?id=smenajcit24',
 		'http://rss.sme.sk/rss/rss.asp?sek=smeonline&rub=online_zdom',
@@ -39,6 +39,6 @@ $config = [
 		'http://rss.sme.sk/rss/rss.asp?sek=domac',
 		'http://rss.sme.sk/rss/rss.asp?sek=zena',
 		'http://rss.sme.sk/rss/rss.asp?sek=primar',
-		'http://rss.sme.sk/rss/rss.asp?sek=cest'*/
+		'http://rss.sme.sk/rss/rss.asp?sek=cest'
 	]
 ];
