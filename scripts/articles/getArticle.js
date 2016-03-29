@@ -31,6 +31,7 @@
                 $('#target').load(url);
               }
             }
+            
             // filter out some nasties
             function filterData(data){
               data = data.replace(/<body>/,'');
