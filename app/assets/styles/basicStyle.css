@@ -1,0 +1,64 @@
+body {
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+}
+a {
+    text-decoration: none;
+    font-family: arial;
+    color: black;
+}
+
+#base {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#header{
+    position: relative;
+}
+#header #headerstrip {
+    position: relative;
+    width: 1200px; height: 80px;
+    top: 0px;
+    border-style: solid;
+    border-color: white;
+    background-color: #202121; 
+} 
+#headerlogo {
+    position: absolute;
+    float: left;
+    top: 15%;
+    left: 2%;
+}
+#headersignin {
+    position: absolute;
+    float: right;
+    color: white;
+    font-family: arial;
+    top: 20%;
+    right: 2%;
+}
+#mainmenu {
+    position: relative;
+    display: table-cell;   
+    vertical-align: middle;
+    padding-top: 10px;
+}
+#mainmenu ul {
+    padding-left: 2px;
+}
+#mainmenu li {
+    list-style-type: none;
+    display: inline;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#mainmenu a:hover { 
+    color: #1e8fd7;
+}
+.active {
+    border-bottom: 2px solid #1e8fd7;
+}

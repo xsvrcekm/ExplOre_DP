@@ -1,6 +1,6 @@
 <?php
 
-include('app/config/App.php');
+include('app/controllers/configRSS.php');
 
 class GetArticlesFromSME
 {
