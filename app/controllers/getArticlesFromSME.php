@@ -25,8 +25,8 @@ class GetArticlesFromSME
 			{
 				$articles[] = $article;
 			}
-                        return $articles;
 		}
+                return $articles;
 	}
 }
 ?>

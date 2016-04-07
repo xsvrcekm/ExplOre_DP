@@ -8,21 +8,25 @@ a {
     font-family: arial;
     color: black;
 }
+p {
+    font-family: arial;
+}
 
 #base {
-    width: 1200px;
+    width: 1000px;
     margin-left: auto;
     margin-right: auto;
 }
 #header{
     position: relative;
 }
-#header #headerstrip {
+#headerstrip {
     position: relative;
-    width: 1200px; height: 80px;
+    width: 100%; height: 50px;
     top: 0px;
     border-style: solid;
     border-color: white;
+    border: 0px;
     background-color: #202121; 
 } 
 #headerlogo {
@@ -39,11 +43,19 @@ a {
     top: 20%;
     right: 2%;
 }
+#headersignin p{
+    float: left;
+    margin-top: 7px;
+    margin-bottom: 0px;
+    margin-right: 20px;
+    font-size: 14px;
+}
 #mainmenu {
     position: relative;
     display: table-cell;   
     vertical-align: middle;
     padding-top: 10px;
+    font-size: 14px;
 }
 #mainmenu ul {
     padding-left: 2px;
@@ -54,11 +66,73 @@ a {
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 21px;
 }
 #mainmenu a:hover { 
     color: #1e8fd7;
 }
 .active {
     border-bottom: 2px solid #1e8fd7;
+}
+
+#footer{
+    position: relative;
+    margin-top: 10px;
+}
+#footerstrip {
+    position: relative;
+    width: 100%; height: 50px;
+    top: 0px;
+    border-style: solid;
+    border-color: white;
+    border: 0px;
+    background-color: #202121; 
+} 
+#footerlogo {
+    position: absolute;
+    float: left;
+    top: 15%;
+    left: 2%;
+}
+#backtotop {
+    position: absolute;
+    float: right;
+    color: white;
+    font-family: arial;
+    top: 0%;
+    right: 0%;
+}
+#footerarea {
+    position: relative;
+    width: 100%;
+    top: 0px;
+    border-style: solid;
+    border-color: white;
+    border: 0px;
+    background-color: #3b3b3b;
+}
+#footerinfo {
+    position: relative;
+    margin: 0% 15% 0% 15%;
+}
+#footerinfo p {
+    padding-top: 3%;
+    margin: 0px;
+    color: #adadad;
+    text-align: center;
+    vertical-align: middle;
+}
+#footerdivider {
+    position: relative;
+    margin: 0% 5% 0% 5%;
+    padding-top: 2%;
+    text-align: center;
+}
+#footercontact p {
+    padding-top: 1%;
+    padding-bottom: 2%;
+    margin: 0px;
+    color: #adadad;
+    text-align: center;
+    vertical-align: middle;
 }

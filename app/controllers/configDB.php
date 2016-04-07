@@ -2,7 +2,7 @@
 /**
  * Configuraton file for initializing database
  */
-
+function get_connection() {
     $servername = "localhost";
     $username = "martin";
     $password = "Sv/11-m+T";
@@ -15,22 +15,26 @@
      */
 
     // Create connection
-    $conn = new mysqli($servername, $username, $password, $dbname);
+    $connect = new mysqli($servername, $username, $password, $dbname);
 
     // Check connection
-    if ($conn->connect_error) {
-        die("Connection failed: " . $conn->connect_error);
+    if ($connect->connect_error) {
+        $message = "[{$date}] [{$file}] [{$level}] Connection failed: {$connect->connect_error}".PHP_EOL;
+        error_log($message);
+        die("Connection failed: " . $connect->connect_error);
     }
     echo "Connected successfully <br />";
 
     /* change character set to utf8 */
-    if (!$conn->set_charset("utf8")) {
-        printf("Error loading character set utf8: %s <br />", $conn->error);
+    if (!$connect->set_charset("utf8")) {
+        //printf("Error loading character set utf8: %s <br />", $connect->error);
+        $message = "[{$date}] [{$file}] [{$level}] Error loading character set utf8: %s <br />, {$connect->error}".PHP_EOL;
+        error_log($message);
         exit();
-    } else {
-        printf("Current character set: %s <br />", $conn->character_set_name());
     }
 
     //$conn->close();
+    return $connect;
+}
 ?>
 

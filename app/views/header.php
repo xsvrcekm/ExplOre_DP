@@ -7,22 +7,23 @@ Martin Svrček
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <title>ExplORe</title>
-        <link rel="shortcut icon" href="app/assets/images/favicon.ico" />
-        <link rel="stylesheet" type="text/css" href="app/assets/styles/basicStyle.css">
+        <link rel="shortcut icon" href="/ExplORe_DP/app/assets/images/favicon.ico" />
+        <link rel="stylesheet" type="text/css" href="/ExplORe_DP/app/assets/styles/basicStyle.css">
         
-        <script type="text/javascript" language="javascript" src="library/jQuery/jquery-1.12.2.js"></script>
+        <script type="text/javascript" language="javascript" src="/ExplORe_DP/library/jQuery/jquery-1.12.2.js"></script>
         <script src='app/assets/scripts/articles/getArticle.js'></script>
-        <script type='text/javascript'>
-            function showArticle(aid) {
-                getArticleContent(aid);
-            }
-        </script>
         <script>
-        $(document).ready(function(){
-            $("a").click(function(){
-                $(this).parent().addClass('active').siblings().removeClass('active');
+            $(document).ready(function(){
+                // Underline actual item of main menu
+                var fileName = location.pathname.split("/").slice(-1);
+                var pageName = String(fileName).slice(0,-4);
+                var lis = document.getElementsByTagName("li");
+                for (var i = 0; i < lis.length; i++) {
+                    if((lis[i].id) == pageName){
+                        $(lis[i]).addClass('active').siblings().removeClass('active');
+                    }
+                }
             });
-        });
         </script>
     </head>
     <body>
@@ -30,41 +31,42 @@ Martin Svrček
             <div id="header">
                 <div id="headerstrip">
                     <div id="headerlogo">
-                        <img src="app/assets/images/explore_logo.png" alt="explore_logo" width="200" height="56">
+                        <a href="/ExplORe_DP/index.php"> <img src="/ExplORe_DP/app/assets/images/explore_logo.png" alt="explore_logo" width="125" height="35"> </a>
                     </div>
                     <div id="headersignin">
-                        <p style="float: left; margin-right: 20px;">PRIHLÁSENIE</p>
-                        <img src="app/assets/images/lock.png" alt="signIn_logo" width="30" height="41">
+                        <p>PRIHLÁSENIE</p>
+                        <img src="/ExplORe_DP/app/assets/images/lock.png" alt="signIn_logo" width="20" height="27">
                     </div>
                 </div>
             </div>
             <div id="mainmenu">
                 <nav>
                 <ul>
-                    <li class="active">
-                        <a href="index.php">TITULKA</a>
+                    <li id="titulka" >
+                        <a href="/ExplORe_DP/app/views/categories/titulka.php">&nbsp;TITULKA</a>
                     </li>
-                    <li>
-                        <a href='app/views/categories/domov.php'>DOMOV</a>
+                    <li id="domov" >
+                        <a href="/ExplORe_DP/app/views/categories/domov.php">&nbsp;DOMOV</a>
                     </li>
-                    <li>
-                        <a href="app/views/categories/svet.php">SVET</a>
+                    <li id="svet" >
+                        <a href="/ExplORe_DP/app/views/categories/svet.php">&nbsp;SVET</a>
                     </li>
-                    <li>
-                        <a href="app/views/categories/sport.php">ŠPORT</a>
+                    <li id="sport" >
+                        <a href="/ExplORe_DP/app/views/categories/sport.php">&nbsp;ŠPORT</a>
                     </li>
-                    <li>
-                        <a href="app/views/categories/tech.php">TECH</a>
+                    <li id="tech" >
+                        <a href="/ExplORe_DP/app/views/categories/tech.php">&nbsp;TECH</a>
                     </li>
-                    <li>
-                        <a href="app/views/categories/kultura.php">KULTÚRA</a>
+                    <li id="kultura" >
+                        <a href="/ExplORe_DP/app/views/categories/kultura.php">&nbsp;KULTÚRA</a>
                     </li>
-                    <li>
-                        <a href="app/views/categories/ekonomika.php">EKONOMIKA</a>
+                    <li id="ekonomika" >
+                        <a href="/ExplORe_DP/app/views/categories/ekonomika.php">&nbsp;EKONOMIKA</a>
                     </li>
-                    <li>
-                        <a href="app/views/categories/komentare.php">KOMENTÁRE</a>
+                    <li id="komentare" >
+                        <a href="/ExplORe_DP/app/views/categories/komentare.php">&nbsp;KOMENTÁRE</a>
                     </li>
                 </ul>
                 </nav>
             </div>
+            <hr>

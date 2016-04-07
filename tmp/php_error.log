@@ -1,0 +1,1127 @@
+
+[05-Apr-2016 16:38:05 UTC] ++++++++++++++++++++++++ Co sa to stalo ++++++++++++++++++++++++
+[07-Apr-2016 08:13:28 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:28 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:28 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:28 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:28 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:28 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:28 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:28 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:28 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:13:28 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:28 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:28 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:28 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:28 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:28 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:28 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:28 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:28 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:13:28 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:28 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:28 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:28 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:28 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:28 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:28 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:28 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:28 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:13:28 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:28 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:28 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:28 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:28 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:28 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:28 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:28 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:28 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:13:28 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:28 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:28 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:28 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:28 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:28 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:28 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:28 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:28 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:13:28 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:28 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:28 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:28 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:28 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:28 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:28 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:28 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:28 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:13:28 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:28 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:28 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:28 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:28 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:28 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:28 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:28 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:28 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:13:28 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:28 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:28 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:28 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:28 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:28 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:28 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:28 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:28 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:13:28 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:28 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:28 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:28 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:28 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:28 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:28 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:28 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:28 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:13:28 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:28 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:28 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:28 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:28 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:28 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:28 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:28 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:28 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:13:28 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:28 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:28 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:28 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:28 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:28 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:28 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:28 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:28 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:13:28 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:28 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:28 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:28 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:28 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:28 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:28 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:28 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:28 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:13:28 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:28 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:28 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:28 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:28 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:28 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:28 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:28 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:28 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:13:28 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:28 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:28 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:28 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:28 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:28 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:28 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:28 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:28 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:13:28 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:28 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:28 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:28 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:28 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:28 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:28 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:28 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:28 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:13:28 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:28 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:28 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:28 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:28 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:28 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:28 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:28 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:28 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:13:28 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:28 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:28 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:28 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:28 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:28 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:28 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:28 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:28 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:13:28 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:28 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:28 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:28 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:28 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:28 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:28 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:28 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:28 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:13:28 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:28 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:28 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:28 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:28 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:28 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:28 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:28 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:28 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:13:28 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:28 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:28 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:28 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:28 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:28 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:28 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:28 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:28 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:13:28 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:28 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:28 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:28 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:28 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:28 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:28 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:28 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:28 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:13:28 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:28 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:28 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:28 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:28 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:28 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:28 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:28 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:28 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:13:28 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:28 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:28 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:28 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:28 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:28 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:28 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:28 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:28 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:13:28 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:28 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:28 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:28 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:28 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:28 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:28 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:28 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:28 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:13:28 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:28 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:28 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:28 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:28 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:29 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:29 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:29 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:29 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:13:34 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:34 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:34 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:34 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:34 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:34 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:34 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:34 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:34 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:13:34 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:34 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:34 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:34 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:34 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:34 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:34 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:34 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:34 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:13:34 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:34 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:34 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:34 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:34 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:34 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:34 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:34 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:34 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:13:34 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:34 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:34 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:34 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:34 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:34 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:34 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:34 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:34 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:13:34 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:34 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:34 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:34 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:34 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:34 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:34 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:34 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:34 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:13:34 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:34 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:34 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:34 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:34 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:34 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:34 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:34 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:34 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:13:35 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:35 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:35 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:35 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:35 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:35 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:35 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:35 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:35 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:13:35 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:35 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:35 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:35 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:35 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:35 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:35 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:35 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:35 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:13:35 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:35 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:35 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:35 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:35 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:35 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:35 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:35 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:35 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:13:35 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:35 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:35 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:35 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:35 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:35 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:35 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:35 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:35 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:13:35 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:35 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:35 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:35 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:35 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:35 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:35 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:35 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:35 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:13:35 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:35 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:35 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:35 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:35 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:35 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:35 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:35 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:35 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:13:35 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:35 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:35 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:35 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:35 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:35 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:35 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:35 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:35 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:13:35 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:35 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:35 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:35 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:35 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:35 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:35 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:35 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:35 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:13:35 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:35 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:35 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:35 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:35 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:35 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:35 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:35 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:35 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:13:35 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:35 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:35 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:35 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:35 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:35 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:35 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:35 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:35 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:13:35 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:35 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:35 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:35 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:35 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:35 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:35 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:35 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:35 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:13:35 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:35 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:35 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:35 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:35 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:35 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:35 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:35 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:35 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:13:35 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:35 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:35 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:35 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:35 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:35 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:35 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:35 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:35 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:13:35 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:35 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:35 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:35 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:35 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:35 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:35 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:35 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:35 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:13:35 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:35 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:35 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:35 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:35 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:35 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:35 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:35 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:35 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:13:35 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:35 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:35 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:35 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:35 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:35 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:35 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:35 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:35 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:13:35 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:35 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:35 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:35 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:35 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:35 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:35 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:35 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:35 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:13:35 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:35 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:35 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:35 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:35 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:35 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:35 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:35 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:35 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:13:35 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:35 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:35 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:35 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:35 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:13:35 UTC] PHP Stack trace:
+[07-Apr-2016 08:13:35 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:13:35 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:13:35 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:17:38 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:17:38 UTC] PHP Stack trace:
+[07-Apr-2016 08:17:38 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:17:38 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:17:38 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:17:38 UTC] PHP Stack trace:
+[07-Apr-2016 08:17:38 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:17:38 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:17:38 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:17:38 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:17:38 UTC] PHP Stack trace:
+[07-Apr-2016 08:17:38 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:17:38 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:17:38 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:17:38 UTC] PHP Stack trace:
+[07-Apr-2016 08:17:38 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:17:38 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:17:38 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:17:38 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:17:38 UTC] PHP Stack trace:
+[07-Apr-2016 08:17:38 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:17:38 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:17:38 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:17:38 UTC] PHP Stack trace:
+[07-Apr-2016 08:17:38 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:17:38 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:17:38 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:17:38 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:17:38 UTC] PHP Stack trace:
+[07-Apr-2016 08:17:38 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:17:38 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:17:38 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:17:38 UTC] PHP Stack trace:
+[07-Apr-2016 08:17:38 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:17:38 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:17:38 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:17:38 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:17:38 UTC] PHP Stack trace:
+[07-Apr-2016 08:17:38 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:17:38 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:17:38 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:17:38 UTC] PHP Stack trace:
+[07-Apr-2016 08:17:38 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:17:38 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:17:38 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:17:38 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:17:38 UTC] PHP Stack trace:
+[07-Apr-2016 08:17:38 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:17:38 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:17:38 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:17:38 UTC] PHP Stack trace:
+[07-Apr-2016 08:17:38 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:17:38 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:17:38 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:17:38 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:17:38 UTC] PHP Stack trace:
+[07-Apr-2016 08:17:38 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:17:38 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:17:38 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:17:38 UTC] PHP Stack trace:
+[07-Apr-2016 08:17:38 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:17:38 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:17:38 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:17:38 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:17:38 UTC] PHP Stack trace:
+[07-Apr-2016 08:17:38 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:17:38 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:17:38 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:17:38 UTC] PHP Stack trace:
+[07-Apr-2016 08:17:38 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:17:38 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:17:38 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:17:38 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:17:38 UTC] PHP Stack trace:
+[07-Apr-2016 08:17:38 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:17:38 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:17:38 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:17:38 UTC] PHP Stack trace:
+[07-Apr-2016 08:17:38 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:17:38 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:17:38 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:17:38 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:17:38 UTC] PHP Stack trace:
+[07-Apr-2016 08:17:38 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:17:38 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:17:38 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:17:38 UTC] PHP Stack trace:
+[07-Apr-2016 08:17:38 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:17:38 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:17:38 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:17:38 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:17:38 UTC] PHP Stack trace:
+[07-Apr-2016 08:17:38 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:17:38 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:17:38 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:17:38 UTC] PHP Stack trace:
+[07-Apr-2016 08:17:38 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:17:38 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:17:38 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:17:38 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:17:38 UTC] PHP Stack trace:
+[07-Apr-2016 08:17:38 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:17:38 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:17:38 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:17:38 UTC] PHP Stack trace:
+[07-Apr-2016 08:17:38 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:17:38 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:17:38 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:17:38 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:17:38 UTC] PHP Stack trace:
+[07-Apr-2016 08:17:38 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:17:38 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:17:38 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:17:38 UTC] PHP Stack trace:
+[07-Apr-2016 08:17:38 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:17:38 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:17:38 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:17:38 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:17:38 UTC] PHP Stack trace:
+[07-Apr-2016 08:17:38 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:17:38 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:17:38 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:17:38 UTC] PHP Stack trace:
+[07-Apr-2016 08:17:38 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:17:38 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:17:38 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:17:38 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:17:38 UTC] PHP Stack trace:
+[07-Apr-2016 08:17:38 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:17:38 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:17:38 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:17:38 UTC] PHP Stack trace:
+[07-Apr-2016 08:17:38 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:17:38 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:17:38 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:17:38 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:17:38 UTC] PHP Stack trace:
+[07-Apr-2016 08:17:38 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:17:38 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:17:38 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:17:38 UTC] PHP Stack trace:
+[07-Apr-2016 08:17:38 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:17:38 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:17:38 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:17:38 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:17:38 UTC] PHP Stack trace:
+[07-Apr-2016 08:17:38 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:17:38 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:17:38 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:17:38 UTC] PHP Stack trace:
+[07-Apr-2016 08:17:38 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:17:38 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:17:38 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:17:38 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:17:38 UTC] PHP Stack trace:
+[07-Apr-2016 08:17:38 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:17:38 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:17:38 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:17:38 UTC] PHP Stack trace:
+[07-Apr-2016 08:17:38 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:17:38 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:17:38 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:17:39 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:17:39 UTC] PHP Stack trace:
+[07-Apr-2016 08:17:39 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:17:39 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:17:39 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:17:39 UTC] PHP Stack trace:
+[07-Apr-2016 08:17:39 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:17:39 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:17:39 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:17:39 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:17:39 UTC] PHP Stack trace:
+[07-Apr-2016 08:17:39 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:17:39 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:17:39 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:17:39 UTC] PHP Stack trace:
+[07-Apr-2016 08:17:39 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:17:39 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:17:39 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:17:39 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:17:39 UTC] PHP Stack trace:
+[07-Apr-2016 08:17:39 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:17:39 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:17:39 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:17:39 UTC] PHP Stack trace:
+[07-Apr-2016 08:17:39 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:17:39 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:17:39 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:17:39 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:17:39 UTC] PHP Stack trace:
+[07-Apr-2016 08:17:39 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:17:39 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:17:39 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:17:39 UTC] PHP Stack trace:
+[07-Apr-2016 08:17:39 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:17:39 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:17:39 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:17:39 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:17:39 UTC] PHP Stack trace:
+[07-Apr-2016 08:17:39 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:17:39 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:17:39 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:17:39 UTC] PHP Stack trace:
+[07-Apr-2016 08:17:39 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:17:39 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:17:39 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:17:39 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:17:39 UTC] PHP Stack trace:
+[07-Apr-2016 08:17:39 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:17:39 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:17:39 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:17:39 UTC] PHP Stack trace:
+[07-Apr-2016 08:17:39 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:17:39 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:17:39 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:17:39 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:17:39 UTC] PHP Stack trace:
+[07-Apr-2016 08:17:39 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:17:39 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:17:39 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:17:39 UTC] PHP Stack trace:
+[07-Apr-2016 08:17:39 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:17:39 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:17:39 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:18:51 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:18:51 UTC] PHP Stack trace:
+[07-Apr-2016 08:18:51 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:18:51 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:18:51 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:18:51 UTC] PHP Stack trace:
+[07-Apr-2016 08:18:51 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:18:51 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:18:51 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:18:51 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:18:51 UTC] PHP Stack trace:
+[07-Apr-2016 08:18:51 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:18:51 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:18:51 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:18:51 UTC] PHP Stack trace:
+[07-Apr-2016 08:18:51 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:18:51 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:18:51 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:18:51 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:18:51 UTC] PHP Stack trace:
+[07-Apr-2016 08:18:51 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:18:51 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:18:51 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:18:51 UTC] PHP Stack trace:
+[07-Apr-2016 08:18:51 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:18:51 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:18:51 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:18:51 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:18:51 UTC] PHP Stack trace:
+[07-Apr-2016 08:18:51 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:18:51 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:18:51 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:18:51 UTC] PHP Stack trace:
+[07-Apr-2016 08:18:51 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:18:51 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:18:51 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:18:51 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:18:51 UTC] PHP Stack trace:
+[07-Apr-2016 08:18:51 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:18:51 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:18:51 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:18:51 UTC] PHP Stack trace:
+[07-Apr-2016 08:18:51 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:18:51 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:18:51 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:18:51 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:18:51 UTC] PHP Stack trace:
+[07-Apr-2016 08:18:51 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:18:51 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:18:51 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:18:51 UTC] PHP Stack trace:
+[07-Apr-2016 08:18:51 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:18:51 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:18:51 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:18:51 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:18:51 UTC] PHP Stack trace:
+[07-Apr-2016 08:18:51 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:18:51 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:18:51 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:18:51 UTC] PHP Stack trace:
+[07-Apr-2016 08:18:51 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:18:51 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:18:51 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:18:51 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:18:51 UTC] PHP Stack trace:
+[07-Apr-2016 08:18:51 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:18:51 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:18:51 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:18:51 UTC] PHP Stack trace:
+[07-Apr-2016 08:18:51 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:18:51 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:18:51 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:18:51 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:18:51 UTC] PHP Stack trace:
+[07-Apr-2016 08:18:51 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:18:51 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:18:51 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:18:51 UTC] PHP Stack trace:
+[07-Apr-2016 08:18:51 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:18:51 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:18:51 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:18:51 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:18:51 UTC] PHP Stack trace:
+[07-Apr-2016 08:18:51 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:18:51 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:18:51 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:18:51 UTC] PHP Stack trace:
+[07-Apr-2016 08:18:51 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:18:51 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:18:51 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:18:51 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:18:51 UTC] PHP Stack trace:
+[07-Apr-2016 08:18:51 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:18:51 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:18:51 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:18:51 UTC] PHP Stack trace:
+[07-Apr-2016 08:18:51 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:18:51 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:18:51 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:18:51 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:18:51 UTC] PHP Stack trace:
+[07-Apr-2016 08:18:51 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:18:51 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:18:51 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:18:51 UTC] PHP Stack trace:
+[07-Apr-2016 08:18:51 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:18:51 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:18:51 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:18:51 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:18:51 UTC] PHP Stack trace:
+[07-Apr-2016 08:18:51 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:18:51 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:18:51 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:18:51 UTC] PHP Stack trace:
+[07-Apr-2016 08:18:51 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:18:51 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:18:51 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:18:51 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:18:51 UTC] PHP Stack trace:
+[07-Apr-2016 08:18:51 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:18:51 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:18:51 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:18:51 UTC] PHP Stack trace:
+[07-Apr-2016 08:18:51 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:18:51 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:18:51 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:18:51 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:18:51 UTC] PHP Stack trace:
+[07-Apr-2016 08:18:51 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:18:51 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:18:51 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:18:51 UTC] PHP Stack trace:
+[07-Apr-2016 08:18:51 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:18:51 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:18:51 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:18:51 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:18:51 UTC] PHP Stack trace:
+[07-Apr-2016 08:18:51 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:18:51 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:18:51 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:18:51 UTC] PHP Stack trace:
+[07-Apr-2016 08:18:51 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:18:51 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:18:51 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:18:51 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:18:51 UTC] PHP Stack trace:
+[07-Apr-2016 08:18:51 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:18:51 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:18:51 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:18:51 UTC] PHP Stack trace:
+[07-Apr-2016 08:18:51 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:18:51 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:18:51 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:18:51 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:18:51 UTC] PHP Stack trace:
+[07-Apr-2016 08:18:51 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:18:51 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:18:51 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:18:51 UTC] PHP Stack trace:
+[07-Apr-2016 08:18:51 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:18:51 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:18:51 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:18:51 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:18:51 UTC] PHP Stack trace:
+[07-Apr-2016 08:18:51 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:18:51 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:18:51 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:18:51 UTC] PHP Stack trace:
+[07-Apr-2016 08:18:51 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:18:51 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:18:51 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:18:51 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:18:51 UTC] PHP Stack trace:
+[07-Apr-2016 08:18:51 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:18:51 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:18:51 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:18:51 UTC] PHP Stack trace:
+[07-Apr-2016 08:18:51 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:18:51 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:18:51 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:18:51 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:18:51 UTC] PHP Stack trace:
+[07-Apr-2016 08:18:51 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:18:51 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:18:51 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:18:51 UTC] PHP Stack trace:
+[07-Apr-2016 08:18:51 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:18:51 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:18:51 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:18:51 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:18:51 UTC] PHP Stack trace:
+[07-Apr-2016 08:18:51 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:18:51 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:18:51 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:18:51 UTC] PHP Stack trace:
+[07-Apr-2016 08:18:51 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:18:51 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:18:51 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:18:51 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:18:51 UTC] PHP Stack trace:
+[07-Apr-2016 08:18:51 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:18:51 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:18:51 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:18:51 UTC] PHP Stack trace:
+[07-Apr-2016 08:18:51 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:18:51 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:18:51 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:18:51 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:18:51 UTC] PHP Stack trace:
+[07-Apr-2016 08:18:51 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:18:51 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:18:51 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:18:51 UTC] PHP Stack trace:
+[07-Apr-2016 08:18:51 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:18:51 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:18:51 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:18:52 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:18:52 UTC] PHP Stack trace:
+[07-Apr-2016 08:18:52 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:18:52 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:18:52 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:18:52 UTC] PHP Stack trace:
+[07-Apr-2016 08:18:52 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:18:52 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:18:52 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:19:46 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:19:46 UTC] PHP Stack trace:
+[07-Apr-2016 08:19:46 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:19:46 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:19:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:19:46 UTC] PHP Stack trace:
+[07-Apr-2016 08:19:46 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:19:46 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:19:46 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:19:46 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:19:46 UTC] PHP Stack trace:
+[07-Apr-2016 08:19:46 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:19:46 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:19:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:19:46 UTC] PHP Stack trace:
+[07-Apr-2016 08:19:46 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:19:46 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:19:46 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:19:46 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:19:46 UTC] PHP Stack trace:
+[07-Apr-2016 08:19:46 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:19:46 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:19:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:19:46 UTC] PHP Stack trace:
+[07-Apr-2016 08:19:46 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:19:46 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:19:46 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:19:46 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:19:46 UTC] PHP Stack trace:
+[07-Apr-2016 08:19:46 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:19:46 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:19:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:19:46 UTC] PHP Stack trace:
+[07-Apr-2016 08:19:46 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:19:46 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:19:46 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:19:46 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:19:46 UTC] PHP Stack trace:
+[07-Apr-2016 08:19:46 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:19:46 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:19:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:19:46 UTC] PHP Stack trace:
+[07-Apr-2016 08:19:46 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:19:46 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:19:46 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:19:46 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:19:46 UTC] PHP Stack trace:
+[07-Apr-2016 08:19:46 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:19:46 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:19:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:19:46 UTC] PHP Stack trace:
+[07-Apr-2016 08:19:46 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:19:46 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:19:46 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:19:46 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:19:46 UTC] PHP Stack trace:
+[07-Apr-2016 08:19:46 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:19:46 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:19:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:19:46 UTC] PHP Stack trace:
+[07-Apr-2016 08:19:46 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:19:46 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:19:46 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:19:46 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:19:46 UTC] PHP Stack trace:
+[07-Apr-2016 08:19:46 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:19:46 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:19:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:19:46 UTC] PHP Stack trace:
+[07-Apr-2016 08:19:46 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:19:46 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:19:46 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:19:46 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:19:46 UTC] PHP Stack trace:
+[07-Apr-2016 08:19:46 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:19:46 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:19:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:19:46 UTC] PHP Stack trace:
+[07-Apr-2016 08:19:46 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:19:46 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:19:46 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:19:46 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:19:46 UTC] PHP Stack trace:
+[07-Apr-2016 08:19:46 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:19:46 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:19:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:19:46 UTC] PHP Stack trace:
+[07-Apr-2016 08:19:46 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:19:46 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:19:46 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:19:46 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:19:46 UTC] PHP Stack trace:
+[07-Apr-2016 08:19:46 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:19:46 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:19:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:19:46 UTC] PHP Stack trace:
+[07-Apr-2016 08:19:46 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:19:46 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:19:46 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:19:46 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:19:46 UTC] PHP Stack trace:
+[07-Apr-2016 08:19:46 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:19:46 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:19:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:19:46 UTC] PHP Stack trace:
+[07-Apr-2016 08:19:46 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:19:46 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:19:46 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:19:46 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:19:46 UTC] PHP Stack trace:
+[07-Apr-2016 08:19:46 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:19:46 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:19:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:19:47 UTC] PHP Stack trace:
+[07-Apr-2016 08:19:47 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:19:47 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:19:47 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:19:47 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:19:47 UTC] PHP Stack trace:
+[07-Apr-2016 08:19:47 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:19:47 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:19:47 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:19:47 UTC] PHP Stack trace:
+[07-Apr-2016 08:19:47 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:19:47 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:19:47 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:19:47 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:19:47 UTC] PHP Stack trace:
+[07-Apr-2016 08:19:47 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:19:47 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:19:47 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:19:47 UTC] PHP Stack trace:
+[07-Apr-2016 08:19:47 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:19:47 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:19:47 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:19:47 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:19:47 UTC] PHP Stack trace:
+[07-Apr-2016 08:19:47 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:19:47 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:19:47 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:19:47 UTC] PHP Stack trace:
+[07-Apr-2016 08:19:47 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:19:47 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:19:47 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:19:47 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:19:47 UTC] PHP Stack trace:
+[07-Apr-2016 08:19:47 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:19:47 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:19:47 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:19:47 UTC] PHP Stack trace:
+[07-Apr-2016 08:19:47 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:19:47 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:19:47 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:19:47 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:19:47 UTC] PHP Stack trace:
+[07-Apr-2016 08:19:47 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:19:47 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:19:47 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:19:47 UTC] PHP Stack trace:
+[07-Apr-2016 08:19:47 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:19:47 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:19:47 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:19:47 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:19:47 UTC] PHP Stack trace:
+[07-Apr-2016 08:19:47 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:19:47 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:19:47 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:19:47 UTC] PHP Stack trace:
+[07-Apr-2016 08:19:47 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:19:47 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:19:47 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:19:47 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:19:47 UTC] PHP Stack trace:
+[07-Apr-2016 08:19:47 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:19:47 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:19:47 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:19:47 UTC] PHP Stack trace:
+[07-Apr-2016 08:19:47 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:19:47 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:19:47 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:19:47 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:19:47 UTC] PHP Stack trace:
+[07-Apr-2016 08:19:47 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:19:47 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:19:47 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:19:47 UTC] PHP Stack trace:
+[07-Apr-2016 08:19:47 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:19:47 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:19:47 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:19:47 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:19:47 UTC] PHP Stack trace:
+[07-Apr-2016 08:19:47 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:19:47 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:19:47 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:19:47 UTC] PHP Stack trace:
+[07-Apr-2016 08:19:47 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:19:47 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:19:47 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:19:47 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:19:47 UTC] PHP Stack trace:
+[07-Apr-2016 08:19:47 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:19:47 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:19:47 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:19:47 UTC] PHP Stack trace:
+[07-Apr-2016 08:19:47 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:19:47 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:19:47 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:19:47 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:19:47 UTC] PHP Stack trace:
+[07-Apr-2016 08:19:47 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:19:47 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:19:47 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:19:47 UTC] PHP Stack trace:
+[07-Apr-2016 08:19:47 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:19:47 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:19:47 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 08:19:47 UTC] PHP Notice:  Undefined variable: newArticlesIDs in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:19:47 UTC] PHP Stack trace:
+[07-Apr-2016 08:19:47 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:19:47 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:19:47 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 69
+[07-Apr-2016 08:19:47 UTC] PHP Stack trace:
+[07-Apr-2016 08:19:47 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 08:19:47 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 08:19:47 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
