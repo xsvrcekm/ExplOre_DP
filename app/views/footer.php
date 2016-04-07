@@ -1,3 +1,4 @@
+            </div>
             <div id="footer">
                 <div id="footerstrip">
                     <div id="footerlogo">

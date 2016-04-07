@@ -8,8 +8,18 @@ a {
     font-family: arial;
     color: black;
 }
+a:hover { 
+    color: #1e8fd7;
+    text-decoration: none;
+}
 p {
     font-family: arial;
+}
+hr {
+    margin: 7px 0px 7px 0px;
+}
+* {
+  border-radius: 0 !important;
 }
 
 #base {
@@ -49,6 +59,7 @@ p {
     margin-bottom: 0px;
     margin-right: 20px;
     font-size: 14px;
+    color: white;
 }
 #mainmenu {
     position: relative;
@@ -65,14 +76,15 @@ p {
     display: inline;
     padding-left: 15px;
     padding-right: 15px;
-    padding-top: 20px;
-    padding-bottom: 21px;
-}
-#mainmenu a:hover { 
-    color: #1e8fd7;
+    padding-top: 17px;
+    padding-bottom: 17px;
 }
 .active {
     border-bottom: 2px solid #1e8fd7;
+}
+
+#content {
+    min-height: 700px;
 }
 
 #footer{
@@ -135,4 +147,25 @@ p {
     color: #adadad;
     text-align: center;
     vertical-align: middle;
+}
+
+.registration-container {
+    position: relative;
+    width: 500px;
+    left: 250px;
+}
+#registration-submit {
+    width: 50%;
+    left: 25%;
+    text-align: center;
+}
+#welcome {
+    position: relative;
+    width: 500px;
+    left: 250px;    
+}
+#welcome img {
+    position: relative;
+    left: 225px;
+    margin: 10px 0px 10px 0px;
 }

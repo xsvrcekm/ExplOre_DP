@@ -7,12 +7,12 @@ function get_connection() {
     $username = "martin";
     $password = "Sv/11-m+T";
     $dbname = "explore";
-    /* 
-      $servername = "eu-cdbr-azure-west-d.cloudapp.net";
-      $username = "b26346e2d51b96";
-      $password = "8bb504a6";
-      $dbname = "exploreDB"; 
-     */
+     
+    //  $servername = "eu-cdbr-azure-west-d.cloudapp.net";
+    //  $username = "b26346e2d51b96";
+    //  $password = "8bb504a6";
+    //  $dbname = "exploreDB"; 
+     
 
     // Create connection
     $connect = new mysqli($servername, $username, $password, $dbname);
@@ -25,7 +25,7 @@ function get_connection() {
     }
     echo "Connected successfully <br />";
 
-    /* change character set to utf8 */
+    // change character set to utf8
     if (!$connect->set_charset("utf8")) {
         //printf("Error loading character set utf8: %s <br />", $connect->error);
         $message = "[{$date}] [{$file}] [{$level}] Error loading character set utf8: %s <br />, {$connect->error}".PHP_EOL;
@@ -36,5 +36,6 @@ function get_connection() {
     //$conn->close();
     return $connect;
 }
+
 ?>
 

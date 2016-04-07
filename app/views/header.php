@@ -2,12 +2,12 @@
 <!--
 Martin Svrček
 -->
-<!--#1e8fd7;-->
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <title>ExplORe</title>
         <link rel="shortcut icon" href="/ExplORe_DP/app/assets/images/favicon.ico" />
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="/ExplORe_DP/app/assets/styles/basicStyle.css">
         
         <script type="text/javascript" language="javascript" src="/ExplORe_DP/library/jQuery/jquery-1.12.2.js"></script>
@@ -33,10 +33,25 @@ Martin Svrček
                     <div id="headerlogo">
                         <a href="/ExplORe_DP/index.php"> <img src="/ExplORe_DP/app/assets/images/explore_logo.png" alt="explore_logo" width="125" height="35"> </a>
                     </div>
-                    <div id="headersignin">
-                        <p>PRIHLÁSENIE</p>
-                        <img src="/ExplORe_DP/app/assets/images/lock.png" alt="signIn_logo" width="20" height="27">
-                    </div>
+                    <?php
+                        if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true){
+                            echo "<a href='/ExplORe_DP/app/views/registration/logout.php'>";
+                        }else{
+                            echo "<a href='/ExplORe_DP/app/views/registration/login.php'>";
+                        }
+                    ?>
+                    <!--<a href='/ExplORe_DP/app/views/registration/login.php'>-->
+                        <div id="headersignin">
+                            <?php
+                                if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {
+                                    echo "<p>ODHLÁSENIE</p>";
+                                }else{
+                                    echo "<p>PRIHLÁSENIE</p>";
+                                }
+                            ?>
+                            <img src="/ExplORe_DP/app/assets/images/lock.png" alt="signIn_logo" width="20" height="27">
+                        </div>
+                    </a>
                 </div>
             </div>
             <div id="mainmenu">
@@ -70,3 +85,4 @@ Martin Svrček
                 </nav>
             </div>
             <hr>
+            <div id="content">

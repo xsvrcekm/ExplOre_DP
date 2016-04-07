@@ -1125,3 +1125,367 @@
 [07-Apr-2016 08:19:47 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
 [07-Apr-2016 08:19:47 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
 [07-Apr-2016 08:19:47 UTC] PHP   3. in_array() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:69
+[07-Apr-2016 10:18:28 Europe/London] PHP Notice:  Trying to get property of non-object in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 44
+[07-Apr-2016 10:18:28 Europe/London] PHP Stack trace:
+[07-Apr-2016 10:18:28 Europe/London] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 10:18:28 Europe/London] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 10:18:28 Europe/London] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '20132850' for key 'sme_id'' in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:55
+Stack trace:
+#0 C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php(55): PDO->query('INSERT INTO art...')
+#1 C:\Programs\wamp64\www\ExplORe_DP\index.php(3): require_once('C:\\Programs\\wam...')
+#2 {main}
+  thrown in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 55
+[07-Apr-2016 10:19:54 Europe/London] PHP Notice:  Trying to get property of non-object in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 44
+[07-Apr-2016 10:19:54 Europe/London] PHP Stack trace:
+[07-Apr-2016 10:19:54 Europe/London] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 10:19:54 Europe/London] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 10:19:54 Europe/London] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '20132850' for key 'sme_id'' in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:55
+Stack trace:
+#0 C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php(55): PDO->query('INSERT INTO art...')
+#1 C:\Programs\wamp64\www\ExplORe_DP\index.php(3): require_once('C:\\Programs\\wam...')
+#2 {main}
+  thrown in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 55
+[07-Apr-2016 10:21:32 Europe/London] PHP Notice:  Undefined property: PDOStatement::$num_rows in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 44
+[07-Apr-2016 10:21:32 Europe/London] PHP Stack trace:
+[07-Apr-2016 10:21:32 Europe/London] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 10:21:32 Europe/London] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 10:21:32 Europe/London] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '20132850' for key 'sme_id'' in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:55
+Stack trace:
+#0 C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php(55): PDO->query('INSERT INTO art...')
+#1 C:\Programs\wamp64\www\ExplORe_DP\index.php(3): require_once('C:\\Programs\\wam...')
+#2 {main}
+  thrown in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 55
+[07-Apr-2016 10:22:23 Europe/London] PHP Notice:  Undefined property: PDOStatement::$num_rows in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 44
+[07-Apr-2016 10:22:23 Europe/London] PHP Stack trace:
+[07-Apr-2016 10:22:23 Europe/London] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 10:22:23 Europe/London] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 10:22:23 Europe/London] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '20132850' for key 'sme_id'' in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:55
+Stack trace:
+#0 C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php(55): PDO->query('INSERT INTO art...')
+#1 C:\Programs\wamp64\www\ExplORe_DP\index.php(3): require_once('C:\\Programs\\wam...')
+#2 {main}
+  thrown in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 55
+[07-Apr-2016 10:24:16 Europe/London] PHP Notice:  Trying to get property of non-object in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 44
+[07-Apr-2016 10:24:16 Europe/London] PHP Stack trace:
+[07-Apr-2016 10:24:16 Europe/London] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 10:24:16 Europe/London] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 10:24:16 Europe/London] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '20132850' for key 'sme_id'' in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:55
+Stack trace:
+#0 C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php(55): PDO->query('INSERT INTO art...')
+#1 C:\Programs\wamp64\www\ExplORe_DP\index.php(3): require_once('C:\\Programs\\wam...')
+#2 {main}
+  thrown in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 55
+[07-Apr-2016 10:25:12 Europe/London] PHP Notice:  Array to string conversion in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 43
+[07-Apr-2016 10:25:12 Europe/London] PHP Stack trace:
+[07-Apr-2016 10:25:12 Europe/London] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 10:25:12 Europe/London] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 10:25:12 Europe/London] PHP Notice:  Trying to get property of non-object in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 45
+[07-Apr-2016 10:25:12 Europe/London] PHP Stack trace:
+[07-Apr-2016 10:25:12 Europe/London] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 10:25:12 Europe/London] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 10:25:12 Europe/London] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '20132850' for key 'sme_id'' in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:56
+Stack trace:
+#0 C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php(56): PDO->query('INSERT INTO art...')
+#1 C:\Programs\wamp64\www\ExplORe_DP\index.php(3): require_once('C:\\Programs\\wam...')
+#2 {main}
+  thrown in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 56
+[07-Apr-2016 10:25:26 Europe/London] PHP Notice:  Trying to get property of non-object in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 45
+[07-Apr-2016 10:25:26 Europe/London] PHP Stack trace:
+[07-Apr-2016 10:25:26 Europe/London] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 10:25:26 Europe/London] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 10:25:26 Europe/London] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '20132850' for key 'sme_id'' in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:56
+Stack trace:
+#0 C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php(56): PDO->query('INSERT INTO art...')
+#1 C:\Programs\wamp64\www\ExplORe_DP\index.php(3): require_once('C:\\Programs\\wam...')
+#2 {main}
+  thrown in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 56
+[07-Apr-2016 10:25:31 Europe/London] PHP Notice:  Undefined offset: 1 in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 43
+[07-Apr-2016 10:25:31 Europe/London] PHP Stack trace:
+[07-Apr-2016 10:25:31 Europe/London] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 10:25:31 Europe/London] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 10:25:31 Europe/London] PHP Notice:  Trying to get property of non-object in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 45
+[07-Apr-2016 10:25:31 Europe/London] PHP Stack trace:
+[07-Apr-2016 10:25:31 Europe/London] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 10:25:31 Europe/London] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 10:25:31 Europe/London] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '20132850' for key 'sme_id'' in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:56
+Stack trace:
+#0 C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php(56): PDO->query('INSERT INTO art...')
+#1 C:\Programs\wamp64\www\ExplORe_DP\index.php(3): require_once('C:\\Programs\\wam...')
+#2 {main}
+  thrown in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 56
+[07-Apr-2016 10:26:02 Europe/London] PHP Notice:  Trying to get property of non-object in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 43
+[07-Apr-2016 10:26:02 Europe/London] PHP Stack trace:
+[07-Apr-2016 10:26:02 Europe/London] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 10:26:02 Europe/London] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 10:26:02 Europe/London] PHP Notice:  Trying to get property of non-object in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 45
+[07-Apr-2016 10:26:02 Europe/London] PHP Stack trace:
+[07-Apr-2016 10:26:02 Europe/London] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 10:26:02 Europe/London] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 10:26:02 Europe/London] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '20132850' for key 'sme_id'' in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:56
+Stack trace:
+#0 C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php(56): PDO->query('INSERT INTO art...')
+#1 C:\Programs\wamp64\www\ExplORe_DP\index.php(3): require_once('C:\\Programs\\wam...')
+#2 {main}
+  thrown in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 56
+[07-Apr-2016 10:26:32 Europe/London] PHP Fatal error:  Call to undefined function typeof() in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 43
+[07-Apr-2016 10:26:32 Europe/London] PHP Stack trace:
+[07-Apr-2016 10:26:32 Europe/London] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 10:26:32 Europe/London] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 10:27:18 Europe/London] PHP Notice:  Trying to get property of non-object in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 45
+[07-Apr-2016 10:27:18 Europe/London] PHP Stack trace:
+[07-Apr-2016 10:27:18 Europe/London] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 10:27:18 Europe/London] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 10:27:18 Europe/London] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '20132850' for key 'sme_id'' in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:56
+Stack trace:
+#0 C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php(56): PDO->query('INSERT INTO art...')
+#1 C:\Programs\wamp64\www\ExplORe_DP\index.php(3): require_once('C:\\Programs\\wam...')
+#2 {main}
+  thrown in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 56
+[07-Apr-2016 10:28:11 Europe/London] PHP Notice:  Trying to get property of non-object in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 45
+[07-Apr-2016 10:28:11 Europe/London] PHP Stack trace:
+[07-Apr-2016 10:28:11 Europe/London] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 10:28:11 Europe/London] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 10:28:11 Europe/London] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '20132850' for key 'sme_id'' in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:56
+Stack trace:
+#0 C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php(56): PDO->query('INSERT INTO art...')
+#1 C:\Programs\wamp64\www\ExplORe_DP\index.php(3): require_once('C:\\Programs\\wam...')
+#2 {main}
+  thrown in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 56
+[07-Apr-2016 10:28:33 Europe/London] PHP Notice:  Trying to get property of non-object in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 45
+[07-Apr-2016 10:28:33 Europe/London] PHP Stack trace:
+[07-Apr-2016 10:28:33 Europe/London] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 10:28:33 Europe/London] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 10:28:33 Europe/London] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '20132850' for key 'sme_id'' in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:56
+Stack trace:
+#0 C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php(56): PDO->query('INSERT INTO art...')
+#1 C:\Programs\wamp64\www\ExplORe_DP\index.php(3): require_once('C:\\Programs\\wam...')
+#2 {main}
+  thrown in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 56
+[07-Apr-2016 10:28:37 Europe/London] PHP Notice:  Undefined offset: 1 in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 43
+[07-Apr-2016 10:28:37 Europe/London] PHP Stack trace:
+[07-Apr-2016 10:28:37 Europe/London] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 10:28:37 Europe/London] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 10:28:37 Europe/London] PHP Notice:  Trying to get property of non-object in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 45
+[07-Apr-2016 10:28:37 Europe/London] PHP Stack trace:
+[07-Apr-2016 10:28:37 Europe/London] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 10:28:37 Europe/London] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 10:28:37 Europe/London] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '20132850' for key 'sme_id'' in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:56
+Stack trace:
+#0 C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php(56): PDO->query('INSERT INTO art...')
+#1 C:\Programs\wamp64\www\ExplORe_DP\index.php(3): require_once('C:\\Programs\\wam...')
+#2 {main}
+  thrown in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 56
+[07-Apr-2016 10:29:37 Europe/London] PHP Notice:  Trying to get property of non-object in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 45
+[07-Apr-2016 10:29:37 Europe/London] PHP Stack trace:
+[07-Apr-2016 10:29:37 Europe/London] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 10:29:37 Europe/London] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 10:29:37 Europe/London] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '20132850' for key 'sme_id'' in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:56
+Stack trace:
+#0 C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php(56): PDO->query('INSERT INTO art...')
+#1 C:\Programs\wamp64\www\ExplORe_DP\index.php(3): require_once('C:\\Programs\\wam...')
+#2 {main}
+  thrown in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 56
+[07-Apr-2016 10:30:07 Europe/London] PHP Notice:  Trying to get property of non-object in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 45
+[07-Apr-2016 10:30:07 Europe/London] PHP Stack trace:
+[07-Apr-2016 10:30:07 Europe/London] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 10:30:07 Europe/London] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 10:30:07 Europe/London] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '20132850' for key 'sme_id'' in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:56
+Stack trace:
+#0 C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php(56): PDO->query('INSERT INTO art...')
+#1 C:\Programs\wamp64\www\ExplORe_DP\index.php(3): require_once('C:\\Programs\\wam...')
+#2 {main}
+  thrown in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 56
+[07-Apr-2016 10:30:18 Europe/London] PHP Notice:  Trying to get property of non-object in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 45
+[07-Apr-2016 10:30:18 Europe/London] PHP Stack trace:
+[07-Apr-2016 10:30:18 Europe/London] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 10:30:18 Europe/London] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 10:30:18 Europe/London] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '20132850' for key 'sme_id'' in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:56
+Stack trace:
+#0 C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php(56): PDO->query('INSERT INTO art...')
+#1 C:\Programs\wamp64\www\ExplORe_DP\index.php(3): require_once('C:\\Programs\\wam...')
+#2 {main}
+  thrown in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 56
+[07-Apr-2016 10:31:04 Europe/London] PHP Warning:  Invalid argument supplied for foreach() in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 43
+[07-Apr-2016 10:31:04 Europe/London] PHP Stack trace:
+[07-Apr-2016 10:31:04 Europe/London] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 10:31:04 Europe/London] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 10:31:04 Europe/London] PHP Notice:  Trying to get property of non-object in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 45
+[07-Apr-2016 10:31:04 Europe/London] PHP Stack trace:
+[07-Apr-2016 10:31:04 Europe/London] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 10:31:04 Europe/London] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 10:31:04 Europe/London] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '20132850' for key 'sme_id'' in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:56
+Stack trace:
+#0 C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php(56): PDO->query('INSERT INTO art...')
+#1 C:\Programs\wamp64\www\ExplORe_DP\index.php(3): require_once('C:\\Programs\\wam...')
+#2 {main}
+  thrown in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 56
+[07-Apr-2016 10:31:16 Europe/London] PHP Notice:  Array to string conversion in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 43
+[07-Apr-2016 10:31:16 Europe/London] PHP Stack trace:
+[07-Apr-2016 10:31:16 Europe/London] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 10:31:16 Europe/London] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 10:31:16 Europe/London] PHP Notice:  Trying to get property of non-object in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 45
+[07-Apr-2016 10:31:16 Europe/London] PHP Stack trace:
+[07-Apr-2016 10:31:16 Europe/London] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 10:31:16 Europe/London] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 10:31:16 Europe/London] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '20132850' for key 'sme_id'' in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:56
+Stack trace:
+#0 C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php(56): PDO->query('INSERT INTO art...')
+#1 C:\Programs\wamp64\www\ExplORe_DP\index.php(3): require_once('C:\\Programs\\wam...')
+#2 {main}
+  thrown in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 56
+[07-Apr-2016 10:31:42 Europe/London] PHP Notice:  Trying to get property of non-object in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 45
+[07-Apr-2016 10:31:42 Europe/London] PHP Stack trace:
+[07-Apr-2016 10:31:42 Europe/London] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 10:31:42 Europe/London] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 10:31:42 Europe/London] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '20132850' for key 'sme_id'' in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:56
+Stack trace:
+#0 C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php(56): PDO->query('INSERT INTO art...')
+#1 C:\Programs\wamp64\www\ExplORe_DP\index.php(3): require_once('C:\\Programs\\wam...')
+#2 {main}
+  thrown in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 56
+[07-Apr-2016 10:32:37 Europe/London] PHP Notice:  Undefined offset: -1 in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 44
+[07-Apr-2016 10:32:37 Europe/London] PHP Stack trace:
+[07-Apr-2016 10:32:37 Europe/London] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 10:32:37 Europe/London] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 10:32:37 Europe/London] PHP Notice:  Trying to get property of non-object in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 46
+[07-Apr-2016 10:32:37 Europe/London] PHP Stack trace:
+[07-Apr-2016 10:32:37 Europe/London] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 10:32:37 Europe/London] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 10:32:37 Europe/London] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '20132850' for key 'sme_id'' in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:57
+Stack trace:
+#0 C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php(57): PDO->query('INSERT INTO art...')
+#1 C:\Programs\wamp64\www\ExplORe_DP\index.php(3): require_once('C:\\Programs\\wam...')
+#2 {main}
+  thrown in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 57
+[07-Apr-2016 10:32:43 Europe/London] PHP Notice:  Trying to get property of non-object in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 45
+[07-Apr-2016 10:32:43 Europe/London] PHP Stack trace:
+[07-Apr-2016 10:32:43 Europe/London] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 10:32:43 Europe/London] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 10:32:43 Europe/London] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '20132850' for key 'sme_id'' in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:56
+Stack trace:
+#0 C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php(56): PDO->query('INSERT INTO art...')
+#1 C:\Programs\wamp64\www\ExplORe_DP\index.php(3): require_once('C:\\Programs\\wam...')
+#2 {main}
+  thrown in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 56
+[07-Apr-2016 10:33:05 Europe/London] PHP Warning:  Invalid argument supplied for foreach() in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 43
+[07-Apr-2016 10:33:05 Europe/London] PHP Stack trace:
+[07-Apr-2016 10:33:05 Europe/London] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 10:33:05 Europe/London] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 10:33:05 Europe/London] PHP Notice:  Trying to get property of non-object in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 45
+[07-Apr-2016 10:33:05 Europe/London] PHP Stack trace:
+[07-Apr-2016 10:33:05 Europe/London] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 10:33:05 Europe/London] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 10:33:05 Europe/London] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '20132850' for key 'sme_id'' in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:56
+Stack trace:
+#0 C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php(56): PDO->query('INSERT INTO art...')
+#1 C:\Programs\wamp64\www\ExplORe_DP\index.php(3): require_once('C:\\Programs\\wam...')
+#2 {main}
+  thrown in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 56
+[07-Apr-2016 10:33:35 Europe/London] PHP Warning:  Invalid argument supplied for foreach() in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 44
+[07-Apr-2016 10:33:35 Europe/London] PHP Stack trace:
+[07-Apr-2016 10:33:35 Europe/London] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 10:33:35 Europe/London] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 10:33:35 Europe/London] PHP Notice:  Trying to get property of non-object in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 46
+[07-Apr-2016 10:33:35 Europe/London] PHP Stack trace:
+[07-Apr-2016 10:33:35 Europe/London] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 10:33:35 Europe/London] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 10:33:35 Europe/London] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '20132850' for key 'sme_id'' in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:57
+Stack trace:
+#0 C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php(57): PDO->query('INSERT INTO art...')
+#1 C:\Programs\wamp64\www\ExplORe_DP\index.php(3): require_once('C:\\Programs\\wam...')
+#2 {main}
+  thrown in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 57
+[07-Apr-2016 10:33:53 Europe/London] PHP Warning:  Invalid argument supplied for foreach() in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 44
+[07-Apr-2016 10:33:53 Europe/London] PHP Stack trace:
+[07-Apr-2016 10:33:53 Europe/London] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 10:33:53 Europe/London] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 10:33:53 Europe/London] PHP Notice:  Trying to get property of non-object in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 46
+[07-Apr-2016 10:33:53 Europe/London] PHP Stack trace:
+[07-Apr-2016 10:33:53 Europe/London] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 10:33:53 Europe/London] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 10:33:53 Europe/London] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '20132850' for key 'sme_id'' in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:57
+Stack trace:
+#0 C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php(57): PDO->query('INSERT INTO art...')
+#1 C:\Programs\wamp64\www\ExplORe_DP\index.php(3): require_once('C:\\Programs\\wam...')
+#2 {main}
+  thrown in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 57
+[07-Apr-2016 10:33:55 Europe/London] PHP Warning:  Invalid argument supplied for foreach() in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 44
+[07-Apr-2016 10:33:55 Europe/London] PHP Stack trace:
+[07-Apr-2016 10:33:55 Europe/London] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 10:33:55 Europe/London] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 10:33:55 Europe/London] PHP Notice:  Trying to get property of non-object in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 46
+[07-Apr-2016 10:33:55 Europe/London] PHP Stack trace:
+[07-Apr-2016 10:33:55 Europe/London] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 10:33:55 Europe/London] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 10:33:55 Europe/London] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '20132850' for key 'sme_id'' in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:57
+Stack trace:
+#0 C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php(57): PDO->query('INSERT INTO art...')
+#1 C:\Programs\wamp64\www\ExplORe_DP\index.php(3): require_once('C:\\Programs\\wam...')
+#2 {main}
+  thrown in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 57
+[07-Apr-2016 10:34:03 Europe/London] PHP Warning:  Invalid argument supplied for foreach() in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 45
+[07-Apr-2016 10:34:03 Europe/London] PHP Stack trace:
+[07-Apr-2016 10:34:03 Europe/London] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 10:34:03 Europe/London] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 10:34:03 Europe/London] PHP Notice:  Trying to get property of non-object in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 47
+[07-Apr-2016 10:34:03 Europe/London] PHP Stack trace:
+[07-Apr-2016 10:34:03 Europe/London] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 10:34:03 Europe/London] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 10:34:03 Europe/London] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '20132850' for key 'sme_id'' in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:58
+Stack trace:
+#0 C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php(58): PDO->query('INSERT INTO art...')
+#1 C:\Programs\wamp64\www\ExplORe_DP\index.php(3): require_once('C:\\Programs\\wam...')
+#2 {main}
+  thrown in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 58
+[07-Apr-2016 10:34:05 Europe/London] PHP Warning:  Invalid argument supplied for foreach() in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 45
+[07-Apr-2016 10:34:05 Europe/London] PHP Stack trace:
+[07-Apr-2016 10:34:05 Europe/London] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 10:34:05 Europe/London] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 10:34:05 Europe/London] PHP Notice:  Trying to get property of non-object in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 47
+[07-Apr-2016 10:34:05 Europe/London] PHP Stack trace:
+[07-Apr-2016 10:34:05 Europe/London] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 10:34:05 Europe/London] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 10:34:05 Europe/London] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '20132850' for key 'sme_id'' in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:58
+Stack trace:
+#0 C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php(58): PDO->query('INSERT INTO art...')
+#1 C:\Programs\wamp64\www\ExplORe_DP\index.php(3): require_once('C:\\Programs\\wam...')
+#2 {main}
+  thrown in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 58
+[07-Apr-2016 10:35:33 Europe/London] PHP Warning:  array_filter() expects parameter 1 to be array, boolean given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 43
+[07-Apr-2016 10:35:33 Europe/London] PHP Stack trace:
+[07-Apr-2016 10:35:33 Europe/London] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 10:35:33 Europe/London] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 10:35:33 Europe/London] PHP   3. array_filter() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:43
+[07-Apr-2016 10:35:33 Europe/London] PHP Warning:  Invalid argument supplied for foreach() in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 44
+[07-Apr-2016 10:35:33 Europe/London] PHP Stack trace:
+[07-Apr-2016 10:35:33 Europe/London] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 10:35:33 Europe/London] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 10:35:33 Europe/London] PHP Notice:  Trying to get property of non-object in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 46
+[07-Apr-2016 10:35:33 Europe/London] PHP Stack trace:
+[07-Apr-2016 10:35:33 Europe/London] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 10:35:33 Europe/London] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 10:35:33 Europe/London] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '20132850' for key 'sme_id'' in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:57
+Stack trace:
+#0 C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php(57): PDO->query('INSERT INTO art...')
+#1 C:\Programs\wamp64\www\ExplORe_DP\index.php(3): require_once('C:\\Programs\\wam...')
+#2 {main}
+  thrown in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 57
+[07-Apr-2016 10:36:01 Europe/London] PHP Warning:  array_filter() expects parameter 1 to be array, boolean given in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 44
+[07-Apr-2016 10:36:01 Europe/London] PHP Stack trace:
+[07-Apr-2016 10:36:01 Europe/London] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 10:36:01 Europe/London] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 10:36:01 Europe/London] PHP   3. array_filter() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:44
+[07-Apr-2016 10:36:01 Europe/London] PHP Warning:  Invalid argument supplied for foreach() in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 45
+[07-Apr-2016 10:36:01 Europe/London] PHP Stack trace:
+[07-Apr-2016 10:36:01 Europe/London] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 10:36:01 Europe/London] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 10:36:01 Europe/London] PHP Notice:  Trying to get property of non-object in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 47
+[07-Apr-2016 10:36:01 Europe/London] PHP Stack trace:
+[07-Apr-2016 10:36:01 Europe/London] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[07-Apr-2016 10:36:01 Europe/London] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:3
+[07-Apr-2016 10:36:01 Europe/London] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '20132850' for key 'sme_id'' in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:58
+Stack trace:
+#0 C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php(58): PDO->query('INSERT INTO art...')
+#1 C:\Programs\wamp64\www\ExplORe_DP\index.php(3): require_once('C:\\Programs\\wam...')
+#2 {main}
+  thrown in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 58
