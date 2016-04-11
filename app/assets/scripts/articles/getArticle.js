@@ -58,6 +58,7 @@ function filterData(data) {
     
     data = data.replace(/<div[^>]*?class="top-foto-box"[^>]*?>/, '<img src="' + img_url + '" style="width:100%">');
     data = data.replace(/'/g,'"');
+    data = data.replace(/\s\s+/g, ' ');
 
     return data;
 }

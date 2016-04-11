@@ -40,7 +40,6 @@ Martin Svrček
                             echo "<a href='/ExplORe_DP/app/views/registration/login.php'>";
                         }
                     ?>
-                    <!--<a href='/ExplORe_DP/app/views/registration/login.php'>-->
                         <div id="headersignin">
                             <?php
                                 if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {

@@ -1489,3 +1489,31 @@ Stack trace:
 #1 C:\Programs\wamp64\www\ExplORe_DP\index.php(3): require_once('C:\\Programs\\wam...')
 #2 {main}
   thrown in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 58
+[11-Apr-2016 08:55:13 UTC] PHP Warning:  include(/ExplORe_DP/app/controllers/configRSS.php): failed to open stream: No such file or directory in C:\Programs\wamp64\www\ExplORe_DP\app\controllers\getArticlesFromSME.php on line 3
+[11-Apr-2016 08:55:13 UTC] PHP Stack trace:
+[11-Apr-2016 08:55:13 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[11-Apr-2016 08:55:13 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:30
+[11-Apr-2016 08:55:13 UTC] PHP   3. include() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:13
+[11-Apr-2016 08:55:13 UTC] PHP Warning:  include(): Failed opening '/ExplORe_DP/app/controllers/configRSS.php' for inclusion (include_path='.;C:\php\pear') in C:\Programs\wamp64\www\ExplORe_DP\app\controllers\getArticlesFromSME.php on line 3
+[11-Apr-2016 08:55:13 UTC] PHP Stack trace:
+[11-Apr-2016 08:55:13 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[11-Apr-2016 08:55:13 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:30
+[11-Apr-2016 08:55:13 UTC] PHP   3. include() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:13
+[11-Apr-2016 08:55:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Programs\wamp64\www\ExplORe_DP\app\controllers\getArticlesFromSME.php on line 14
+[11-Apr-2016 08:55:13 UTC] PHP Stack trace:
+[11-Apr-2016 08:55:13 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[11-Apr-2016 08:55:13 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:30
+[11-Apr-2016 08:55:13 UTC] PHP   3. GetArticlesFromSME->run() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:18
+[11-Apr-2016 08:55:13 UTC] PHP Notice:  Undefined variable: articles in C:\Programs\wamp64\www\ExplORe_DP\app\controllers\getArticlesFromSME.php on line 29
+[11-Apr-2016 08:55:13 UTC] PHP Stack trace:
+[11-Apr-2016 08:55:13 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[11-Apr-2016 08:55:13 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:30
+[11-Apr-2016 08:55:13 UTC] PHP   3. GetArticlesFromSME->run() C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php:18
+[11-Apr-2016 08:55:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 23
+[11-Apr-2016 08:55:13 UTC] PHP Stack trace:
+[11-Apr-2016 08:55:13 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[11-Apr-2016 08:55:13 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:30
+[11-Apr-2016 08:55:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Programs\wamp64\www\ExplORe_DP\app\views\layout.php on line 65
+[11-Apr-2016 08:55:13 UTC] PHP Stack trace:
+[11-Apr-2016 08:55:13 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[11-Apr-2016 08:55:13 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:30

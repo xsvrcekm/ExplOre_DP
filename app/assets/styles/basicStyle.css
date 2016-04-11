@@ -149,12 +149,16 @@ hr {
     vertical-align: middle;
 }
 
+#layout {
+    position: relative;
+}
 .registration-container {
     position: relative;
     width: 500px;
     left: 250px;
 }
 #registration-submit {
+    position: relative;
     width: 50%;
     left: 25%;
     text-align: center;

@@ -1,85 +1,85 @@
-<div id="invisible" style="display:none;">
-</div>
-<div>
-<h1>ExplORe</h1>
-<?php
-ini_set('error_log', 'tmp/php_error.log');
+<div id="layout">
+    <div id="invisible" style="display:none;">
+    </div>
+    <h1>ExplORe</h1>
+    <?php
+    ini_set('error_log', 'tmp/php_error.log');
 
-$date = date("Y-m-d h:m:s");
-$file = __FILE__;
-$level = "error";
+    $date = date("Y-m-d h:m:s");
+    $file = __FILE__;
+    $level = "error";
 
-include('app/controllers/configDB.php');
-include('app/controllers/getArticlesFromSME.php');
+    include('app/controllers/configDB.php');
+    include('app/controllers/getArticlesFromSME.php');
 
-$conn = get_connection();
+    $conn = get_connection();
 
-$getArt = new GetArticlesFromSME();
-$articles = $getArt->run();
+    $getArt = new GetArticlesFromSME();
+    $articles = $getArt->run();
 
-$n = 0;
-$newArticlesIDs = [];
+    $n = 0;
+    $newArticlesIDs = [];
 
-foreach ($articles as $article) {
-    $author = $article->children('dc', true)->creator;
-    $aid = explode("/", $article->link)[4];
-    $topic = explode(".", (explode("/", $article->link)[5]))[0];
+    foreach ($articles as $article) {
+        $author = $article->children('dc', true)->creator;
+        $aid = explode("/", $article->link)[4];
+        $topic = explode(".", (explode("/", $article->link)[5]))[0];
 
-    echo "Titulok: $article->title <br />";
-    echo "Tema: $topic <br />";
-    echo "Autor: $author <br />";
-    echo "Link: $article->link <br />";
-    echo "Dátum vydania: $article->pubDate <br />";
-    echo "Opis: $article->description <br />";
-    echo "Guid: $article->guid <br />";
-    echo "<input id='clickMe' type='button' value='Show article' onclick='getArticleContent($aid)' /><br />";
-    
-    //SELECT
-    $sql = "SELECT sme_id FROM articles AS a WHERE a.sme_id = '$aid' ";
-    $result = $conn->query($sql);
-    //if Article is not in database
-    if (!($result->num_rows > 0)) {
-        
-        $newArticlesIDs[$n] = $aid;
-        $n++;
-        
-        echo "Article is NOT in database. <br />";
+        echo "Titulok: $article->title <br />";
+        echo "Tema: $topic <br />";
+        echo "Autor: $author <br />";
+        echo "Link: $article->link <br />";
+        echo "Dátum vydania: $article->pubDate <br />";
+        echo "Opis: $article->description <br />";
+        echo "Guid: $article->guid <br />";
+        echo "<input id='clickMe' type='button' value='Show article' onclick='getArticleContent($aid)' /><br />";
 
-        //INSERT the article itno db
-        $sql = "INSERT INTO articles (sme_id, title, topic, author, description, content, link)
-                    VALUES ('$aid', '$article->title', '$topic', '$author', '$article->description', 'Content ...', '$article->link')";
+        //SELECT
+        $sql = "SELECT sme_id FROM articles AS a WHERE a.sme_id = '$aid' ";
+        $result = $conn->query($sql);
+        //if Article is not in database
+        if (!($result->num_rows > 0)) {
 
-        if ($conn->query($sql) === TRUE) {
-            echo "New record created successfully. <br />";
+            $newArticlesIDs[$n] = $aid;
+            $n++;
+
+            echo "Article is NOT in database. <br />";
+
+            //INSERT the article itno db
+            $sql = "INSERT INTO articles (sme_id, title, topic, author, description, content, link)
+                    VALUES ('$aid', '$article->title', '$topic', '$author', '$article->description', 'NoContent', '$article->link')";
+
+            if ($conn->query($sql) === TRUE) {
+                echo "New record created successfully. <br />";
+            } else {
+                echo "Error: " . $sql . "<br />" . $conn->error . "<br />";
+            }
         } else {
-            echo "Error: " . $sql . "<br />" . $conn->error . "<br />";
+            echo "Article is already in database. <br />";
         }
-    } else {
-        echo "Article is already in database. <br />";
+
+        echo "-----------------------------------------------------------------------------------";
+        echo "<br />";
     }
 
-    echo "-----------------------------------------------------------------------------------";
-    echo "<br />";
-}
+    foreach ($articles as $article) {
+        $aid = explode("/", $article->link)[4];
+        $articleContent;
 
-foreach ($articles as $article) {
-    $aid = explode("/", $article->link)[4];
-    $articleContent;
-    
-    if(in_array($aid, $newArticlesIDs)) {   
-        ?>
-        <script type="text/javascript">
-            var articleID = <?php echo $aid; ?>;
-            /*var div = document.getElementById('target');
-            div.innerHTML = div.innerHTML + ("X: " + articleID);*/
-            getArticleContent(articleID);
-        </script>
-        <?php
+        if (in_array($aid, $newArticlesIDs)) {
+            ?>
+            <script type="text/javascript">
+                var articleID = <?php echo $aid; ?>;
+                /*var div = document.getElementById('target');
+                div.innerHTML = div.innerHTML + ("X: " + articleID);*/
+                getArticleContent(articleID);
+            </script>
+            <?php
+        }
     }
-}
 
-$conn->close();
-?>
-<div id="target">
-</div>
+    $conn->close();
+    ?>
+    <div id="target">
+    </div>
 </div>
