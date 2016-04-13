@@ -12,7 +12,6 @@ function get_connection() {
     //  $username = "b26346e2d51b96";
     //  $password = "8bb504a6";
     //  $dbname = "exploreDB"; 
-     
 
     // Create connection
     $connect = new mysqli($servername, $username, $password, $dbname);
@@ -23,7 +22,7 @@ function get_connection() {
         error_log($message);
         die("Connection failed: " . $connect->connect_error);
     }
-    echo "Connected successfully <br />";
+    //echo "Connected successfully <br />";
 
     // change character set to utf8
     if (!$connect->set_charset("utf8")) {

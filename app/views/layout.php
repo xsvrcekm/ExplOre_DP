@@ -32,7 +32,7 @@
         echo "Dátum vydania: $article->pubDate <br />";
         echo "Opis: $article->description <br />";
         echo "Guid: $article->guid <br />";
-        echo "<input id='clickMe' type='button' value='Show article' onclick='getArticleContent($aid)' /><br />";
+        echo "<input id='clickMe' type='button' value='Show article' onclick='showArticleContent($aid)' /><br />";
 
         //SELECT
         $sql = "SELECT sme_id FROM articles AS a WHERE a.sme_id = '$aid' ";

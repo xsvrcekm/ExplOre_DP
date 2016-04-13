@@ -173,3 +173,36 @@ hr {
     left: 225px;
     margin: 10px 0px 10px 0px;
 }
+
+#articles {
+    position: relative;
+    width: 100%;
+}
+#articles_img{
+    position: relative;
+    width: 200px;
+    height: 150px;
+}
+#articles_img img{
+    width: 200px;
+}
+#articles_text {
+    position: absolute;
+    left: 200px;
+    top: 0px;
+    margin: 0px 10px 0px 10px;
+}
+#articles_title {
+    position: relative;
+}
+#articles_description {
+    position: relative;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height: 6.0em;
+}
+#article {
+    position: relative;
+    width: 70%;
+    text-align: justify;
+}

@@ -4,12 +4,12 @@
         $username = "martin";
         $password = "Sv/11-m+T";
         $dbname = "explore";
-        /* 
-          $servername = "eu-cdbr-azure-west-d.cloudapp.net";
-          $username = "b26346e2d51b96";
-          $password = "8bb504a6";
-          $dbname = "exploreDB"; 
-         */
+         
+        //  $servername = "eu-cdbr-azure-west-d.cloudapp.net";
+        //  $username = "b26346e2d51b96";
+        //  $password = "8bb504a6";
+        //  $dbname = "exploreDB"; 
+        
 
         // Create connection
         $connect = new mysqli($servername, $username, $password, $dbname);
@@ -22,7 +22,7 @@
         }
         //echo "Connected successfully <br />";
 
-        /* change character set to utf8 */
+        // change character set to utf8
         if (!$connect->set_charset("utf8")) {
             $message = "[{$date}] [{$file}] [{$level}] Error loading character set utf8: %s <br />, {$connect->error}".PHP_EOL;
             error_log($message);
@@ -39,18 +39,21 @@
     $file = __FILE__;
     $level = "error";
     
+    $article_id = $_POST['article_id'];
+    $content = $_POST['content'];
+    
     //include('app/controllers/configDB.php');
     $conn = get_connection();
     
-    $article_id = $_POST['article_id'];
-    $content = $_POST['content'];
+    //echo "UPDATE: ".$content;
     $sql = "UPDATE articles SET content='$content' WHERE sme_id='$article_id'";  
     
     if ($conn->query($sql) === TRUE) {
-        //echo "***".$article_id."Content updated successfully.***";
+        //echo "***".$article_id."Content updated successfully.***".$content;
     } else {
         $message = "[{$date}] [{$file}] [{$level}] Error while updating article content, {$sql} ; {$conn->error}".PHP_EOL;
         error_log($message);
-        echo "***Error: " . $sql . "<br />" . $conn->error . "<br />***";
+        //echo "***Error: " . $sql . "<br />" . $conn->error . "<br />***";
     }
+    
 ?>

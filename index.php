@@ -1,12 +1,12 @@
 <?php
     session_start();
     require_once('app/views/header.php');
-?>    
-<p><applet code="javaApplet.class" width="300" height="200">
-</applet></p>
-<?php
+   
+    //echo "Ahoj: ".exec('java javaApplet');
+
     if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true){
-        require_once('app/views/layout.php');
+        //require_once('app/views/layout.php');
+        require_once('app/views/articles.php');
     }else{
         require_once('app/views/welcome.php');
     }

@@ -1517,3 +1517,443 @@ Stack trace:
 [11-Apr-2016 08:55:13 UTC] PHP Stack trace:
 [11-Apr-2016 08:55:13 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
 [11-Apr-2016 08:55:13 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:30
+[12-Apr-2016 19:29:32 UTC] PHP Notice:  Array to string conversion in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 18
+[12-Apr-2016 19:29:32 UTC] PHP Stack trace:
+[12-Apr-2016 19:29:32 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[12-Apr-2016 19:29:32 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[12-Apr-2016 19:30:02 UTC] PHP Fatal error:  Call to undefined function String() in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 18
+[12-Apr-2016 19:30:02 UTC] PHP Stack trace:
+[12-Apr-2016 19:30:02 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[12-Apr-2016 19:30:02 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[12-Apr-2016 19:33:15 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, object given in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 17
+[12-Apr-2016 19:33:15 UTC] PHP Stack trace:
+[12-Apr-2016 19:33:15 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[12-Apr-2016 19:33:15 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[12-Apr-2016 19:33:15 UTC] PHP   3. mysql_fetch_assoc() C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php:17
+[12-Apr-2016 19:38:07 UTC] PHP Notice:  Array to string conversion in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 18
+[12-Apr-2016 19:38:07 UTC] PHP Stack trace:
+[12-Apr-2016 19:38:07 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[12-Apr-2016 19:38:07 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[12-Apr-2016 19:50:22 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 16
+[12-Apr-2016 19:50:22 UTC] PHP Stack trace:
+[12-Apr-2016 19:50:22 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[12-Apr-2016 19:50:22 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[12-Apr-2016 19:50:22 UTC] PHP   3. explode() C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php:16
+[12-Apr-2016 19:50:22 UTC] PHP Notice:  Undefined variable: rec_art_id in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 17
+[12-Apr-2016 19:50:22 UTC] PHP Stack trace:
+[12-Apr-2016 19:50:22 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[12-Apr-2016 19:50:22 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[12-Apr-2016 19:50:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 17
+[12-Apr-2016 19:50:22 UTC] PHP Stack trace:
+[12-Apr-2016 19:50:22 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[12-Apr-2016 19:50:22 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[12-Apr-2016 19:50:36 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 16
+[12-Apr-2016 19:50:36 UTC] PHP Stack trace:
+[12-Apr-2016 19:50:36 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[12-Apr-2016 19:50:36 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[12-Apr-2016 19:50:36 UTC] PHP   3. explode() C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php:16
+[12-Apr-2016 19:50:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 17
+[12-Apr-2016 19:50:36 UTC] PHP Stack trace:
+[12-Apr-2016 19:50:36 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[12-Apr-2016 19:50:36 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[12-Apr-2016 19:51:21 UTC] PHP Fatal error:  Call to undefined function ToString() in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 16
+[12-Apr-2016 19:51:21 UTC] PHP Stack trace:
+[12-Apr-2016 19:51:21 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[12-Apr-2016 19:51:21 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[12-Apr-2016 19:51:49 UTC] PHP Notice:  Array to string conversion in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 16
+[12-Apr-2016 19:51:49 UTC] PHP Stack trace:
+[12-Apr-2016 19:51:49 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[12-Apr-2016 19:51:49 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[12-Apr-2016 20:31:24 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on string in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 25
+[12-Apr-2016 20:31:24 UTC] PHP Stack trace:
+[12-Apr-2016 20:31:24 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[12-Apr-2016 20:31:24 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[12-Apr-2016 20:32:30 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on string in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 25
+[12-Apr-2016 20:32:30 UTC] PHP Stack trace:
+[12-Apr-2016 20:32:30 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[12-Apr-2016 20:32:30 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[12-Apr-2016 20:34:16 UTC] PHP Notice:  Undefined offset: 2 in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 28
+[12-Apr-2016 20:34:16 UTC] PHP Stack trace:
+[12-Apr-2016 20:34:16 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[12-Apr-2016 20:34:16 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[12-Apr-2016 20:37:57 UTC] PHP Notice:  Undefined variable: subject in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 27
+[12-Apr-2016 20:37:57 UTC] PHP Stack trace:
+[12-Apr-2016 20:37:57 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[12-Apr-2016 20:37:57 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[12-Apr-2016 20:37:57 UTC] PHP Notice:  Undefined variable: subject in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 27
+[12-Apr-2016 20:37:57 UTC] PHP Stack trace:
+[12-Apr-2016 20:37:57 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[12-Apr-2016 20:37:57 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[12-Apr-2016 20:37:57 UTC] PHP Notice:  Undefined variable: subject in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 27
+[12-Apr-2016 20:37:57 UTC] PHP Stack trace:
+[12-Apr-2016 20:37:57 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[12-Apr-2016 20:37:57 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[12-Apr-2016 23:58:01 UTC] PHP Notice:  Undefined offset: 2 in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 37
+[12-Apr-2016 23:58:01 UTC] PHP Stack trace:
+[12-Apr-2016 23:58:01 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[12-Apr-2016 23:58:01 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[12-Apr-2016 23:58:01 UTC] PHP Notice:  Undefined offset: 2 in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 37
+[12-Apr-2016 23:58:01 UTC] PHP Stack trace:
+[12-Apr-2016 23:58:01 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[12-Apr-2016 23:58:01 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[12-Apr-2016 23:58:01 UTC] PHP Notice:  Undefined offset: 2 in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 37
+[12-Apr-2016 23:58:01 UTC] PHP Stack trace:
+[12-Apr-2016 23:58:01 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[12-Apr-2016 23:58:01 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:02:55 UTC] PHP Warning:  preg_match(): Unknown modifier 'g' in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 27
+[13-Apr-2016 00:02:55 UTC] PHP Stack trace:
+[13-Apr-2016 00:02:55 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:02:55 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:02:55 UTC] PHP   3. preg_match() C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php:27
+[13-Apr-2016 00:02:55 UTC] PHP Warning:  preg_match(): Unknown modifier 'g' in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 27
+[13-Apr-2016 00:02:55 UTC] PHP Stack trace:
+[13-Apr-2016 00:02:55 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:02:55 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:02:55 UTC] PHP   3. preg_match() C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php:27
+[13-Apr-2016 00:02:55 UTC] PHP Warning:  preg_match(): Unknown modifier 'g' in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 27
+[13-Apr-2016 00:02:55 UTC] PHP Stack trace:
+[13-Apr-2016 00:02:55 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:02:55 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:02:55 UTC] PHP   3. preg_match() C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php:27
+[13-Apr-2016 00:03:10 UTC] PHP Notice:  Undefined offset: 2 in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 37
+[13-Apr-2016 00:03:10 UTC] PHP Stack trace:
+[13-Apr-2016 00:03:10 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:03:10 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:03:10 UTC] PHP Notice:  Undefined offset: 2 in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 37
+[13-Apr-2016 00:03:10 UTC] PHP Stack trace:
+[13-Apr-2016 00:03:10 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:03:10 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:03:10 UTC] PHP Notice:  Undefined offset: 2 in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 37
+[13-Apr-2016 00:03:10 UTC] PHP Stack trace:
+[13-Apr-2016 00:03:10 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:03:10 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:04:07 UTC] PHP Notice:  Undefined offset: 2 in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 37
+[13-Apr-2016 00:04:07 UTC] PHP Stack trace:
+[13-Apr-2016 00:04:07 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:04:07 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:04:07 UTC] PHP Notice:  Undefined offset: 2 in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 37
+[13-Apr-2016 00:04:07 UTC] PHP Stack trace:
+[13-Apr-2016 00:04:07 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:04:07 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:04:07 UTC] PHP Notice:  Undefined offset: 2 in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 37
+[13-Apr-2016 00:04:07 UTC] PHP Stack trace:
+[13-Apr-2016 00:04:07 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:04:07 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:04:20 UTC] PHP Warning:  preg_match(): Unknown modifier 'g' in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 36
+[13-Apr-2016 00:04:20 UTC] PHP Stack trace:
+[13-Apr-2016 00:04:20 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:04:20 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:04:20 UTC] PHP   3. preg_match() C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php:36
+[13-Apr-2016 00:04:20 UTC] PHP Warning:  preg_match(): Unknown modifier 'g' in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 36
+[13-Apr-2016 00:04:20 UTC] PHP Stack trace:
+[13-Apr-2016 00:04:20 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:04:20 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:04:20 UTC] PHP   3. preg_match() C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php:36
+[13-Apr-2016 00:04:20 UTC] PHP Warning:  preg_match(): Unknown modifier 'g' in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 36
+[13-Apr-2016 00:04:20 UTC] PHP Stack trace:
+[13-Apr-2016 00:04:20 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:04:20 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:04:20 UTC] PHP   3. preg_match() C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php:36
+[13-Apr-2016 00:05:17 UTC] PHP Notice:  Array to string conversion in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 37
+[13-Apr-2016 00:05:17 UTC] PHP Stack trace:
+[13-Apr-2016 00:05:17 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:05:17 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:05:17 UTC] PHP Notice:  Array to string conversion in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 37
+[13-Apr-2016 00:05:17 UTC] PHP Stack trace:
+[13-Apr-2016 00:05:17 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:05:17 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:05:17 UTC] PHP Notice:  Array to string conversion in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 37
+[13-Apr-2016 00:05:17 UTC] PHP Stack trace:
+[13-Apr-2016 00:05:17 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:05:17 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:06:19 UTC] PHP Notice:  Undefined offset: 2 in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 37
+[13-Apr-2016 00:06:19 UTC] PHP Stack trace:
+[13-Apr-2016 00:06:19 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:06:19 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:06:37 UTC] PHP Notice:  Array to string conversion in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 37
+[13-Apr-2016 00:06:37 UTC] PHP Stack trace:
+[13-Apr-2016 00:06:37 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:06:37 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:06:37 UTC] PHP Notice:  Array to string conversion in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 37
+[13-Apr-2016 00:06:37 UTC] PHP Stack trace:
+[13-Apr-2016 00:06:37 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:06:37 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:06:37 UTC] PHP Notice:  Array to string conversion in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 37
+[13-Apr-2016 00:06:37 UTC] PHP Stack trace:
+[13-Apr-2016 00:06:37 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:06:37 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:11:12 UTC] PHP Notice:  Array to string conversion in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 39
+[13-Apr-2016 00:11:12 UTC] PHP Stack trace:
+[13-Apr-2016 00:11:12 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:11:12 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:11:12 UTC] PHP Notice:  Array to string conversion in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 39
+[13-Apr-2016 00:11:12 UTC] PHP Stack trace:
+[13-Apr-2016 00:11:12 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:11:12 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:11:12 UTC] PHP Notice:  Array to string conversion in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 39
+[13-Apr-2016 00:11:12 UTC] PHP Stack trace:
+[13-Apr-2016 00:11:12 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:11:12 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:11:12 UTC] PHP Notice:  Array to string conversion in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 39
+[13-Apr-2016 00:11:12 UTC] PHP Stack trace:
+[13-Apr-2016 00:11:12 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:11:12 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:11:12 UTC] PHP Notice:  Array to string conversion in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 39
+[13-Apr-2016 00:11:12 UTC] PHP Stack trace:
+[13-Apr-2016 00:11:12 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:11:12 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:11:12 UTC] PHP Notice:  Array to string conversion in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 39
+[13-Apr-2016 00:11:12 UTC] PHP Stack trace:
+[13-Apr-2016 00:11:12 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:11:12 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:15:21 UTC] PHP Notice:  Array to string conversion in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 39
+[13-Apr-2016 00:15:21 UTC] PHP Stack trace:
+[13-Apr-2016 00:15:21 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:15:21 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:15:21 UTC] PHP Notice:  Array to string conversion in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 39
+[13-Apr-2016 00:15:21 UTC] PHP Stack trace:
+[13-Apr-2016 00:15:21 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:15:21 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:15:21 UTC] PHP Notice:  Array to string conversion in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 39
+[13-Apr-2016 00:15:21 UTC] PHP Stack trace:
+[13-Apr-2016 00:15:21 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:15:21 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:15:21 UTC] PHP Notice:  Array to string conversion in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 39
+[13-Apr-2016 00:15:21 UTC] PHP Stack trace:
+[13-Apr-2016 00:15:21 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:15:21 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:15:21 UTC] PHP Notice:  Array to string conversion in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 39
+[13-Apr-2016 00:15:21 UTC] PHP Stack trace:
+[13-Apr-2016 00:15:21 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:15:21 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:15:21 UTC] PHP Notice:  Array to string conversion in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 39
+[13-Apr-2016 00:15:21 UTC] PHP Stack trace:
+[13-Apr-2016 00:15:21 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:15:21 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:16:08 UTC] PHP Notice:  Array to string conversion in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 39
+[13-Apr-2016 00:16:08 UTC] PHP Stack trace:
+[13-Apr-2016 00:16:08 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:16:08 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:16:08 UTC] PHP Notice:  Array to string conversion in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 39
+[13-Apr-2016 00:16:08 UTC] PHP Stack trace:
+[13-Apr-2016 00:16:08 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:16:08 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:16:08 UTC] PHP Notice:  Array to string conversion in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 39
+[13-Apr-2016 00:16:08 UTC] PHP Stack trace:
+[13-Apr-2016 00:16:08 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:16:08 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:16:08 UTC] PHP Notice:  Array to string conversion in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 39
+[13-Apr-2016 00:16:08 UTC] PHP Stack trace:
+[13-Apr-2016 00:16:08 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:16:08 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:16:08 UTC] PHP Notice:  Array to string conversion in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 39
+[13-Apr-2016 00:16:08 UTC] PHP Stack trace:
+[13-Apr-2016 00:16:08 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:16:08 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:16:08 UTC] PHP Notice:  Array to string conversion in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 39
+[13-Apr-2016 00:16:08 UTC] PHP Stack trace:
+[13-Apr-2016 00:16:08 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:16:08 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:16:24 UTC] PHP Notice:  Array to string conversion in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 39
+[13-Apr-2016 00:16:24 UTC] PHP Stack trace:
+[13-Apr-2016 00:16:24 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:16:24 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:16:24 UTC] PHP Notice:  Array to string conversion in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 39
+[13-Apr-2016 00:16:24 UTC] PHP Stack trace:
+[13-Apr-2016 00:16:24 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:16:24 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:16:24 UTC] PHP Notice:  Array to string conversion in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 39
+[13-Apr-2016 00:16:24 UTC] PHP Stack trace:
+[13-Apr-2016 00:16:24 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:16:24 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:16:24 UTC] PHP Notice:  Array to string conversion in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 39
+[13-Apr-2016 00:16:24 UTC] PHP Stack trace:
+[13-Apr-2016 00:16:24 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:16:24 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:16:24 UTC] PHP Notice:  Array to string conversion in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 39
+[13-Apr-2016 00:16:24 UTC] PHP Stack trace:
+[13-Apr-2016 00:16:24 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:16:24 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:16:24 UTC] PHP Notice:  Array to string conversion in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 39
+[13-Apr-2016 00:16:24 UTC] PHP Stack trace:
+[13-Apr-2016 00:16:24 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:16:24 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:17:29 UTC] PHP Notice:  Undefined variable: c in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 39
+[13-Apr-2016 00:17:29 UTC] PHP Stack trace:
+[13-Apr-2016 00:17:29 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:17:29 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:17:29 UTC] PHP Notice:  Undefined variable: c in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 40
+[13-Apr-2016 00:17:29 UTC] PHP Stack trace:
+[13-Apr-2016 00:17:29 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:17:29 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:17:29 UTC] PHP Notice:  Undefined variable: c in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 39
+[13-Apr-2016 00:17:29 UTC] PHP Stack trace:
+[13-Apr-2016 00:17:29 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:17:29 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:17:29 UTC] PHP Notice:  Undefined variable: c in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 40
+[13-Apr-2016 00:17:29 UTC] PHP Stack trace:
+[13-Apr-2016 00:17:29 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:17:29 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:17:29 UTC] PHP Notice:  Undefined variable: c in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 39
+[13-Apr-2016 00:17:29 UTC] PHP Stack trace:
+[13-Apr-2016 00:17:29 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:17:29 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:17:29 UTC] PHP Notice:  Undefined variable: c in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 40
+[13-Apr-2016 00:17:29 UTC] PHP Stack trace:
+[13-Apr-2016 00:17:29 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:17:29 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:17:29 UTC] PHP Notice:  Undefined variable: c in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 39
+[13-Apr-2016 00:17:29 UTC] PHP Stack trace:
+[13-Apr-2016 00:17:29 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:17:29 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:17:29 UTC] PHP Notice:  Undefined variable: c in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 40
+[13-Apr-2016 00:17:29 UTC] PHP Stack trace:
+[13-Apr-2016 00:17:29 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:17:29 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:17:29 UTC] PHP Notice:  Undefined variable: c in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 39
+[13-Apr-2016 00:17:29 UTC] PHP Stack trace:
+[13-Apr-2016 00:17:29 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:17:29 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:17:29 UTC] PHP Notice:  Undefined variable: c in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 40
+[13-Apr-2016 00:17:29 UTC] PHP Stack trace:
+[13-Apr-2016 00:17:29 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:17:29 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:17:29 UTC] PHP Notice:  Undefined variable: c in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 39
+[13-Apr-2016 00:17:29 UTC] PHP Stack trace:
+[13-Apr-2016 00:17:29 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:17:29 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:17:29 UTC] PHP Notice:  Undefined variable: c in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 40
+[13-Apr-2016 00:17:29 UTC] PHP Stack trace:
+[13-Apr-2016 00:17:29 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:17:29 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:17:29 UTC] PHP Notice:  Undefined variable: c in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 39
+[13-Apr-2016 00:17:29 UTC] PHP Stack trace:
+[13-Apr-2016 00:17:29 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:17:29 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:17:29 UTC] PHP Notice:  Undefined variable: c in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 40
+[13-Apr-2016 00:17:29 UTC] PHP Stack trace:
+[13-Apr-2016 00:17:29 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:17:29 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:17:29 UTC] PHP Notice:  Undefined variable: c in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 39
+[13-Apr-2016 00:17:29 UTC] PHP Stack trace:
+[13-Apr-2016 00:17:29 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:17:29 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:17:29 UTC] PHP Notice:  Undefined variable: c in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 40
+[13-Apr-2016 00:17:29 UTC] PHP Stack trace:
+[13-Apr-2016 00:17:29 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:17:29 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:17:29 UTC] PHP Notice:  Undefined variable: c in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 39
+[13-Apr-2016 00:17:29 UTC] PHP Stack trace:
+[13-Apr-2016 00:17:29 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:17:29 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:17:29 UTC] PHP Notice:  Undefined variable: c in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 40
+[13-Apr-2016 00:17:29 UTC] PHP Stack trace:
+[13-Apr-2016 00:17:29 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:17:29 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:17:29 UTC] PHP Notice:  Undefined variable: c in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 39
+[13-Apr-2016 00:17:29 UTC] PHP Stack trace:
+[13-Apr-2016 00:17:29 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:17:29 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:17:29 UTC] PHP Notice:  Undefined variable: c in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 40
+[13-Apr-2016 00:17:29 UTC] PHP Stack trace:
+[13-Apr-2016 00:17:29 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:17:29 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:17:29 UTC] PHP Notice:  Undefined variable: c in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 39
+[13-Apr-2016 00:17:29 UTC] PHP Stack trace:
+[13-Apr-2016 00:17:29 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:17:29 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:17:29 UTC] PHP Notice:  Undefined variable: c in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 40
+[13-Apr-2016 00:17:29 UTC] PHP Stack trace:
+[13-Apr-2016 00:17:29 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:17:29 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:17:29 UTC] PHP Notice:  Undefined variable: c in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 39
+[13-Apr-2016 00:17:29 UTC] PHP Stack trace:
+[13-Apr-2016 00:17:29 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:17:29 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:17:29 UTC] PHP Notice:  Undefined variable: c in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 40
+[13-Apr-2016 00:17:29 UTC] PHP Stack trace:
+[13-Apr-2016 00:17:29 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:17:29 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:17:29 UTC] PHP Notice:  Undefined variable: c in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 39
+[13-Apr-2016 00:17:29 UTC] PHP Stack trace:
+[13-Apr-2016 00:17:29 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:17:29 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:17:29 UTC] PHP Notice:  Undefined variable: c in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 40
+[13-Apr-2016 00:17:29 UTC] PHP Stack trace:
+[13-Apr-2016 00:17:29 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:17:29 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:17:29 UTC] PHP Notice:  Undefined variable: c in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 39
+[13-Apr-2016 00:17:29 UTC] PHP Stack trace:
+[13-Apr-2016 00:17:29 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:17:29 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:17:29 UTC] PHP Notice:  Undefined variable: c in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 40
+[13-Apr-2016 00:17:29 UTC] PHP Stack trace:
+[13-Apr-2016 00:17:29 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:17:29 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:17:29 UTC] PHP Notice:  Undefined variable: c in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 39
+[13-Apr-2016 00:17:29 UTC] PHP Stack trace:
+[13-Apr-2016 00:17:29 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:17:29 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:17:29 UTC] PHP Notice:  Undefined variable: c in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 40
+[13-Apr-2016 00:17:29 UTC] PHP Stack trace:
+[13-Apr-2016 00:17:29 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:17:29 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:17:29 UTC] PHP Notice:  Undefined variable: c in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 39
+[13-Apr-2016 00:17:29 UTC] PHP Stack trace:
+[13-Apr-2016 00:17:29 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:17:29 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:17:29 UTC] PHP Notice:  Undefined variable: c in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 40
+[13-Apr-2016 00:17:29 UTC] PHP Stack trace:
+[13-Apr-2016 00:17:29 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:17:29 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:17:29 UTC] PHP Notice:  Undefined variable: c in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 39
+[13-Apr-2016 00:17:29 UTC] PHP Stack trace:
+[13-Apr-2016 00:17:29 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:17:29 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 00:17:29 UTC] PHP Notice:  Undefined variable: c in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 40
+[13-Apr-2016 00:17:29 UTC] PHP Stack trace:
+[13-Apr-2016 00:17:29 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 00:17:29 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 06:43:06 UTC] PHP Notice:  Undefined offset: 2 in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 45
+[13-Apr-2016 06:43:06 UTC] PHP Stack trace:
+[13-Apr-2016 06:43:06 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 06:43:06 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 06:43:12 UTC] PHP Notice:  Undefined offset: 1 in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 45
+[13-Apr-2016 06:43:12 UTC] PHP Stack trace:
+[13-Apr-2016 06:43:12 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 06:43:12 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 07:00:37 UTC] PHP Warning:  substr() expects parameter 2 to be long, string given in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 30
+[13-Apr-2016 07:00:37 UTC] PHP Stack trace:
+[13-Apr-2016 07:00:37 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 07:00:37 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 07:00:37 UTC] PHP   3. substr() C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php:30
+[13-Apr-2016 07:00:37 UTC] PHP Warning:  substr() expects parameter 2 to be long, string given in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 30
+[13-Apr-2016 07:00:37 UTC] PHP Stack trace:
+[13-Apr-2016 07:00:37 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 07:00:37 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 07:00:37 UTC] PHP   3. substr() C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php:30
+[13-Apr-2016 07:00:37 UTC] PHP Warning:  substr() expects parameter 2 to be long, string given in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 30
+[13-Apr-2016 07:00:37 UTC] PHP Stack trace:
+[13-Apr-2016 07:00:37 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 07:00:37 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 07:00:37 UTC] PHP   3. substr() C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php:30
+[13-Apr-2016 07:01:45 UTC] PHP Notice:  Array to string conversion in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 31
+[13-Apr-2016 07:01:45 UTC] PHP Stack trace:
+[13-Apr-2016 07:01:45 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 07:01:45 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 07:01:45 UTC] PHP Notice:  Array to string conversion in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 31
+[13-Apr-2016 07:01:45 UTC] PHP Stack trace:
+[13-Apr-2016 07:01:45 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 07:01:45 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 07:01:45 UTC] PHP Notice:  Array to string conversion in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 31
+[13-Apr-2016 07:01:45 UTC] PHP Stack trace:
+[13-Apr-2016 07:01:45 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 07:01:45 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 07:36:01 UTC] PHP Fatal error:  Call to undefined function preq_replace() in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 45
+[13-Apr-2016 07:36:01 UTC] PHP Stack trace:
+[13-Apr-2016 07:36:01 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 07:36:01 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[13-Apr-2016 09:29:38 UTC] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 24
+[13-Apr-2016 09:29:38 UTC] PHP Stack trace:
+[13-Apr-2016 09:29:38 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[13-Apr-2016 09:29:38 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
