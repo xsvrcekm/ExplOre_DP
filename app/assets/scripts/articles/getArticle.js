@@ -101,7 +101,7 @@ function filterData(data) {
     if(img_url.startsWith("http")){
         content = '<img src="' + img_url + '" width="500">' + content;
     }else {
-        content = '<img src="/ExplORe_DP/app/assets/images/article_img.jpg" width="501">' + content;
+        content = '<img src="/app/assets/images/article_img.jpg" width="501">' + content;
     }
     
     /*
@@ -136,7 +136,7 @@ function updateArticleContent(content, article_id) {
       data: 'content='+content+'&article_id='+article_id,
       success: function(output) 
       {
-          //alert('success, server says '+output+' KONIEC');
+          alert('success, server says '+output+' KONIEC');
       }, error: function()
       {
           //alert('something went wrong, rating failed');

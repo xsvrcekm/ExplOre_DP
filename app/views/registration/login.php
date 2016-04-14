@@ -3,7 +3,7 @@
 require_once('../../controllers/registration/configDBLogin.php');
 
 //check if already logged in move to home page
-if( $user->is_logged_in() ){ header('Location: ../categories/titulka.php'); } 
+if( $user->is_logged_in() ){ header('Location: /app/views/categories/titulka.php'); } 
 
 //process login form if submitted
 if(isset($_POST['submit'])){
@@ -29,7 +29,7 @@ require('../header.php');
 
     <form role="form" method="post" action="" autocomplete="off">
         <h2>Prihlásenie</h2>
-        <p>Ešte nemáte vytvorené konto? <a href='/ExplORe_DP/app/views/registration/registration.php'>Zaregistrujte sa tu!</a></p>
+        <p>Ešte nemáte vytvorené konto? <a href='/app/views/registration/registration.php'>Zaregistrujte sa tu!</a></p>
         <hr>
 
         <?php

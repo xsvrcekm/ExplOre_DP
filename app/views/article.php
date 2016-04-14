@@ -1,6 +1,6 @@
 <?php
     require('../controllers/registration/configDBLogin.php');
-    if(!$user->is_logged_in()){ header('Location: registration/login.php'); }
+    if(!$user->is_logged_in()){ header('Location: /app/views/registration/login.php'); }
 
     require_once('header.php');
    

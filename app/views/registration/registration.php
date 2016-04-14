@@ -2,7 +2,7 @@
 require('../../controllers/registration/configDBLogin.php');
 
 //if logged in redirect to members page
-if( $user->is_logged_in() ){ header('Location: app/views/categories/titulka.php'); }
+if( $user->is_logged_in() ){ header('Location: /app/views/categories/titulka.php'); }
 
 //if form has been submitted process it
 if(isset($_POST['submit'])){
@@ -104,7 +104,7 @@ require('../header.php');
 
     <form role="form" method="post" action="" autocomplete="off">
         <h2>Registrácia</h2>
-        <p>Máte už svoj účet? <a href='login.php'>Prihláste sa.</a></p>
+        <p>Máte už svoj účet? <a href='/app/views/registration/login.php'>Prihláste sa.</a></p>
         <hr>
 
         <?php

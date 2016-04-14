@@ -6,12 +6,12 @@ Martin Svrček
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <title>ExplORe</title>
-        <link rel="shortcut icon" href="/ExplORe_DP/app/assets/images/favicon.ico" />
+        <link rel="shortcut icon" href="/app/assets/images/favicon.ico" />
         <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="/ExplORe_DP/app/assets/styles/basicStyle.css">
+        <link rel="stylesheet" type="text/css" href="/app/assets/styles/basicStyle.css">
         
-        <script type="text/javascript" language="javascript" src="/ExplORe_DP/library/jQuery/jquery-1.12.2.js"></script>
-        <script src='app/assets/scripts/articles/getArticle.js'></script>
+        <script type="text/javascript" language="javascript" src="/library/jQuery/jquery-1.12.2.js"></script>
+        <script src='/app/assets/scripts/articles/getArticle.js'></script>
         <script>
             $(document).ready(function(){
                 // Underline actual item of main menu
@@ -31,13 +31,13 @@ Martin Svrček
             <div id="header">
                 <div id="headerstrip">
                     <div id="headerlogo">
-                        <a href="/ExplORe_DP/index.php"> <img src="/ExplORe_DP/app/assets/images/explore_logo.png" alt="explore_logo" width="125" height="35"> </a>
+                        <a href="/index.php"> <img src="/app/assets/images/explore_logo.png" alt="explore_logo" width="125" height="35"> </a>
                     </div>
                     <?php
                         if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true){
-                            echo "<a href='/ExplORe_DP/app/views/registration/logout.php'>";
+                            echo "<a href='/app/views/registration/logout.php'>";
                         }else{
-                            echo "<a href='/ExplORe_DP/app/views/registration/login.php'>";
+                            echo "<a href='/app/views/registration/login.php'>";
                         }
                     ?>
                         <div id="headersignin">
@@ -48,7 +48,7 @@ Martin Svrček
                                     echo "<p>PRIHLÁSENIE</p>";
                                 }
                             ?>
-                            <img src="/ExplORe_DP/app/assets/images/lock.png" alt="signIn_logo" width="20" height="27">
+                            <img src="/app/assets/images/lock.png" alt="signIn_logo" width="20" height="27">
                         </div>
                     </a>
                 </div>
@@ -57,28 +57,28 @@ Martin Svrček
                 <nav>
                 <ul>
                     <li id="titulka" >
-                        <a href="/ExplORe_DP/app/views/categories/titulka.php">&nbsp;TITULKA</a>
+                        <a href="/app/views/categories/titulka.php">&nbsp;TITULKA</a>
                     </li>
                     <li id="domov" >
-                        <a href="/ExplORe_DP/app/views/categories/domov.php">&nbsp;DOMOV</a>
+                        <a href="/app/views/categories/domov.php">&nbsp;DOMOV</a>
                     </li>
                     <li id="svet" >
-                        <a href="/ExplORe_DP/app/views/categories/svet.php">&nbsp;SVET</a>
+                        <a href="/app/views/categories/svet.php">&nbsp;SVET</a>
                     </li>
                     <li id="sport" >
-                        <a href="/ExplORe_DP/app/views/categories/sport.php">&nbsp;ŠPORT</a>
+                        <a href="/app/views/categories/sport.php">&nbsp;ŠPORT</a>
                     </li>
                     <li id="tech" >
-                        <a href="/ExplORe_DP/app/views/categories/tech.php">&nbsp;TECH</a>
+                        <a href="/app/views/categories/tech.php">&nbsp;TECH</a>
                     </li>
                     <li id="kultura" >
-                        <a href="/ExplORe_DP/app/views/categories/kultura.php">&nbsp;KULTÚRA</a>
+                        <a href="/app/views/categories/kultura.php">&nbsp;KULTÚRA</a>
                     </li>
                     <li id="ekonomika" >
-                        <a href="/ExplORe_DP/app/views/categories/ekonomika.php">&nbsp;EKONOMIKA</a>
+                        <a href="/app/views/categories/ekonomika.php">&nbsp;EKONOMIKA</a>
                     </li>
                     <li id="komentare" >
-                        <a href="/ExplORe_DP/app/views/categories/komentare.php">&nbsp;KOMENTÁRE</a>
+                        <a href="/app/views/categories/komentare.php">&nbsp;KOMENTÁRE</a>
                     </li>
                 </ul>
                 </nav>

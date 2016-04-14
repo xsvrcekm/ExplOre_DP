@@ -1,16 +1,15 @@
 <?php
     function get_connection() {
-        $servername = "localhost";
+        /*$servername = "localhost";
         $username = "martin";
         $password = "Sv/11-m+T";
-        $dbname = "explore";
+        $dbname = "explore";*/
          
-        //  $servername = "eu-cdbr-azure-west-d.cloudapp.net";
-        //  $username = "b26346e2d51b96";
-        //  $password = "8bb504a6";
-        //  $dbname = "exploreDB"; 
+        $servername = "mysql.hostinger.co.uk";
+        $username = "u133754443_user";
+        $password = "yeka03zede";
+        $dbname = "u133754443_db";
         
-
         // Create connection
         $connect = new mysqli($servername, $username, $password, $dbname);
 
