@@ -1,10 +1,11 @@
 <?php
-    require('../controllers/registration/configDBLogin.php');
-    if(!$user->is_logged_in()){ header('Location: /app/views/registration/login.php'); }
 
+    require('../controllers/registration/configDBLogin.php');
+    if(!$user->is_logged_in()){ header('Location: ./app/views/registration/login.php'); }
+    
     require_once('header.php');
    
-    $id = $_GET['id'];
+    $id = $_GET['aid'];
     
     ini_set('error_log', 'tmp/php_error.log');
 
@@ -28,7 +29,7 @@
             //echo "UPDATE succesful";
         } else {
             $message = "[{$date}] [{$file}] [{$level}] Error while updating article viewed_articles, {$sql} ; {$conn->error}".PHP_EOL;
-            echo $message;
+            //echo $message;
             error_log($message);
         }
     }

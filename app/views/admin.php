@@ -3,6 +3,7 @@
     </div>
     <h1>ExplORe</h1>
     <?php
+    
     ini_set('error_log', 'tmp/php_error.log');
 
     $date = date("Y-m-d h:m:s");
@@ -19,6 +20,14 @@
 
     $n = 0;
     $newArticlesIDs = [];
+        
+    echo "<a href='/ExplORe_DP/app/controllers/deleteNoContent.php'><input id='extract' type='button' value='Delete NoContent articles'/></a>";
+    
+    echo"<br />";
+    
+    echo "<a href='/ExplORe_DP/app/views/extractKeyWords.php'><input id='extract' type='button' value='Extract Key Words'/></a>";
+    
+    echo "<hr>";
 
     foreach ($articles as $article) {
         $author = $article->children('dc', true)->creator;
@@ -52,6 +61,8 @@
             if ($conn->query($sql) === TRUE) {
                 echo "New record created successfully. <br />";
             } else {
+                $message = "[{$date}] [{$file}] [{$level}] Error while inserting article, {$sql} ; {$conn->error}".PHP_EOL;
+                error_log($message);
                 echo "Error: " . $sql . "<br />" . $conn->error . "<br />";
             }
         } else {
@@ -77,7 +88,7 @@
             <?php
         }
     }
-
+    
     $conn->close();
     ?>
     <div id="target">

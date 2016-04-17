@@ -2,10 +2,10 @@
             <div id="footer">
                 <div id="footerstrip">
                     <div id="footerlogo">
-                        <img src="/app/assets/images/explore_logo.png" alt="explore_logo" width="125" height="35">
+                        <img src="/ExplORe_DP//app/assets/images/explore_logo.png" alt="explore_logo" width="125" height="35">
                     </div>
                     <div id="backtotop">
-                        <a href="#base"><img src="/app/assets/images/backtotop.png" alt="back_to_top_icon" width="50" height="50"></a>
+                        <a href="#base"><img src="/ExplORe_DP//app/assets/images/backtotop.png" alt="back_to_top_icon" width="50" height="50"></a>
                     </div>
                 </div>
                 <div id="footerarea">

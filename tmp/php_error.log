@@ -1957,3 +1957,301 @@ Stack trace:
 [13-Apr-2016 09:29:38 UTC] PHP Stack trace:
 [13-Apr-2016 09:29:38 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
 [13-Apr-2016 09:29:38 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:9
+[15-Apr-2016 00:56:45 UTC] PHP Notice:  Undefined offset: 1 in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 33
+[15-Apr-2016 00:56:45 UTC] PHP Stack trace:
+[15-Apr-2016 00:56:45 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 00:56:45 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 00:56:45 UTC] PHP Notice:  Undefined offset: 1 in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 32
+[15-Apr-2016 00:56:45 UTC] PHP Stack trace:
+[15-Apr-2016 00:56:45 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 00:56:45 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 00:56:45 UTC] PHP Notice:  Undefined offset: 1 in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 33
+[15-Apr-2016 00:56:45 UTC] PHP Stack trace:
+[15-Apr-2016 00:56:45 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 00:56:45 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 00:56:45 UTC] PHP Notice:  Undefined offset: 2 in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 32
+[15-Apr-2016 00:56:45 UTC] PHP Stack trace:
+[15-Apr-2016 00:56:45 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 00:56:45 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 00:56:45 UTC] PHP Notice:  Undefined offset: 1 in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 33
+[15-Apr-2016 00:56:45 UTC] PHP Stack trace:
+[15-Apr-2016 00:56:45 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 00:56:45 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 00:59:35 UTC] PHP Notice:  Array to string conversion in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 33
+[15-Apr-2016 00:59:35 UTC] PHP Stack trace:
+[15-Apr-2016 00:59:35 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 00:59:35 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 00:59:35 UTC] PHP Notice:  Undefined offset: 1 in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 32
+[15-Apr-2016 00:59:35 UTC] PHP Stack trace:
+[15-Apr-2016 00:59:35 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 00:59:35 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 00:59:35 UTC] PHP Notice:  Array to string conversion in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 33
+[15-Apr-2016 00:59:35 UTC] PHP Stack trace:
+[15-Apr-2016 00:59:35 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 00:59:35 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 00:59:35 UTC] PHP Notice:  Undefined offset: 2 in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 32
+[15-Apr-2016 00:59:35 UTC] PHP Stack trace:
+[15-Apr-2016 00:59:35 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 00:59:35 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 00:59:35 UTC] PHP Notice:  Array to string conversion in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 33
+[15-Apr-2016 00:59:35 UTC] PHP Stack trace:
+[15-Apr-2016 00:59:35 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 00:59:35 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 01:01:38 UTC] PHP Notice:  Undefined offset: 1 in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 32
+[15-Apr-2016 01:01:38 UTC] PHP Stack trace:
+[15-Apr-2016 01:01:38 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 01:01:38 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 01:01:38 UTC] PHP Notice:  Undefined offset: 2 in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 32
+[15-Apr-2016 01:01:38 UTC] PHP Stack trace:
+[15-Apr-2016 01:01:38 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 01:01:38 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 01:01:56 UTC] PHP Notice:  Array to string conversion in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 22
+[15-Apr-2016 01:01:56 UTC] PHP Stack trace:
+[15-Apr-2016 01:01:56 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 01:01:56 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 01:01:56 UTC] PHP Notice:  Undefined offset: 1 in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 32
+[15-Apr-2016 01:01:56 UTC] PHP Stack trace:
+[15-Apr-2016 01:01:56 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 01:01:56 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 01:01:56 UTC] PHP Notice:  Undefined offset: 2 in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 32
+[15-Apr-2016 01:01:56 UTC] PHP Stack trace:
+[15-Apr-2016 01:01:56 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 01:01:56 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 01:02:05 UTC] PHP Notice:  Undefined offset: 1 in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 32
+[15-Apr-2016 01:02:05 UTC] PHP Stack trace:
+[15-Apr-2016 01:02:05 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 01:02:05 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 01:02:05 UTC] PHP Notice:  Undefined offset: 2 in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 32
+[15-Apr-2016 01:02:05 UTC] PHP Stack trace:
+[15-Apr-2016 01:02:05 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 01:02:05 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 01:02:20 UTC] PHP Notice:  Undefined offset: 1 in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 32
+[15-Apr-2016 01:02:20 UTC] PHP Stack trace:
+[15-Apr-2016 01:02:20 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 01:02:20 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 01:02:20 UTC] PHP Notice:  Undefined offset: 2 in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 32
+[15-Apr-2016 01:02:20 UTC] PHP Stack trace:
+[15-Apr-2016 01:02:20 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 01:02:20 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 01:02:57 UTC] PHP Notice:  Undefined offset: 1 in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 33
+[15-Apr-2016 01:02:57 UTC] PHP Stack trace:
+[15-Apr-2016 01:02:57 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 01:02:57 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 01:02:57 UTC] PHP Notice:  Undefined offset: 2 in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 33
+[15-Apr-2016 01:02:57 UTC] PHP Stack trace:
+[15-Apr-2016 01:02:57 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 01:02:57 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 01:04:03 UTC] PHP Notice:  Undefined offset: 1 in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 33
+[15-Apr-2016 01:04:03 UTC] PHP Stack trace:
+[15-Apr-2016 01:04:03 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 01:04:03 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 01:04:03 UTC] PHP Notice:  Undefined offset: 2 in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 33
+[15-Apr-2016 01:04:03 UTC] PHP Stack trace:
+[15-Apr-2016 01:04:03 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 01:04:03 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 01:04:07 UTC] PHP Notice:  Undefined offset: 1 in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 33
+[15-Apr-2016 01:04:07 UTC] PHP Stack trace:
+[15-Apr-2016 01:04:07 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 01:04:07 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 01:04:07 UTC] PHP Notice:  Undefined offset: 2 in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 33
+[15-Apr-2016 01:04:07 UTC] PHP Stack trace:
+[15-Apr-2016 01:04:07 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 01:04:07 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 01:04:18 UTC] PHP Notice:  Undefined offset: 1 in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 33
+[15-Apr-2016 01:04:18 UTC] PHP Stack trace:
+[15-Apr-2016 01:04:18 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 01:04:18 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 01:04:18 UTC] PHP Notice:  Undefined offset: 2 in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 33
+[15-Apr-2016 01:04:18 UTC] PHP Stack trace:
+[15-Apr-2016 01:04:18 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 01:04:18 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 01:04:29 UTC] PHP Notice:  Undefined offset: 1 in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 33
+[15-Apr-2016 01:04:29 UTC] PHP Stack trace:
+[15-Apr-2016 01:04:29 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 01:04:29 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 01:04:29 UTC] PHP Notice:  Undefined offset: 2 in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 33
+[15-Apr-2016 01:04:29 UTC] PHP Stack trace:
+[15-Apr-2016 01:04:29 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 01:04:29 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 01:04:52 UTC] PHP Notice:  Undefined offset: 1 in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 33
+[15-Apr-2016 01:04:52 UTC] PHP Stack trace:
+[15-Apr-2016 01:04:53 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 01:04:53 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 01:04:53 UTC] PHP Notice:  Undefined offset: 2 in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 33
+[15-Apr-2016 01:04:53 UTC] PHP Stack trace:
+[15-Apr-2016 01:04:53 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 01:04:53 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 01:05:35 UTC] PHP Notice:  Undefined offset: 1 in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 33
+[15-Apr-2016 01:05:35 UTC] PHP Stack trace:
+[15-Apr-2016 01:05:35 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 01:05:35 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 01:05:35 UTC] PHP Notice:  Undefined offset: 2 in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 33
+[15-Apr-2016 01:05:35 UTC] PHP Stack trace:
+[15-Apr-2016 01:05:35 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 01:05:35 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 01:06:50 UTC] PHP Notice:  Undefined offset: 1 in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 33
+[15-Apr-2016 01:06:50 UTC] PHP Stack trace:
+[15-Apr-2016 01:06:50 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 01:06:50 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 01:06:50 UTC] PHP Notice:  Undefined offset: 2 in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 33
+[15-Apr-2016 01:06:50 UTC] PHP Stack trace:
+[15-Apr-2016 01:06:50 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 01:06:50 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 01:07:38 UTC] PHP Notice:  Undefined variable: explanations in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 33
+[15-Apr-2016 01:07:38 UTC] PHP Stack trace:
+[15-Apr-2016 01:07:38 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 01:07:38 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 01:07:38 UTC] PHP Notice:  Undefined variable: explanations in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 33
+[15-Apr-2016 01:07:38 UTC] PHP Stack trace:
+[15-Apr-2016 01:07:38 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 01:07:38 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 01:07:38 UTC] PHP Notice:  Undefined variable: explanations in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 33
+[15-Apr-2016 01:07:38 UTC] PHP Stack trace:
+[15-Apr-2016 01:07:38 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 01:07:38 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 01:07:57 UTC] PHP Notice:  Undefined offset: 1 in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 33
+[15-Apr-2016 01:07:57 UTC] PHP Stack trace:
+[15-Apr-2016 01:07:57 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 01:07:57 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 01:07:57 UTC] PHP Notice:  Undefined offset: 2 in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 33
+[15-Apr-2016 01:07:57 UTC] PHP Stack trace:
+[15-Apr-2016 01:07:57 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 01:07:57 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 01:08:33 UTC] PHP Notice:  Undefined offset: 1 in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 33
+[15-Apr-2016 01:08:33 UTC] PHP Stack trace:
+[15-Apr-2016 01:08:33 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 01:08:33 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 01:08:33 UTC] PHP Notice:  Undefined offset: 2 in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 33
+[15-Apr-2016 01:08:33 UTC] PHP Stack trace:
+[15-Apr-2016 01:08:33 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 01:08:33 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 01:10:36 UTC] PHP Notice:  Array to string conversion in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 31
+[15-Apr-2016 01:10:36 UTC] PHP Stack trace:
+[15-Apr-2016 01:10:36 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 01:10:36 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 01:10:36 UTC] PHP Notice:  Array to string conversion in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 31
+[15-Apr-2016 01:10:36 UTC] PHP Stack trace:
+[15-Apr-2016 01:10:36 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 01:10:36 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 01:10:36 UTC] PHP Notice:  Array to string conversion in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 31
+[15-Apr-2016 01:10:36 UTC] PHP Stack trace:
+[15-Apr-2016 01:10:36 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 01:10:36 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 01:24:07 UTC] PHP Notice:  Undefined variable: conn in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 12
+[15-Apr-2016 01:24:07 UTC] PHP Stack trace:
+[15-Apr-2016 01:24:07 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 01:24:07 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 01:24:07 UTC] PHP   3. getExplanation() C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php:51
+[15-Apr-2016 01:24:07 UTC] PHP Fatal error:  Call to a member function query() on null in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 12
+[15-Apr-2016 01:24:07 UTC] PHP Stack trace:
+[15-Apr-2016 01:24:07 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 01:24:07 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 01:24:07 UTC] PHP   3. getExplanation() C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php:51
+[15-Apr-2016 01:24:29 UTC] PHP Notice:  Undefined variable: conn in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 83
+[15-Apr-2016 01:24:29 UTC] PHP Stack trace:
+[15-Apr-2016 01:24:29 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 01:24:30 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 01:24:30 UTC] PHP   3. getExplanation() C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php:31
+[15-Apr-2016 01:24:30 UTC] PHP Fatal error:  Call to a member function query() on null in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 83
+[15-Apr-2016 01:24:30 UTC] PHP Stack trace:
+[15-Apr-2016 01:24:30 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 01:24:30 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 01:24:30 UTC] PHP   3. getExplanation() C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php:31
+[15-Apr-2016 01:24:31 UTC] PHP Notice:  Undefined variable: conn in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 83
+[15-Apr-2016 01:24:31 UTC] PHP Stack trace:
+[15-Apr-2016 01:24:31 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 01:24:31 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 01:24:31 UTC] PHP   3. getExplanation() C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php:31
+[15-Apr-2016 01:24:31 UTC] PHP Fatal error:  Call to a member function query() on null in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 83
+[15-Apr-2016 01:24:31 UTC] PHP Stack trace:
+[15-Apr-2016 01:24:32 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 01:24:32 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 01:24:32 UTC] PHP   3. getExplanation() C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php:31
+[15-Apr-2016 01:24:32 UTC] PHP Notice:  Undefined variable: conn in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 83
+[15-Apr-2016 01:24:32 UTC] PHP Stack trace:
+[15-Apr-2016 01:24:32 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 01:24:32 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 01:24:32 UTC] PHP   3. getExplanation() C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php:31
+[15-Apr-2016 01:24:32 UTC] PHP Fatal error:  Call to a member function query() on null in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 83
+[15-Apr-2016 01:24:32 UTC] PHP Stack trace:
+[15-Apr-2016 01:24:32 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 01:24:32 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 01:24:32 UTC] PHP   3. getExplanation() C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php:31
+[15-Apr-2016 01:24:32 UTC] PHP Notice:  Undefined variable: conn in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 83
+[15-Apr-2016 01:24:32 UTC] PHP Stack trace:
+[15-Apr-2016 01:24:32 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 01:24:32 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 01:24:32 UTC] PHP   3. getExplanation() C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php:31
+[15-Apr-2016 01:24:32 UTC] PHP Fatal error:  Call to a member function query() on null in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 83
+[15-Apr-2016 01:24:32 UTC] PHP Stack trace:
+[15-Apr-2016 01:24:32 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 01:24:32 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 01:24:32 UTC] PHP   3. getExplanation() C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php:31
+[15-Apr-2016 01:24:32 UTC] PHP Notice:  Undefined variable: conn in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 83
+[15-Apr-2016 01:24:32 UTC] PHP Stack trace:
+[15-Apr-2016 01:24:32 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 01:24:32 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 01:24:32 UTC] PHP   3. getExplanation() C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php:31
+[15-Apr-2016 01:24:32 UTC] PHP Fatal error:  Call to a member function query() on null in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 83
+[15-Apr-2016 01:24:32 UTC] PHP Stack trace:
+[15-Apr-2016 01:24:32 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 01:24:32 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 01:24:32 UTC] PHP   3. getExplanation() C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php:31
+[15-Apr-2016 01:24:32 UTC] PHP Notice:  Undefined variable: conn in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 83
+[15-Apr-2016 01:24:32 UTC] PHP Stack trace:
+[15-Apr-2016 01:24:32 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 01:24:32 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 01:24:32 UTC] PHP   3. getExplanation() C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php:31
+[15-Apr-2016 01:24:32 UTC] PHP Fatal error:  Call to a member function query() on null in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 83
+[15-Apr-2016 01:24:32 UTC] PHP Stack trace:
+[15-Apr-2016 01:24:32 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 01:24:32 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 01:24:32 UTC] PHP   3. getExplanation() C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php:31
+[15-Apr-2016 01:27:21 UTC] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 40
+[15-Apr-2016 01:27:21 UTC] PHP Stack trace:
+[15-Apr-2016 01:27:21 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 01:27:21 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 01:33:08 UTC] PHP Notice:  Array to string conversion in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 36
+[15-Apr-2016 01:33:08 UTC] PHP Stack trace:
+[15-Apr-2016 01:33:08 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 01:33:08 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 01:33:08 UTC] PHP Notice:  Array to string conversion in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 36
+[15-Apr-2016 01:33:08 UTC] PHP Stack trace:
+[15-Apr-2016 01:33:08 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 01:33:08 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[15-Apr-2016 01:33:08 UTC] PHP Notice:  Array to string conversion in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 36
+[15-Apr-2016 01:33:08 UTC] PHP Stack trace:
+[15-Apr-2016 01:33:08 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[15-Apr-2016 01:33:08 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[17-Apr-2016 15:12:57 UTC] PHP Notice:  Undefined variable: expl in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 37
+[17-Apr-2016 15:12:57 UTC] PHP Stack trace:
+[17-Apr-2016 15:12:57 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[17-Apr-2016 15:12:57 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[17-Apr-2016 15:13:41 UTC] PHP Notice:  Undefined variable: expl in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 37
+[17-Apr-2016 15:13:41 UTC] PHP Stack trace:
+[17-Apr-2016 15:13:41 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[17-Apr-2016 15:13:41 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[17-Apr-2016 15:13:46 UTC] PHP Notice:  Undefined variable: expl in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 37
+[17-Apr-2016 15:13:46 UTC] PHP Stack trace:
+[17-Apr-2016 15:13:46 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[17-Apr-2016 15:13:46 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[17-Apr-2016 16:47:54 UTC] [2016-04-17 04:04:54] [C:\Programs\wamp64\www\ExplORe_DP\app\views\admin.php] [error] Error while inserting article, INSERT INTO articles (sme_id, title, topic, author, description, content, link)
+                    VALUES ('414396', 'Bratislavský hrad je národnou tragédiou', 'bratislavsky-hrad-narodna-hanba-tisicrocia', '', 'Odborné grémium k prestavbe Bratislavského hradu bola komédia.', 'NoContent', 'http://monikakozelova.blog.sme.sk/c/414396/bratislavsky-hrad-narodna-hanba-tisicrocia.html?ref=tit') ; Data too long for column 'topic' at row 1
+
+[17-Apr-2016 16:48:05 UTC] [2016-04-17 04:04:05] [C:\Programs\wamp64\www\ExplORe_DP\app\views\admin.php] [error] Error while inserting article, INSERT INTO articles (sme_id, title, topic, author, description, content, link)
+                    VALUES ('414396', 'Bratislavský hrad je národnou tragédiou', 'bratislavsky-hrad-narodna-hanba-tisicrocia', '', 'Odborné grémium k prestavbe Bratislavského hradu bola komédia.', 'NoContent', 'http://monikakozelova.blog.sme.sk/c/414396/bratislavsky-hrad-narodna-hanba-tisicrocia.html?ref=tit') ; Data too long for column 'topic' at row 1
+
+[17-Apr-2016 17:03:42 UTC] [2016-04-17 05:04:42] [C:\Programs\wamp64\www\ExplORe_DP\app\views\admin.php] [error] Error while inserting article, INSERT INTO articles (sme_id, title, topic, author, description, content, link)
+                    VALUES ('33704', 'Obrali zdravotníctvo o peniaze, nič sa im nestalo', 'obrali-zdravotnictvo-o-peniaze-nic-sa-im-nestalo', '', 'Z politických nominantov, ktorí zdravotníctvo cez predražené tendre obrali o tisíce až milióny eur 
+doteraz nikto nebol odsúdený ani neniesol hmotnú zodpovednosť.', 'NoContent', 'http://tv.sme.sk/v/33704/obrali-zdravotnictvo-o-peniaze-nic-sa-im-nestalo.html') ; Data too long for column 'topic' at row 1
+
+[17-Apr-2016 17:03:42 UTC] [2016-04-17 05:04:42] [C:\Programs\wamp64\www\ExplORe_DP\app\views\admin.php] [error] Error while inserting article, INSERT INTO articles (sme_id, title, topic, author, description, content, link)
+                    VALUES ('414396', 'Bratislavský hrad je národnou tragédiou', 'bratislavsky-hrad-narodna-hanba-tisicrocia', '', 'Odborné grémium k prestavbe Bratislavského hradu bola komédia.', 'NoContent', 'http://monikakozelova.blog.sme.sk/c/414396/bratislavsky-hrad-narodna-hanba-tisicrocia.html?ref=tit') ; Data too long for column 'topic' at row 1
+
+[17-Apr-2016 17:03:43 UTC] [2016-04-17 05:04:43] [C:\Programs\wamp64\www\ExplORe_DP\app\views\admin.php] [error] Error while inserting article, INSERT INTO articles (sme_id, title, topic, author, description, content, link)
+                    VALUES ('33704', 'Obrali zdravotníctvo o peniaze, nič sa im nestalo', 'obrali-zdravotnictvo-o-peniaze-nic-sa-im-nestalo', '', 'Z politických nominantov, ktorí zdravotníctvo cez predražené tendre obrali o tisíce až milióny eur 
+doteraz nikto nebol odsúdený ani neniesol hmotnú zodpovednosť.', 'NoContent', 'http://tv.sme.sk/v/33704/obrali-zdravotnictvo-o-peniaze-nic-sa-im-nestalo.html') ; Data too long for column 'topic' at row 1
+
+[17-Apr-2016 17:03:43 UTC] [2016-04-17 05:04:43] [C:\Programs\wamp64\www\ExplORe_DP\app\views\admin.php] [error] Error while inserting article, INSERT INTO articles (sme_id, title, topic, author, description, content, link)
+                    VALUES ('414396', 'Bratislavský hrad je národnou tragédiou', 'bratislavsky-hrad-narodna-hanba-tisicrocia', '', 'Odborné grémium k prestavbe Bratislavského hradu bola komédia.', 'NoContent', 'http://monikakozelova.blog.sme.sk/c/414396/bratislavsky-hrad-narodna-hanba-tisicrocia.html?ref=tit') ; Data too long for column 'topic' at row 1
+

@@ -136,7 +136,7 @@ function updateArticleContent(content, article_id) {
       data: 'content='+content+'&article_id='+article_id,
       success: function(output) 
       {
-          alert('success, server says '+output+' KONIEC');
+          //alert('success, server says '+output+' KONIEC');
       }, error: function()
       {
           //alert('something went wrong, rating failed');

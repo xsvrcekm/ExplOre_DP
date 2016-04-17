@@ -3,15 +3,15 @@
  * Configuraton file for initializing database
  */
 function get_connection() {
-    /*$servername = "localhost";
+    $servername = "localhost";
     $username = "martin";
     $password = "Sv/11-m+T";
-    $dbname = "explore";*/
+    $dbname = "explore";
      
-    $servername = "mysql.hostinger.co.uk";
+    /*$servername = "mysql.hostinger.co.uk";
     $username = "u133754443_user";
     $password = "yeka03zede";
-    $dbname = "u133754443_db";
+    $dbname = "u133754443_db";*/
 
     // Create connection
     $connect = new mysqli($servername, $username, $password, $dbname);
@@ -22,7 +22,7 @@ function get_connection() {
         error_log($message);
         die("Connection failed: " . $connect->connect_error);
     }
-    echo "Connected successfully <br />";
+    //echo "Connected successfully <br />";
 
     // change character set to utf8
     if (!$connect->set_charset("utf8")) {

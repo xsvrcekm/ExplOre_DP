@@ -6,19 +6,19 @@ session_start();
 date_default_timezone_set('Europe/London');
 
 //database credentials
-/*define('DBHOST','localhost');
+define('DBHOST','localhost');
 define('DBUSER','martin');
 define('DBPASS','Sv/11-m+T');
-define('DBNAME','explore');*/
+define('DBNAME','explore');
 
-define('DBHOST','mysql.hostinger.co.uk');
+/*define('DBHOST','mysql.hostinger.co.uk');
 define('DBUSER','u133754443_user');
 define('DBPASS','yeka03zede');
-define('DBNAME','u133754443_db');
+define('DBNAME','u133754443_db');*/
 
 //application address
 define('DIR','http://explore-fiit.16mb.com/');
-define('SITEEMAIL','noreply@domain.com');
+define('SITEEMAIL','explore@explore-fiit.16mb.com');
 
 try {
     //create PDO connection
