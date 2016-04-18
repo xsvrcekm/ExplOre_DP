@@ -21,7 +21,7 @@
     $n = 0;
     $newArticlesIDs = [];
         
-    echo "<a href='/ExplORe_DP/app/controllers/deleteNoContent.php'><input id='delete' type='button' value='Delete NoContent articles'/></a>";
+    echo "<a href='/ExplORe_DP/app/views/deleteNoContent.php'><input id='delete' type='button' value='Delete NoContent articles'/></a>";
     
     echo"<br />";
     

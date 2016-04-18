@@ -3,7 +3,7 @@
     require('../controllers/registration/configDBLogin.php');
     if(!$user->is_logged_in()){ header('Location: ./app/views/registration/login.php'); }
     
-    require_once('../views/header.php');
+    require_once('header.php');
     
     ini_set('error_log', 'tmp/php_error.log');
 
@@ -26,6 +26,6 @@
     
     $conn->close();
     
-    require_once('../views/footer.php');
+    require_once('footer.php');
     
 ?>
