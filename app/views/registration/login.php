@@ -10,16 +10,37 @@ if(isset($_POST['submit'])){
 
 	$username = $_POST['username'];
 	$password = $_POST['password'];
+        
+        logLogin($username);
 	
 	if($user->login($username,$password)){
             $_SESSION['username'] = $username;
             header('Location: ../categories/titulka.php');
             exit;
 	} else {
-		$error[] = 'Zadali ste nesprávne používateľské meno alebo heslo alebo váš účet ešte nebol aktivovaný.';
+            $error[] = 'Zadali ste nesprávne používateľské meno alebo heslo alebo váš účet ešte nebol aktivovaný.';
 	}
 
 }//end if submit
+
+function logLogin($username) {
+    include('../../controllers/configDB.php');
+    $conn = get_connection();
+
+    $sql = "SELECT memberID FROM members AS m WHERE m.username = '$username' ";
+    $current_user = $conn->query($sql)->fetch_assoc()['memberID'];
+
+    //LOGGING
+    $sql = "INSERT INTO user_logs (log_action, uid)
+                            VALUES ('login', '$current_user')";
+    if ($conn->query($sql) === TRUE) {
+        //echo "New record created successfully. <br />";
+    } else {
+        $message = "[{$date}] [{$file}] [{$level}] Error while inserting article, {$sql} ; {$conn->error}" . PHP_EOL;
+        error_log($message);
+        //echo "Error: " . $sql . "<br />" . $conn->error . "<br />";
+    }
+}
 
 require('../header.php'); 
 ?>
@@ -82,7 +103,6 @@ require('../header.php');
     </form>
 
 </div>
-
 
 <?php 
 //include header template

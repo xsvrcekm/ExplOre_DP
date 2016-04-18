@@ -17,11 +17,61 @@
 
     $conn = get_connection();
     
-    // log click on this article
     $current_user = $_SESSION['memberID'];
-    $sql = "SELECT viewed_articles FROM members AS m WHERE m.memberID = '$current_user' ";
+    
+    $sql = "SELECT recommended_articles, explanations FROM members AS m WHERE m.memberID = '$current_user' ";
     $result = $conn->query($sql);
-    $va = $result->fetch_assoc()['viewed_articles'];
+    $res = $result->fetch_assoc();
+    $ra = $res['recommended_articles'];
+    $expl = $res['explanations'];
+    
+    //LOGGING
+    $sql = "INSERT INTO user_logs (log_action, uid, aid, pos, explanations)
+                    VALUES ('click', '$current_user' ,'$id', '$ra', '$expl')";
+    if ($conn->query($sql) === TRUE) {
+        //echo "New record created successfully. <br />";
+    } else {
+        $message = "[{$date}] [{$file}] [{$level}] Error while inserting article, {$sql} ; {$conn->error}" . PHP_EOL;
+        error_log($message);
+        //echo "Error: " . $sql . "<br />" . $conn->error . "<br />";
+    }
+
+    // log click on this article
+    $sql = "SELECT viewed_articles, recommended_articles FROM members AS m WHERE m.memberID = '$current_user' ";
+    $result = $conn->query($sql);
+    $res = $result->fetch_assoc();
+    $va = $res['viewed_articles'];
+    $ra = $res['recommended_articles'];
+    
+    if (substr($ra, 0, strlen($id)+1) === $id.',') {
+        $ran = substr($ra, strlen($id)+1, strlen($ra));
+        
+        $sql = "UPDATE members SET recommended_articles='$ran' WHERE memberID='$current_user'";   
+        if ($conn->query($sql) === TRUE) {
+            //echo "UPDATE succesful";
+        } else {
+            $message = "[{$date}] [{$file}] [{$level}] Error while updating article recommended_articles, {$sql} ; {$conn->error}".PHP_EOL;
+            //echo $message;
+            error_log($message);
+        }
+    }
+    
+    $pos = strpos($ra, ','.$id.',');
+    if($pos !== false) {
+        $first = substr($ra, 0, $pos);
+        $second = substr($ra, $pos+strlen($id)+1, strlen($ra));
+        $ran = $first.$second;
+        
+        $sql = "UPDATE members SET recommended_articles='$ran' WHERE memberID='$current_user'";   
+        if ($conn->query($sql) === TRUE) {
+            //echo "UPDATE succesful";
+        } else {
+            $message = "[{$date}] [{$file}] [{$level}] Error while updating article recommended_articles, {$sql} ; {$conn->error}".PHP_EOL;
+            //echo $message;
+            error_log($message);
+        }
+    }
+    
     if (!strpos($va, ','.$id.',') && (substr($va, 0, strlen($id)+1) !== $id.',')) {
         $va = $va.$id.",";
         $sql = "UPDATE members SET viewed_articles='$va' WHERE memberID='$current_user'";   

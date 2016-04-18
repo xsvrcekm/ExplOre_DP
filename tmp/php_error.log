@@ -2308,3 +2308,27 @@ doteraz nikto nebol odsúdený ani neniesol hmotnú zodpovednosť.', 'NoContent'
 [18-Apr-2016 12:38:10 UTC] [2016-04-18 12:04:10] [C:\Programs\wamp64\www\ExplORe_DP\app\views\admin.php] [error] Error while inserting article, INSERT INTO articles (sme_id, title, topic, author, description, content, link)
                     VALUES ('414640', 'Medvecký nie je jediný súdený na Kotlebovej kandidátke', 'ak-ide-o-extremisticke-symboly-neznalost-pred-sudom-ospravedlnuje', '', 'Kotlebova strana často a rada používa slovo bezpečnosť.', 'NoContent', 'http://transparency.blog.sme.sk/c/414640/ak-ide-o-extremisticke-symboly-neznalost-pred-sudom-ospravedlnuje.html') ; Data too long for column 'topic' at row 1
 
+[18-Apr-2016 20:20:27 UTC] PHP Notice:  Undefined offset: 4 in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 31
+[18-Apr-2016 20:20:27 UTC] PHP Stack trace:
+[18-Apr-2016 20:20:28 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[18-Apr-2016 20:20:28 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[18-Apr-2016 20:20:28 UTC] PHP Notice:  Undefined offset: 5 in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 31
+[18-Apr-2016 20:20:28 UTC] PHP Stack trace:
+[18-Apr-2016 20:20:28 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[18-Apr-2016 20:20:28 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[18-Apr-2016 20:20:28 UTC] PHP Notice:  Undefined offset: 6 in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 31
+[18-Apr-2016 20:20:28 UTC] PHP Stack trace:
+[18-Apr-2016 20:20:28 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[18-Apr-2016 20:20:28 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[18-Apr-2016 20:20:28 UTC] PHP Notice:  Undefined offset: 7 in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 31
+[18-Apr-2016 20:20:28 UTC] PHP Stack trace:
+[18-Apr-2016 20:20:28 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[18-Apr-2016 20:20:28 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[18-Apr-2016 20:20:28 UTC] PHP Notice:  Undefined offset: 8 in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 31
+[18-Apr-2016 20:20:28 UTC] PHP Stack trace:
+[18-Apr-2016 20:20:28 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[18-Apr-2016 20:20:28 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[18-Apr-2016 20:20:28 UTC] PHP Notice:  Undefined offset: 9 in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 31
+[18-Apr-2016 20:20:28 UTC] PHP Stack trace:
+[18-Apr-2016 20:20:28 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[18-Apr-2016 20:20:28 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12

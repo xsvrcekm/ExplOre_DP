@@ -26,7 +26,9 @@
         $rec_art_ids = explode(",", $row['recommended_articles']);
         $explanations = explode(",", $row['explanations']);
         $i = 0;
-        foreach($rec_art_ids as $rec_art_id) {
+        for($i = 0 ; ($i < 10)&&($i < count($rec_art_ids)) ; $i++) {
+            $rec_art_id = $rec_art_ids[$i];
+            
             //SELECT article
             $sql = "SELECT * FROM articles AS a WHERE a.id = '$rec_art_id' ";
             $result = $conn->query($sql);
@@ -66,8 +68,9 @@
                             echo "<div id=\"articles_img\">".$regs[1]."</div>";
                         echo "</a>";
                     } else {
-                        echo "NOTHING IMAGE<br /><br />";
-                        //echo $row['content'];
+                        echo "<a href=\"/app/views/article.php?aid=$id\">";
+                            echo "<div id=\"articles_img\">"."<img src=\"/app/assets/images/article_img.jpg\" width=\"501\">"."</div>";
+                        echo "</a>";
                     }
                     
                     echo "<div id=\"articles_text\">";
@@ -94,7 +97,6 @@
                     
                 echo "</div>";
             }
-            $i++;
         }
     }
     
