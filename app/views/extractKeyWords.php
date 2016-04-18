@@ -94,22 +94,22 @@
         foreach($kws as $key => $value){
             if($i > 0){
                 echo $key."->".$value."<br />";
-                $key_words .= $key.","; 
+                $key_words .= $key.":".$value.","; 
             }
             $i--;
         }
         echo $key_words."<br />";
         echo "-------------------------<br />";
         
-        /*$sql = "UPDATE articles SET key_words='$key_words' WHERE id='$aid'";  
+        $sql = "UPDATE articles SET key_words='$key_words' WHERE id='$aid'";  
     
         if ($conn->query($sql) === TRUE) {
-            //echo "***".$article_id."Content updated successfully.***".$content;
+            //echo "***".$article_id."KeyWords updated successfully.***".$content;
         } else {
             $message = "[{$date}] [{$file}] [{$level}] Error while updating article key words, {$sql} ; {$conn->error}".PHP_EOL;
             error_log($message);
             //echo "***Error: " . $sql . "<br />" . $conn->error . "<br />***";
-        }*/
+        }
     } 
     
     $conn->close();

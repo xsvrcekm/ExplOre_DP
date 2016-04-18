@@ -2284,3 +2284,27 @@ doteraz nikto nebol odsúdený ani neniesol hmotnú zodpovednosť.', 'NoContent'
 [18-Apr-2016 06:18:47 UTC] PHP Stack trace:
 [18-Apr-2016 06:18:47 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
 [18-Apr-2016 06:18:47 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[18-Apr-2016 11:30:37 UTC] [2016-04-18 11:04:37] [C:\Programs\wamp64\www\ExplORe_DP\app\views\admin.php] [error] Error while inserting article, INSERT INTO articles (sme_id, title, topic, author, description, content, link)
+                    VALUES ('414640', 'Medvecký nie je jediný súdený na Kotlebovej kandidátke', 'ak-ide-o-extremisticke-symboly-neznalost-pred-sudom-ospravedlnuje', '', 'Kotlebova strana často a rada používa slovo bezpečnosť.', 'NoContent', 'http://transparency.blog.sme.sk/c/414640/ak-ide-o-extremisticke-symboly-neznalost-pred-sudom-ospravedlnuje.html') ; Data too long for column 'topic' at row 1
+
+[18-Apr-2016 11:30:49 UTC] [2016-04-18 11:04:49] [C:\Programs\wamp64\www\ExplORe_DP\app\views\admin.php] [error] Error while inserting article, INSERT INTO articles (sme_id, title, topic, author, description, content, link)
+                    VALUES ('414640', 'Medvecký nie je jediný súdený na Kotlebovej kandidátke', 'ak-ide-o-extremisticke-symboly-neznalost-pred-sudom-ospravedlnuje', '', 'Kotlebova strana často a rada používa slovo bezpečnosť.', 'NoContent', 'http://transparency.blog.sme.sk/c/414640/ak-ide-o-extremisticke-symboly-neznalost-pred-sudom-ospravedlnuje.html') ; Data too long for column 'topic' at row 1
+
+[18-Apr-2016 11:58:46 UTC] [2016-04-18 11:04:46] [C:\Programs\wamp64\www\ExplORe_DP\app\views\admin.php] [error] Error while inserting article, INSERT INTO articles (sme_id, title, topic, author, description, content, link)
+                    VALUES ('414640', 'Medvecký nie je jediný súdený na Kotlebovej kandidátke', 'ak-ide-o-extremisticke-symboly-neznalost-pred-sudom-ospravedlnuje', '', 'Kotlebova strana často a rada používa slovo bezpečnosť.', 'NoContent', 'http://transparency.blog.sme.sk/c/414640/ak-ide-o-extremisticke-symboly-neznalost-pred-sudom-ospravedlnuje.html') ; Data too long for column 'topic' at row 1
+
+[18-Apr-2016 11:58:47 UTC] [2016-04-18 11:04:47] [C:\Programs\wamp64\www\ExplORe_DP\app\views\admin.php] [error] Error while inserting article, INSERT INTO articles (sme_id, title, topic, author, description, content, link)
+                    VALUES ('414640', 'Medvecký nie je jediný súdený na Kotlebovej kandidátke', 'ak-ide-o-extremisticke-symboly-neznalost-pred-sudom-ospravedlnuje', '', 'Kotlebova strana často a rada používa slovo bezpečnosť.', 'NoContent', 'http://transparency.blog.sme.sk/c/414640/ak-ide-o-extremisticke-symboly-neznalost-pred-sudom-ospravedlnuje.html') ; Data too long for column 'topic' at row 1
+
+[18-Apr-2016 12:10:28 UTC] [2016-04-18 12:04:28] [C:\Programs\wamp64\www\ExplORe_DP\app\views\admin.php] [error] Error while inserting article, INSERT INTO articles (sme_id, title, topic, author, description, content, link)
+                    VALUES ('414640', 'Medvecký nie je jediný súdený na Kotlebovej kandidátke', 'ak-ide-o-extremisticke-symboly-neznalost-pred-sudom-ospravedlnuje', '', 'Kotlebova strana často a rada používa slovo bezpečnosť.', 'NoContent', 'http://transparency.blog.sme.sk/c/414640/ak-ide-o-extremisticke-symboly-neznalost-pred-sudom-ospravedlnuje.html') ; Data too long for column 'topic' at row 1
+
+[18-Apr-2016 12:38:01 UTC] [2016-04-18 12:04:01] [C:\Programs\wamp64\www\ExplORe_DP\app\views\admin.php] [error] Error while inserting article, INSERT INTO articles (sme_id, title, topic, author, description, content, link)
+                    VALUES ('414640', 'Medvecký nie je jediný súdený na Kotlebovej kandidátke', 'ak-ide-o-extremisticke-symboly-neznalost-pred-sudom-ospravedlnuje', '', 'Kotlebova strana často a rada používa slovo bezpečnosť.', 'NoContent', 'http://transparency.blog.sme.sk/c/414640/ak-ide-o-extremisticke-symboly-neznalost-pred-sudom-ospravedlnuje.html') ; Data too long for column 'topic' at row 1
+
+[18-Apr-2016 12:38:02 UTC] [2016-04-18 12:04:02] [C:\Programs\wamp64\www\ExplORe_DP\app\views\admin.php] [error] Error while inserting article, INSERT INTO articles (sme_id, title, topic, author, description, content, link)
+                    VALUES ('414640', 'Medvecký nie je jediný súdený na Kotlebovej kandidátke', 'ak-ide-o-extremisticke-symboly-neznalost-pred-sudom-ospravedlnuje', '', 'Kotlebova strana často a rada používa slovo bezpečnosť.', 'NoContent', 'http://transparency.blog.sme.sk/c/414640/ak-ide-o-extremisticke-symboly-neznalost-pred-sudom-ospravedlnuje.html') ; Data too long for column 'topic' at row 1
+
+[18-Apr-2016 12:38:10 UTC] [2016-04-18 12:04:10] [C:\Programs\wamp64\www\ExplORe_DP\app\views\admin.php] [error] Error while inserting article, INSERT INTO articles (sme_id, title, topic, author, description, content, link)
+                    VALUES ('414640', 'Medvecký nie je jediný súdený na Kotlebovej kandidátke', 'ak-ide-o-extremisticke-symboly-neznalost-pred-sudom-ospravedlnuje', '', 'Kotlebova strana často a rada používa slovo bezpečnosť.', 'NoContent', 'http://transparency.blog.sme.sk/c/414640/ak-ide-o-extremisticke-symboly-neznalost-pred-sudom-ospravedlnuje.html') ; Data too long for column 'topic' at row 1
+
