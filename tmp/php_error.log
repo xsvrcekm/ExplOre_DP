@@ -2255,3 +2255,32 @@ doteraz nikto nebol odsúdený ani neniesol hmotnú zodpovednosť.', 'NoContent'
 [17-Apr-2016 17:03:43 UTC] [2016-04-17 05:04:43] [C:\Programs\wamp64\www\ExplORe_DP\app\views\admin.php] [error] Error while inserting article, INSERT INTO articles (sme_id, title, topic, author, description, content, link)
                     VALUES ('414396', 'Bratislavský hrad je národnou tragédiou', 'bratislavsky-hrad-narodna-hanba-tisicrocia', '', 'Odborné grémium k prestavbe Bratislavského hradu bola komédia.', 'NoContent', 'http://monikakozelova.blog.sme.sk/c/414396/bratislavsky-hrad-narodna-hanba-tisicrocia.html?ref=tit') ; Data too long for column 'topic' at row 1
 
+[17-Apr-2016 18:48:22 UTC] [2016-04-17 06:04:22] [C:\Programs\wamp64\www\ExplORe_DP\app\views\admin.php] [error] Error while inserting article, INSERT INTO articles (sme_id, title, topic, author, description, content, link)
+                    VALUES ('33704', 'Obrali zdravotníctvo o peniaze, nič sa im nestalo', 'obrali-zdravotnictvo-o-peniaze-nic-sa-im-nestalo', '', 'Nikto nebol odsúdený ani neniesol hmotnú zodpovednosť.', 'NoContent', 'http://tv.sme.sk/v/33704/obrali-zdravotnictvo-o-peniaze-nic-sa-im-nestalo.html') ; Data too long for column 'topic' at row 1
+
+[17-Apr-2016 18:48:22 UTC] [2016-04-17 06:04:22] [C:\Programs\wamp64\www\ExplORe_DP\app\views\admin.php] [error] Error while inserting article, INSERT INTO articles (sme_id, title, topic, author, description, content, link)
+                    VALUES ('414396', 'Bratislavský hrad je národnou tragédiou', 'bratislavsky-hrad-narodna-hanba-tisicrocia', '', 'Odborné grémium k prestavbe Bratislavského hradu bola komédia.', 'NoContent', 'http://monikakozelova.blog.sme.sk/c/414396/bratislavsky-hrad-narodna-hanba-tisicrocia.html?ref=tit') ; Data too long for column 'topic' at row 1
+
+[17-Apr-2016 19:22:16 UTC] [2016-04-17 07:04:16] [C:\Programs\wamp64\www\ExplORe_DP\app\views\admin.php] [error] Error while inserting article, INSERT INTO articles (sme_id, title, topic, author, description, content, link)
+                    VALUES ('33704', 'Obrali zdravotníctvo o peniaze, nič sa im nestalo', 'obrali-zdravotnictvo-o-peniaze-nic-sa-im-nestalo', '', 'Nikto nebol odsúdený ani neniesol hmotnú zodpovednosť.', 'NoContent', 'http://tv.sme.sk/v/33704/obrali-zdravotnictvo-o-peniaze-nic-sa-im-nestalo.html') ; Data too long for column 'topic' at row 1
+
+[17-Apr-2016 19:22:16 UTC] [2016-04-17 07:04:16] [C:\Programs\wamp64\www\ExplORe_DP\app\views\admin.php] [error] Error while inserting article, INSERT INTO articles (sme_id, title, topic, author, description, content, link)
+                    VALUES ('414396', 'Bratislavský hrad je národnou tragédiou', 'bratislavsky-hrad-narodna-hanba-tisicrocia', '', 'Odborné grémium k prestavbe Bratislavského hradu bola komédia.', 'NoContent', 'http://monikakozelova.blog.sme.sk/c/414396/bratislavsky-hrad-narodna-hanba-tisicrocia.html?ref=tit') ; Data too long for column 'topic' at row 1
+
+[17-Apr-2016 23:03:39 UTC] [2016-04-17 11:04:39] [C:\Programs\wamp64\www\ExplORe_DP\app\views\admin.php] [error] Error while inserting article, INSERT INTO articles (sme_id, title, topic, author, description, content, link)
+                    VALUES ('414640', 'Medvecký nie je jediný súdený na Kotlebovej kandidátke', 'ak-ide-o-extremisticke-symboly-neznalost-pred-sudom-ospravedlnuje', '', 'Kotlebova strana často a rada používa slovo bezpečnosť.', 'NoContent', 'http://transparency.blog.sme.sk/c/414640/ak-ide-o-extremisticke-symboly-neznalost-pred-sudom-ospravedlnuje.html') ; Data too long for column 'topic' at row 1
+
+[17-Apr-2016 23:03:39 UTC] [2016-04-17 11:04:39] [C:\Programs\wamp64\www\ExplORe_DP\app\views\admin.php] [error] Error while inserting article, INSERT INTO articles (sme_id, title, topic, author, description, content, link)
+                    VALUES ('33707', 'Podnikateľ blízky Smeru stavia vilu, susedov stavebný úrad obišiel', 'podnikatel-blizky-smeru-stavia-vilu-susedov-stavebny-urad-obisiel', '', 'Susedia sú nespokojní.', 'NoContent', 'http://tv.sme.sk/v/33707/podnikatel-blizky-smeru-stavia-vilu-susedov-stavebny-urad-obisiel.html') ; Data too long for column 'topic' at row 1
+
+[17-Apr-2016 23:03:39 UTC] [2016-04-17 11:04:39] [C:\Programs\wamp64\www\ExplORe_DP\app\views\admin.php] [error] Error while inserting article, INSERT INTO articles (sme_id, title, topic, author, description, content, link)
+                    VALUES ('414396', 'Bratislavský hrad je národnou tragédiou', 'bratislavsky-hrad-narodna-hanba-tisicrocia', '', 'Odborné grémium k prestavbe Bratislavského hradu bola komédia.', 'NoContent', 'http://monikakozelova.blog.sme.sk/c/414396/bratislavsky-hrad-narodna-hanba-tisicrocia.html?ref=tit') ; Data too long for column 'topic' at row 1
+
+[18-Apr-2016 06:18:47 UTC] PHP Notice:  Undefined offset: 1 in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 38
+[18-Apr-2016 06:18:47 UTC] PHP Stack trace:
+[18-Apr-2016 06:18:47 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[18-Apr-2016 06:18:47 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[18-Apr-2016 06:18:47 UTC] PHP Notice:  Undefined offset: 1 in C:\Programs\wamp64\www\ExplORe_DP\app\views\articles.php on line 48
+[18-Apr-2016 06:18:47 UTC] PHP Stack trace:
+[18-Apr-2016 06:18:47 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
+[18-Apr-2016 06:18:47 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12

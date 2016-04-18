@@ -34,31 +34,32 @@
             while($row = $result->fetch_assoc()) {
                 $id = $row['id'];
                 
-                $expl = explode(":",$explanations[$i]);
-                $sql = "SELECT title FROM articles AS a WHERE a.id = '$expl[1]' ";
-                $art = $conn->query($sql)->fetch_assoc();
-                
-                if ($expl[0] == 'u') {
-                    $sql = "SELECT username FROM members AS m WHERE m.memberID = '$expl[1]' ";
-                    $result = $conn->query($sql);
-                    $explanation = "<div id=\"articles_strip_one\">" . $u . "<a href = \"app/views/userpage.php?uid=$expl[1]\">" . $result->fetch_assoc()['username'] . "</a>" . "." . "</div>";
-                } elseif ($expl[0] == 'a') {
-                    $explanation = "<div id=\"articles_strip_two\">" . $a . "<a href = \"app/views/article.php?aid=$expl[1]\"> \"" . $art['title'] . "\"</a>" . "." . "</div>";
-                } else {
-                    $explanation = "<div id=\"articles_strip_one\">" . $k . $expl[1] . "." . "</div>";
-                }
-                
-                echo "<div id=\"articles_strip\">";
-                    echo $explanation;
-                    echo "<div id=\"articles_strip_category\">";
-                        if(in_array($row['topic'], $topics)){
-                            echo "<img src='./app/assets/images/categories/".$row['topic'].".png' alt='sport_logo' width='52' height='71'>";
-                        }else {
-                            echo "<img src='./app/assets/images/categories/ine.png' alt='sport_logo' width='52' height='71'>"; 
-                        }
+                if(!empty($explanations[$i])){
+                    $expl = explode(":",$explanations[$i]);
+                    $sql = "SELECT title FROM articles AS a WHERE a.id = '$expl[1]' ";
+                    $art = $conn->query($sql)->fetch_assoc();
+
+                    if ($expl[0] == 'u') {
+                        $sql = "SELECT username FROM members AS m WHERE m.memberID = '$expl[1]' ";
+                        $result = $conn->query($sql);
+                        $explanation = "<div id=\"articles_strip_one\">" . $u . "<a href = \"app/views/userpage.php?uid=$expl[1]\">" . $result->fetch_assoc()['username'] . "</a>" . "." . "</div>";
+                    } elseif ($expl[0] == 'a') {
+                        $explanation = "<div id=\"articles_strip_two\">" . $a . "<a href = \"app/views/article.php?aid=$expl[1]\"> \"" . $art['title'] . "\"</a>" . "." . "</div>";
+                    } else {
+                        $explanation = "<div id=\"articles_strip_one\">" . $k . $expl[1] . "." . "</div>";
+                    }
+
+                    echo "<div id=\"articles_strip\">";
+                        echo $explanation;
+                        echo "<div id=\"articles_strip_category\">";
+                            if(in_array($row['topic'], $topics)){
+                                echo "<img src='./app/assets/images/categories/".$row['topic'].".png' alt='sport_logo' width='52' height='71'>";
+                            }else {
+                                echo "<img src='./app/assets/images/categories/ine.png' alt='sport_logo' width='52' height='71'>"; 
+                            }
+                        echo "</div>";
                     echo "</div>";
-                echo "</div>";
-                
+                }
                 echo "<div id=\"articles\">";
                     if (preg_match('%(<img[^>]*>)%i', $row['content'], $regs)) {
                         echo "<a href=\"./app/views/article.php?aid=$id\">";

@@ -69,6 +69,8 @@ ku
 lebo
 len
 ma
+mal
+mala
 mať
 má
 máte
@@ -77,6 +79,7 @@ mi
 mna
 mne
 mnou
+moje
 musieť
 môcť
 môj

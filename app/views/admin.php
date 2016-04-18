@@ -21,11 +21,15 @@
     $n = 0;
     $newArticlesIDs = [];
         
-    echo "<a href='/ExplORe_DP/app/controllers/deleteNoContent.php'><input id='extract' type='button' value='Delete NoContent articles'/></a>";
+    echo "<a href='/ExplORe_DP/app/controllers/deleteNoContent.php'><input id='delete' type='button' value='Delete NoContent articles'/></a>";
     
     echo"<br />";
     
     echo "<a href='/ExplORe_DP/app/views/extractKeyWords.php'><input id='extract' type='button' value='Extract Key Words'/></a>";
+    
+    echo"<br />";
+    
+    echo "<a href='/ExplORe_DP/app/views/generateExplanations.php'><input id='generate' type='button' value='Generate Explanations'/></a>";
     
     echo "<hr>";
 

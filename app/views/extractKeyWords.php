@@ -69,29 +69,47 @@
             $word = preg_replace('/\s+/','',$word);
             $input = str_replace(' '.$word.' ', ' ', $input);
         }
-        
         $input = strtr( $input, $unwanted_array );      // replace slovak special characters
         $input = strtolower($input);    // to lowercase
+        // replace stop words
+        foreach($stop_words as $word){
+            $word = preg_replace('/\s+/','',$word);
+            $input = str_replace(' '.$word.' ', ' ', $input);
+        }
+        $input = preg_replace("/[^ \w]+/", "", $input);
         
         $tokens = preg_split("/[\s,]+/", $input);
-        $keywords = [];
+        $kws = [];
         foreach($tokens as $token){
-            if(array_key_exists($token,$keywords)){
-                $keywords[$token]++;
+            if(array_key_exists($token,$kws)){
+                $kws[$token]++;
             }else {
-                $keywords[$token] = 1;
+                $kws[$token] = 1;
             }
         }
         
-        arsort($keywords);
+        arsort($kws);
         $i = 10;
-        foreach($keywords as $key => $value){
+        $key_words = "";
+        foreach($kws as $key => $value){
             if($i > 0){
                 echo $key."->".$value."<br />";
+                $key_words .= $key.","; 
             }
             $i--;
         }
+        echo $key_words."<br />";
         echo "-------------------------<br />";
+        
+        /*$sql = "UPDATE articles SET key_words='$key_words' WHERE id='$aid'";  
+    
+        if ($conn->query($sql) === TRUE) {
+            //echo "***".$article_id."Content updated successfully.***".$content;
+        } else {
+            $message = "[{$date}] [{$file}] [{$level}] Error while updating article key words, {$sql} ; {$conn->error}".PHP_EOL;
+            error_log($message);
+            //echo "***Error: " . $sql . "<br />" . $conn->error . "<br />***";
+        }*/
     } 
     
     $conn->close();

@@ -244,3 +244,30 @@ hr {
     width: 70%;
     text-align: justify;
 }
+
+#questionnaire {
+    position: absolute;
+    float: right;
+    right: 0%;
+    top: 80%;
+}
+#submit {
+    position: relative;
+    width: 30%;
+    left: 40%;
+}
+input[type='checkbox'] {
+    width:25px;
+    height:25px;
+    background:white;
+    border-radius:5px;
+    border:2px solid #555;
+    padding: 0;
+    margin:0;
+    vertical-align: bottom;
+    position: relative;
+    top: -2px;
+}
+input[type='checkbox']:checked {
+    background: #abd;
+}
