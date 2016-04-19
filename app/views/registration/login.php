@@ -15,7 +15,7 @@ if(isset($_POST['submit'])){
 	
 	if($user->login($username,$password)){
             $_SESSION['username'] = $username;
-            header('Location: ../categories/titulka.php');
+            header('Location: ../../index.php');
             exit;
 	} else {
             $error[] = 'Zadali ste nesprávne používateľské meno alebo heslo alebo váš účet ešte nebol aktivovaný.';

@@ -19,9 +19,10 @@
     
     $current_user = $_SESSION['memberID'];
     
-    $sql = "SELECT recommended_articles, explanations FROM members AS m WHERE m.memberID = '$current_user' ";
+    $sql = "SELECT viewed_articles, recommended_articles, explanations FROM members AS m WHERE m.memberID = '$current_user' ";
     $result = $conn->query($sql);
     $res = $result->fetch_assoc();
+    $va = $res['viewed_articles'];
     $ra = $res['recommended_articles'];
     $expl = $res['explanations'];
     
@@ -35,28 +36,9 @@
         error_log($message);
         //echo "Error: " . $sql . "<br />" . $conn->error . "<br />";
     }
-
-    // log click on this article
-    $sql = "SELECT viewed_articles, recommended_articles FROM members AS m WHERE m.memberID = '$current_user' ";
-    $result = $conn->query($sql);
-    $res = $result->fetch_assoc();
-    $va = $res['viewed_articles'];
-    $ra = $res['recommended_articles'];
     
-    if (substr($ra, 0, strlen($id)+1) === $id.',') {
-        $ran = substr($ra, strlen($id)+1, strlen($ra));
-        
-        $sql = "UPDATE members SET recommended_articles='$ran' WHERE memberID='$current_user'";   
-        if ($conn->query($sql) === TRUE) {
-            //echo "UPDATE succesful";
-        } else {
-            $message = "[{$date}] [{$file}] [{$level}] Error while updating article recommended_articles, {$sql} ; {$conn->error}".PHP_EOL;
-            //echo $message;
-            error_log($message);
-        }
-    }
-    
-    $pos = strpos($ra, ','.$id.',');
+    //delete from recommended
+    $pos = strpos($ra, ','.$id.',');    //if it is in middle of row
     if($pos !== false) {
         $first = substr($ra, 0, $pos);
         $second = substr($ra, $pos+strlen($id)+1, strlen($ra));
@@ -71,7 +53,46 @@
             error_log($message);
         }
     }
+    if (substr($ra, 0, strlen($id)+1) === $id.',') {    //if it is at the begining of row
+        $ran = substr($ra, strlen($id)+1, strlen($ra));
+        
+        $sql = "UPDATE members SET recommended_articles='$ran' WHERE memberID='$current_user'";   
+        if ($conn->query($sql) === TRUE) {
+            //echo "UPDATE succesful";
+        } else {
+            $message = "[{$date}] [{$file}] [{$level}] Error while updating article recommended_articles, {$sql} ; {$conn->error}".PHP_EOL;
+            //echo $message;
+            error_log($message);
+        }
+    }
     
+    //delete explanations
+    //find position
+    $recart = explode(",", $ra);
+    for($i = 0 ; $i < count($recart) ; $i++) {
+        if (strcmp($recart[$i], $id) === 0) {
+            $position = $i;
+        }
+    }
+    //new explanation without that for this article
+    $new_expl = "";
+    $expls = explode(",", $expl);
+    for($i = 0 ; $i < count($expls) ; $i++) {
+        if($i !== $position && !empty($expls[$i])) {
+            $new_expl .= $expls[$i].",";
+        }
+    }
+    //update explanations
+    $sql = "UPDATE members SET explanations='$new_expl' WHERE memberID='$current_user'";   
+    if ($conn->query($sql) === TRUE) {
+        //echo "UPDATE succesful";
+    } else {
+        $message = "[{$date}] [{$file}] [{$level}] Error while updating article recommended_articles, {$sql} ; {$conn->error}" . PHP_EOL;
+        //echo $message;
+        error_log($message);
+    }
+
+// log click on this article
     if (!strpos($va, ','.$id.',') && (substr($va, 0, strlen($id)+1) !== $id.',')) {
         $va = $va.$id.",";
         $sql = "UPDATE members SET viewed_articles='$va' WHERE memberID='$current_user'";   
