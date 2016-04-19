@@ -1,9 +1,9 @@
 <?php
 
-    require('../controllers/registration/configDBLogin.php');
-    if(!$user->is_logged_in()){ header('Location: ./app/views/registration/login.php'); }
+    require('../../controllers/registration/configDBLogin.php');
+    if(!$user->is_logged_in()){ header('Location: ./app/views/admin/registration/login.php'); }
 
-    require_once('header.php');
+    require_once('../header.php');
     
     ini_set('error_log', 'tmp/php_error.log');
 
@@ -11,7 +11,7 @@
     $file = __FILE__;
     $level = "error";
 
-    include('../controllers/configDB.php');
+    include('../../controllers/configDB.php');
 
     $conn = get_connection();
     
@@ -51,7 +51,7 @@
                             'ö' => 'o', 'ø' => 'o', 'ù' => 'u', 'ú' => 'u', 'û' => 'u', 'ý' => 'y', 'þ' => 'b', 'ÿ' => 'y', 'ľ' => 'l', 'Ľ' => 'L', 'ď' => 'd', 'Ď' => 'D', 'ť' => 't', 'Ť' => 'T',
                             'č' => 'c', 'Č' => 'C', 'ĺ' => 'l', 'Ĺ' => 'L', 'ň' => 'n', 'Ň' => 'N');
     
-    $stop_words = file('../../stop_words.txt');
+    $stop_words = file('../../../stop_words.txt');
     
     $sql = "SELECT id, content FROM articles AS a WHERE a.key_words IS NULL ";
     $result = $conn->query($sql);
@@ -114,5 +114,5 @@
     
     $conn->close();
     
-    require_once('footer.php');
+    require_once('../footer.php');
 ?>

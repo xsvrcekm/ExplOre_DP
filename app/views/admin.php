@@ -21,7 +21,7 @@
     $n = 0;
     $newArticlesIDs = [];
     
-    echo "<a href='/ExplORe_DP/app/views/adminOther.php'><input id='other' type='button' value='Other Actions'/></a>";
+    echo "<a href='/ExplORe_DP/app/views/admin/adminOther.php'><input id='other' type='button' value='Other Actions'/></a>";
     
     echo "<hr>";
 
