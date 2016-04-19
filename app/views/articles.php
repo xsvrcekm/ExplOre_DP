@@ -36,7 +36,7 @@
             while($row = $result->fetch_assoc()) {
                 $id = $row['id'];
                 
-                if(!empty($explanations[$i])){
+                if(!empty($explanations[$i]) && $current_user > 2){
                     $expl = explode(":",$explanations[$i]);
                     $sql = "SELECT title FROM articles AS a WHERE a.id = '$expl[1]' ";
                     $art = $conn->query($sql)->fetch_assoc();
@@ -62,6 +62,7 @@
                         echo "</div>";
                     echo "</div>";
                 }
+                
                 echo "<div id=\"articles\">";
                     if (preg_match('%(<img[^>]*>)%i', $row['content'], $regs)) {
                         echo "<a href=\"./app/views/article.php?aid=$id\">";

@@ -53,7 +53,7 @@ Martin Svrček
                     </a>
                 </div>
             </div>
-            <div id="mainmenu">
+            <!--<div id="mainmenu">
                 <nav>
                 <ul>
                     <li id="titulka" >
@@ -82,6 +82,6 @@ Martin Svrček
                     </li>
                 </ul>
                 </nav>
-            </div>
+            </div>-->
             <hr>
             <div id="content">
