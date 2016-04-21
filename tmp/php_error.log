@@ -2332,3 +2332,9 @@ doteraz nikto nebol odsúdený ani neniesol hmotnú zodpovednosť.', 'NoContent'
 [18-Apr-2016 20:20:28 UTC] PHP Stack trace:
 [18-Apr-2016 20:20:28 UTC] PHP   1. {main}() C:\Programs\wamp64\www\ExplORe_DP\index.php:0
 [18-Apr-2016 20:20:28 UTC] PHP   2. require_once() C:\Programs\wamp64\www\ExplORe_DP\index.php:12
+[20-Apr-2016 22:44:35 UTC] [2016-04-20 10:04:35] [C:\Programs\wamp64\www\ExplORe_DP\app\views\admin.php] [error] Error while inserting article, INSERT INTO articles (sme_id, title, topic, author, description, content, link)
+                    VALUES ('33727', 'Odhaľte, čo sme ukryli do nezvyčajnej filmovej krížovky', 'odhalte-co-sme-ukryli-do-nezvycajnej-filmovej-krizovky', '', 'Úlohou bude vylúštiť tajničku.', 'NoContent', 'http://tv.sme.sk/v/33727/odhalte-co-sme-ukryli-do-nezvycajnej-filmovej-krizovky.html') ; Data too long for column 'topic' at row 1
+
+[20-Apr-2016 23:20:57 UTC] [2016-04-20 11:04:57] [C:\Programs\wamp64\www\ExplORe_DP\app\views\admin.php] [error] Error while inserting article, INSERT INTO articles (sme_id, title, topic, author, description, content, link)
+                    VALUES ('33727', 'Odhaľte, čo sme ukryli do nezvyčajnej filmovej krížovky', 'odhalte-co-sme-ukryli-do-nezvycajnej-filmovej-krizovky', '', 'Úlohou bude vylúštiť tajničku.', 'NoContent', 'http://tv.sme.sk/v/33727/odhalte-co-sme-ukryli-do-nezvycajnej-filmovej-krizovky.html') ; Data too long for column 'topic' at row 1
+

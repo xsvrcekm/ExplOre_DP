@@ -1,7 +1,7 @@
 <?php
 
     require('../../controllers/registration/configDBLogin.php');
-    if(!$user->is_logged_in()){ header('Location: ./app/views/admin/registration/login.php'); }
+    if(!$user->is_logged_in()){ header('Location: ./app/views/registration/login.php'); }
     
     require_once('../header.php');
     
@@ -32,6 +32,10 @@
     echo"<br />";
     
     echo "<a href='/ExplORe_DP/app/views/admin/getUserLogs.php'><input id='getUserLogs' type='button' value='Get User Logs'/></a>";
+    
+    echo"<br />";
+    
+    echo "<a href='/ExplORe_DP/app/views/admin/competitionRank.php'><input id='getCompetitionRank' type='button' value='Get Ranks'/></a>";
     
     echo "<hr>";
     

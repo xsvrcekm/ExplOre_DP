@@ -1,6 +1,26 @@
 
     <div id="welcome">
-        <h2> Vitaj na stránke projektu <i>ExplORe</i> !</h2>
+        <h1 style="text-align:center; color:#5ab1e8;"> SÚŤAŽ </h1>
+        <h2 style="text-align:center;"> Používaj systém <i>Explore</i> a vyhraj zaujímavé ceny !!!</h2>
+        
+        <p> Ahojte, v rámci mojej snahy motivovať Vás k používaniu môjho systému som sa rozhodol
+            vyhlásiť súťaž o vecné ceny.<br /> 
+            V systéme sa pridávajú nové články vždy okolo 8:00, okolo 14:00 a okolo 21:00. 
+            Najvyššie skóre za deň získaš ak sa prihlásiš aspoň raz ráno, raz poobede a raz večer.<br />
+            Ak teda chceš vyhrať tak sa prihlasuj aspoň tri krát denne do systému v týchto časoch.
+            Pri každom prihlásení prosím vyklikaj články, ktoré ťa zaujímajú a rád by si si ich prečítal (NIE všetky iba tie zaujímavé).
+            Počet klikov na články však nemá vplyv na skóre, ktoré získaš. 
+        </p>
+        <div id="prices">
+        <p>
+            Pre tých ktorý budú najaktívnejší sú pripravené nasledovné ceny: <br />
+            <strong>1. cena</strong><br />
+            <img src="/ExplORe_DP/app/assets/images/beer.jpg" alt="explore" width="200" height="200"><br />
+            <strong>2. - 3. cena</strong><br />
+            <img src="/ExplORe_DP/app/assets/images/tshirt.png" alt="explore" width="500" height="280"><br />
+        </p>
+        </div>
+        <!--<h2> Vitaj na stránke projektu <i>ExplORe</i> !</h2>
         <img src="/ExplORe_DP//app/assets/images/favicon.ico" alt="explore" width="50" height="50">
         <p> Tento systém vznikol na Fakulte Informatiky a Informačných Technológií ako súčasť diplomovej práce.
             Obsahom tohto systému sú novinové články, ktoré si jednotlivý používatelia môžu čítať rovnako
@@ -13,7 +33,7 @@
             <a href='/ExplORe_DP//app/views/registration/registration.php'><input type="button" name="SignUp" value="Registrácia" class="btn btn-primary btn-block btn-md"></a>
             <br />
             <a href='/ExplORe_DP//app/views/registration/login.php'>Prihlásenie</a>
-        </div>
+        </div>-->
     </div>
 
     <!--    

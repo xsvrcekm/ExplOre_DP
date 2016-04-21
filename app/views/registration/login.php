@@ -15,7 +15,7 @@ if(isset($_POST['submit'])){
 	
 	if($user->login($username,$password)){
             $_SESSION['username'] = $username;
-            header('Location: ../../index.php');
+            header('Location: ../../../index.php');
             exit;
 	} else {
             $error[] = 'Zadali ste nesprávne používateľské meno alebo heslo alebo váš účet ešte nebol aktivovaný.';
@@ -26,6 +26,12 @@ if(isset($_POST['submit'])){
 function logLogin($username) {
     include('../../controllers/configDB.php');
     $conn = get_connection();
+    
+    ini_set('error_log', 'tmp/php_error.log');
+
+    $date = date("Y-m-d h:m:s");
+    $file = __FILE__;
+    $level = "error";
 
     $sql = "SELECT memberID FROM members AS m WHERE m.username = '$username' ";
     $current_user = $conn->query($sql)->fetch_assoc()['memberID'];

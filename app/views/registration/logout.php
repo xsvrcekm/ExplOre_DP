@@ -6,6 +6,12 @@ logLogout();
 function logLogout() {
     include('../../controllers/configDB.php');
     $conn = get_connection();
+    
+    ini_set('error_log', 'tmp/php_error.log');
+
+    $date = date("Y-m-d h:m:s");
+    $file = __FILE__;
+    $level = "error";
 
     $current_user = $_SESSION['memberID'];
 

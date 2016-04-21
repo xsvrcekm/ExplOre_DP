@@ -33,6 +33,12 @@ Martin Svrček
                     <div id="headerlogo">
                         <a href="/ExplORe_DP/index.php"> <img src="/ExplORe_DP/app/assets/images/explore_logo.png" alt="explore_logo" width="125" height="35"> </a>
                     </div>
+                    <div id="headercompetition">
+                        <a href='/ExplORe_DP/app/views/competition.php'>
+                        <p>SÚŤAŽ</p>
+                        <img src="/ExplORe_DP/app/assets/images/star.png" alt="competition_logo" width="27" height="27">
+                        </a>
+                    </div>
                     <?php
                         if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true){
                             echo "<a href='/ExplORe_DP/app/views/registration/logout.php'>";
@@ -40,16 +46,16 @@ Martin Svrček
                             echo "<a href='/ExplORe_DP/app/views/registration/login.php'>";
                         }
                     ?>
-                        <div id="headersignin">
-                            <?php
-                                if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {
-                                    echo "<p>ODHLÁSENIE</p>";
-                                }else{
-                                    echo "<p>PRIHLÁSENIE</p>";
-                                }
-                            ?>
-                            <img src="/ExplORe_DP/app/assets/images/lock.png" alt="signIn_logo" width="20" height="27">
-                        </div>
+                    <div id="headersignin">
+                        <?php
+                        if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {
+                            echo "<p>ODHLÁSENIE</p>";
+                        } else {
+                            echo "<p>PRIHLÁSENIE</p>";
+                        }
+                        ?>
+                        <img src="/ExplORe_DP/app/assets/images/lock.png" alt="signIn_logo" width="20" height="27">
+                    </div>
                     </a>
                 </div>
             </div>
