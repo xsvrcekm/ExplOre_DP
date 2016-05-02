@@ -5,6 +5,8 @@
 
     require_once('../header.php');
     
+    $mid = $_GET['mid'];
+    
     ini_set('error_log', 'tmp/php_error.log');
 
     $date = date("Y-m-d h:m:s");
@@ -21,7 +23,7 @@
         $next = "collaborative";
     }
 
-    $sql = "SELECT memberID, viewed_articles, recommended_articles FROM members";
+    $sql = "SELECT memberID, viewed_articles, recommended_articles FROM members WHERE memberID = '$mid'";
     $result = $conn->query($sql);
     while($user = $result->fetch_assoc()) {     //USER
         $explanation = "";

@@ -14,6 +14,8 @@
     include('../../controllers/configDB.php');
 
     $conn = get_connection();
+    
+    $id = 3;
 
     echo "<a href='/ExplORe_DP/app/views/admin/deleteNoContent.php'><input id='delete' type='button' value='Delete NoContent articles'/></a>";
     
@@ -23,7 +25,7 @@
     
     echo"<br />";
     
-    echo "<a href='/ExplORe_DP/app/views/admin/generateExplanations.php'><input id='generate' type='button' value='Generate Explanations'/></a>";
+    echo "<a href='/ExplORe_DP/app/views/admin/generateExplanations.php?mid=$id'><input id='generate' type='button' value='Generate Explanations'/></a>";
     
     echo"<br />";
     
