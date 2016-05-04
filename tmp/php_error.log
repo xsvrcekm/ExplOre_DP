@@ -2338,3 +2338,6 @@ doteraz nikto nebol odsúdený ani neniesol hmotnú zodpovednosť.', 'NoContent'
 [20-Apr-2016 23:20:57 UTC] [2016-04-20 11:04:57] [C:\Programs\wamp64\www\ExplORe_DP\app\views\admin.php] [error] Error while inserting article, INSERT INTO articles (sme_id, title, topic, author, description, content, link)
                     VALUES ('33727', 'Odhaľte, čo sme ukryli do nezvyčajnej filmovej krížovky', 'odhalte-co-sme-ukryli-do-nezvycajnej-filmovej-krizovky', '', 'Úlohou bude vylúštiť tajničku.', 'NoContent', 'http://tv.sme.sk/v/33727/odhalte-co-sme-ukryli-do-nezvycajnej-filmovej-krizovky.html') ; Data too long for column 'topic' at row 1
 
+[04-May-2016 07:15:26 UTC] [2016-05-04 07:05:26] [C:\Programs\wamp64\www\ExplORe_DP\app\views\admin.php] [error] Error while inserting article, INSERT INTO articles (sme_id, title, topic, author, description, content, link)
+                    VALUES ('417060', 'Pán primátor, zomrel cyklista', 'pan-primator-zomrel-cyklista', '', 'Zabili ho nezodpovedný vodič nákladného auta a neopravený výtlk na ceste.', 'NoContent', 'http://nicholsonova.blog.sme.sk/c/417060/pan-primator-zomrel-cyklista.html') ; Data too long for column 'topic' at row 1
+

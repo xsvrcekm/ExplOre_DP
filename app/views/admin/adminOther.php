@@ -37,6 +37,10 @@
     
     echo"<br />";
     
+    echo "<a href='/ExplORe_DP/app/views/admin/getUserLogsPerUser.php'><input id='getUserLogsPerUser' type='button' value='Get User Logs Per User'/></a>";
+    
+    echo"<br />";
+    
     echo "<a href='/ExplORe_DP/app/views/admin/competitionRank.php'><input id='getCompetitionRank' type='button' value='Get Ranks'/></a>";
     
     echo "<hr>";

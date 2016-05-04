@@ -182,8 +182,8 @@
 
                 if (count($recvec) == count($vievec)) {   //same length
                     if (sameTopic($rec_art, $vie_art, $conn)) {
-                        $recvec[count($recvec)] = 10;
-                        $vievec[count($vievec)] = 10;
+                        $recvec[count($recvec)] = 5;
+                        $vievec[count($vievec)] = 5;
                     }
                     $cs = computeCosineSimilarity($recvec, $vievec);
                     if($cs > $bestCS) {
