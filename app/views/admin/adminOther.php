@@ -1,4 +1,5 @@
 <?php
+    /*Page to control other admin functions*/
 
     require('../../controllers/registration/configDBLogin.php');
     if(!$user->is_logged_in()){ header('Location: ./app/views/registration/login.php'); }

@@ -1,4 +1,5 @@
 <?php
+    /*Page to generate explanations to recommended articles*/
 
     require('../../controllers/registration/configDBLogin.php');
     if(!$user->is_logged_in()){ header('Location: registration/login.php'); }
@@ -17,40 +18,42 @@
 
     $conn = get_connection();
     
-    if (rand(1, 10) < 6) {
+    if (rand(1, 10) < 6) {  // select which of the explanation technique will be at first place in list
         $next = "content";
     } else {
         $next = "collaborative";
     }
 
+    // get viewed and recommended articles for specific user
     $sql = "SELECT memberID, viewed_articles, recommended_articles FROM members WHERE memberID = '$mid'";
     $result = $conn->query($sql);
-    while($user = $result->fetch_assoc()) {     //USER
+    
+    while($user = $result->fetch_assoc()) {     // ITERATE THROUGH USER (IT IS JUST ONE)
         $explanation = "";
         
-        $uid = $user['memberID'];
+        $uid = $user['memberID'];   // get user ID
 
-        $recommended = explode(",", $user['recommended_articles']);
-        $viewed = explode(",", $user['viewed_articles']);
+        $recommended = explode(",", $user['recommended_articles']); // get user recommended articles
+        $viewed = explode(",", $user['viewed_articles']);           // get user viewed/readed articles
         
-        $viekw = getKW($viewed,$conn);
-        $reckw = getKW($recommended,$conn);
+        $viekw = getKW($viewed,$conn);      // get key-words for all viewed articles
+        $reckw = getKW($recommended,$conn); // get key-words for all recommended articles
         
-        if(count($recommended) > 1){
+        if(count($recommended) > 1){    // if user has at least one recommendation
             $ir = 0;
-            foreach($recommended as $rec_art){      //RECOMMENDED
+            foreach($recommended as $rec_art){      // ITERATE THROUGH RECOMMENDED ARTICLES
                 if(!empty($rec_art)){
-                    $rkw = divideKW($reckw[$ir],0);
-                    $rkwf = divideKW($reckw[$ir],1);
+                    $rkw = divideKW($reckw[$ir],0);     // get array of key words
+                    $rkwf = divideKW($reckw[$ir],1);    // get array of occurences of key-words
 
-                    if(strcmp($next,"content") == 0){
+                    if(strcmp($next,"content") == 0){   // if we start the list with content explanations
                         $best = contentBased($viewed, $viekw, $reckw, $rkw, $rkwf, $rec_art, $conn);
                         $next = "collaborative";
                         $explanation .= "a:".$best.",";
-                    }else {
+                    }else {     // if we start the list with collaborative explanations
                         $best = collaborationBased($viewed, $viekw, $reckw, $rkw, $rkwf, $rec_art, $conn);
                         $next = "content";
-                        if(strcmp($best,"NULL") == 0) {
+                        if(strcmp($best,"NULL") == 0) { // if we can not find user who reads recommended articles, we use content explanation
                             $best = contentBased($viewed, $viekw, $reckw, $rkw, $rkwf, $rec_art, $conn);
                             $next = "collaborative";
                             $explanation .= "a:".$best.",";
@@ -68,6 +71,7 @@
         echo "<br />++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br />";
     }
     
+    /*This function update user model with explanations*/
     function insertExplanation($explanation, $uid, $conn) {
         $sql = "UPDATE members SET explanations='$explanation' WHERE memberID='$uid'";   
         if ($conn->query($sql) === TRUE) {
@@ -79,6 +83,7 @@
         }
     }
     
+    /*This function compute collaborative based explanations*/
     function collaborationBased($viewed, $viekw, $reckw, $rkw, $rkwf, $rec_art, $conn) {
         
         $usersWhoReads = findUsersWhoReadsArticle($rec_art, $conn);
@@ -112,6 +117,7 @@
         return $bestCSuserID;
     }
     
+    /*This function try to find user who reads particular articles*/
     function findUsersWhoReadsArticle($aid, $conn) {
         
         $sql = "SELECT memberID, viewed_articles FROM members";
@@ -130,6 +136,7 @@
         return $users;
     }
     
+    /*This function find all viewed articles for specific user*/
     function findViewedArticles($uwr, $conn) {
         $sql = "SELECT viewed_articles FROM members WHERE memberID = '$uwr'";
         $va = $conn->query($sql)->fetch_assoc()['viewed_articles'];
@@ -137,6 +144,7 @@
         return explode(",", $va);
     }
     
+    /*This function get all key-words for specific array of articles readed by one user - User model*/
     function getKWFromVeiewedArticles($userViewedArticles, $conn) {
         $userkw = "";
         
@@ -148,6 +156,7 @@
         return $userkw;
     }
     
+    /*This function compute content based explanations*/
     function contentBased($viewed, $viekw, $reckw, $rkw, $rkwf, $rec_art, $conn) {
         $bestCS = -1;
         $bestCSarticleID = "NULL";
@@ -156,27 +165,9 @@
             if (!empty($vie_art)) {
                 $vkw = divideKW($viekw[$iv], 0);
                 $vkwf = divideKW($viekw[$iv], 1);
-                /* foreach($vkw as $k){
-                  echo $k.", ";
-                  }
-                  echo "<br />";
-                  foreach($vkwf as $f){
-                  echo $f.", ";
-                  }
-                  echo "<br />"; */
+
                 $vectorKW = mergeArrays($rkw, $vkw);
-                /* foreach($vkw as $v){
-                  echo $v.", ";
-                  }
-                  echo "<br />";
-                  foreach($rkw as $r){
-                  echo $r.", ";
-                  }
-                  echo "<br />";
-                  foreach($vectorKW as $ve){
-                  echo $ve.", ";
-                  }
-                  echo "<br />"; */
+
                 $recvec = createFrequencyVector($vectorKW, $rkw, $vkw, $rkwf, $vkwf, 0);
                 $vievec = createFrequencyVector($vectorKW, $rkw, $vkw, $rkwf, $vkwf, 1);
 
@@ -199,6 +190,7 @@
         return $bestCSarticleID;
     }
     
+    /*This function find key-words for specific articles*/
     function getKW($articles,$conn) {
         $j = 0;
         $key_words = [];
@@ -213,6 +205,9 @@
         return $key_words;
     }
     
+    /* This function return key-words or occurences of key-words according to variable sign
+     * 0 for key-words, 1 for occurences
+     */
     function divideKW($stringKW,$sign) {
         $array = explode(",", $stringKW);
         $j = 0;
@@ -226,6 +221,7 @@
         return $kw;
     }
     
+    /*This function merge two arrays into one without duplicates*/
     function mergeArrays($rkw,$vkw) {
         $vector = $vkw;
         $vkwLength = count($vkw);
@@ -244,6 +240,7 @@
         return $vector;
     }
     
+    /*This function creates frequency vector*/
     function createFrequencyVector($vector,$rkw,$vkw,$rkwf,$vkwf,$sign) {
         $i = 0;
         foreach($vector as $vec){
@@ -263,21 +260,13 @@
             $i++;
         }
         
-        /*echo "<br />";
-        foreach($reckwf as $rr){
-            echo $rr.", ";
-        }
-        echo "<br />";
-        foreach($viekwf as $vv){
-            echo $vv.", ";
-        }*/
-        
         if($sign == 0){
             return $reckwf;
         }
         return $viekwf;
     }
     
+    /*This function compute CosineSimilarity from two vectors*/
     function computeCosineSimilarity($vec1, $vec2) {
         $dotProduct = 0.0;
         $magnitude1 = 0.0;
@@ -302,6 +291,7 @@
         return $cosineSimilarity;
     }
     
+    /*This function finds if the two articles have the same topic*/
     function sameTopic($article1, $article2, $conn) {
         $sql = "SELECT topic FROM articles WHERE id = '$article1'";
         $topic1 = $conn->query($sql)->fetch_assoc()['topic'];

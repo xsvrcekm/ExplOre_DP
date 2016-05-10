@@ -1,4 +1,12 @@
 <?php
+    /*
+     * Page to compute number of logins of users according to competition rules
+     * For every login is 1 point
+     * You can get max 3 points per day:
+        * first point for login from 8:00 to 14:00
+        * second point for login from 14:00 to 21:00
+        * third point for login from 21:00 to 8:00 next day
+     */
 
     require('../../controllers/registration/configDBLogin.php');
     if(!$user->is_logged_in()){ header('Location: registration/login.php'); }
@@ -86,16 +94,13 @@
 
                 if(strcmp($act_date,$date) === 0) {
                     $hour = intval(explode(":", $time)[0]);
-                    if($hour >= 8 && $hour < 14 && $e === 0) {
-                        //echo "eight<br />";
+                    if($hour >= 8 && $hour < 14 && $e === 0) {  // morning login
                         $score[$uid] += 1;
                         $e = 1;
-                    }else if($hour >= 14 && $hour < 21 && $f === 0) {
-                        //echo "fourteen<br />";
+                    }else if($hour >= 14 && $hour < 21 && $f === 0) {   // afternoon login
                         $score[$uid] += 1;
                         $f = 1;
-                    }else if((($hour >= 21) || ($hour >= 0 && $hour < 8)) && $t === 0) {
-                        //echo "twenty<br />";
+                    }else if((($hour >= 21) || ($hour >= 0 && $hour < 8)) && $t === 0) {    // evening login
                         $score[$uid] += 1;
                         $t = 1;
                     }
@@ -103,7 +108,8 @@
             }
         }
     }
-    rsort($score);
+    
+    rsort($score);  // sort results according to score from the highest
     foreach($score as $k => $v) {
         echo $k.": ".$v."<br />";
     }

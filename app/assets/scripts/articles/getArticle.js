@@ -1,7 +1,7 @@
+/*This function gets Article Content and show it on page*/
 function showArticleContent(aid) {
     var url = 'http://s.sme.sk/export/ma/?c=' + aid;
     var article;
-    //alert("doAjax: " + url);
     // if it is an external URI
     if (url.match('^http')) {
         // call YQL
@@ -10,14 +10,11 @@ function showArticleContent(aid) {
                 encodeURIComponent(url) +
                 "%22&format=xml'&callback=?",
                 function (data) {
-                    // this function gets the data from the successful 
-                    // JSON-P call
                     // if there is data, filter it and render it out
                     if (data.results[0]) {
-                        article = filterData(data.results[0]);
-                        $("#target").text(article);
-                        
-                        // otherwise tell the world that something went wrong
+                        article = filterData(data.results[0]);  // filter the not imprtant html entities of articles 
+                        $("#target").text(article); // show article on page
+                    // otherwise tell the world that something went wrong
                     } else {
                         var errormsg = '<p>Error: can not load the page.</p>';
                         $("#target").html(errormsg);
@@ -30,16 +27,16 @@ function showArticleContent(aid) {
         .fail(function () {
             alert("error");
         });
-        // if it is not an external URI
+    // if it is not an external URI
     } else {
         $('#target').load(url);
     }
 }
 
+/*This function gets Article Content and store it into database*/
 function getArticleContent(aid) {
     var url = 'http://s.sme.sk/export/ma/?c=' + aid;
     var article;
-    //alert("doAjax: " + url);
     // if it is an external URI
     if (url.match('^http')) {
         // call YQL
@@ -48,18 +45,15 @@ function getArticleContent(aid) {
                 encodeURIComponent(url) +
                 "%22&format=xml'&callback=?",
                 function (data) {
-                    // this function gets the data from the successful 
-                    // JSON-P call
                     // if there is data, filter it and render it out
                     if (data.results[0]) {
-                        article = filterData(data.results[0]);
-                        //$("#target").html(article);
-
-                        $("#invisible").html(article);
-                        var node = document.getElementById('invisible');
-                        updateArticleContent(node.innerHTML,aid);
                         
-                        // otherwise tell the world that something went wrong
+                        article = filterData(data.results[0]);  // filter the not imprtant html entities of articles 
+                        $("#invisible").html(article);
+                        var node = document.getElementById('invisible');    // get the html content of article
+                        updateArticleContent(node.innerHTML,aid);   // update article with content
+                        
+                    // otherwise tell that something went wrong
                     } else {
                         var errormsg = '<p>Error: can not load the page.</p>';
                         $("#target").html(errormsg);
@@ -70,15 +64,15 @@ function getArticleContent(aid) {
             $("#invisible").text("");
         })
         .fail(function () {
-            alert("error");
+            alert("error in updating content of article");  // admin interface
         });
-        // if it is not an external URI
+    // if it is not an external URI
     } else {
         $('#target').load(url);
     }
 }
 
-// filter out some nasties
+/*Function filter out some nasties, html entities*/
 function filterData(data) {
     data = data.replace(/<body>/, '');
     data = data.replace(/<?\/body[^>]*>/g, '');
@@ -98,25 +92,16 @@ function filterData(data) {
         content += data[i];
     }
     
-    if(img_url.startsWith("http")){
+    if(img_url.startsWith("http")){ // if we found img URL
         content = '<img src="' + img_url + '" width="500">' + content;
-    }else {
+    }else { // if we can not found img URL, we use generic one
         content = '<img src="/app/assets/images/article_img.jpg" width="501">' + content;
     }
-    
-    /*
-    data = '<img src="' + img_url + '" width="500">' + data;
-    data = data.replace(/<div\b[^>]*>/gm, '');
-    data = data.replace(/<\/div>/gm, '');
-    
-    data = data.replace(/<div[^>]*?class="top-foto-box"[^>]*?>/, '<img src="' + img_url + '" width="200" style="width:100%">');
-    data = data.replace(/'/g,'"');
-    data = data.replace(/\s\s+/g, ' ');
-     */
 
     return content;
 }
 
+/*This function get IMG url from sme div element*/
 function getImgUrl(data) {
     var img_url;
     img_url = String(data.match(/<div[^>]*?class="top-foto-box"[^>]*?>/));
@@ -126,6 +111,7 @@ function getImgUrl(data) {
     return img_url;
 }
 
+/*This function update Article Content with ajax call on php page*/
 function updateArticleContent(content, article_id) {
  
    content = content.replace (/&#{0,1}[a-z0-9]+;/ig, ' ');

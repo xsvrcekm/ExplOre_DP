@@ -4,11 +4,6 @@
         $username = "martin";
         $password = "Sv/11-m+T";
         $dbname = "explore";
-         
-        /*$servername = "mysql.hostinger.co.uk";
-        $username = "u133754443_user";
-        $password = "yeka03zede";
-        $dbname = "u133754443_db";*/
         
         // Create connection
         $connect = new mysqli($servername, $username, $password, $dbname);
@@ -44,9 +39,10 @@
     //include('app/controllers/configDB.php');
     $conn = get_connection();
     
-    //echo "UPDATE: ".$content;
+    // SQL query
     $sql = "UPDATE articles SET content='$content' WHERE sme_id='$article_id'";  
     
+    // run the query
     if ($conn->query($sql) === TRUE) {
         //echo "***".$article_id."Content updated successfully.***".$content;
     } else {

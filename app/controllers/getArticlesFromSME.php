@@ -11,6 +11,7 @@ class GetArticlesFromSME
 		#$this->initialize();
                 global $config;
 
+                // iterate through RSS feeds
 		foreach ($config["feeds"] as $feed)
 		{
 			if (($feed = file_get_contents($feed)) === FALSE)
@@ -21,6 +22,7 @@ class GetArticlesFromSME
 		
 			$feed = simplexml_load_string($feed);
 		
+                        // get all articles
 			foreach ($feed->channel->item as $article)
 			{
 				$articles[] = $article;

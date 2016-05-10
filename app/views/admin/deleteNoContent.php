@@ -1,4 +1,5 @@
 <?php
+    /*Page to delete articles with NoContent*/
 
     require('../../controllers/registration/configDBLogin.php');
     if(!$user->is_logged_in()){ header('Location: registration/login.php'); }

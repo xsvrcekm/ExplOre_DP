@@ -16,7 +16,7 @@
     $conn = get_connection();
 
     $getArt = new GetArticlesFromSME();
-    $articles = $getArt->run();
+    $articles = $getArt->run(); // get the articles information from RSS
 
     $n = 0;
     $newArticlesIDs = [];
@@ -25,11 +25,13 @@
     
     echo "<hr>";
 
+    // iterate through articles
     foreach ($articles as $article) {
         $author = $article->children('dc', true)->creator;
         $aid = explode("/", $article->link)[4];
         $topic = explode(".", (explode("/", $article->link)[5]))[0];
 
+        // output
         echo "Titulok: $article->title <br />";
         echo "Tema: $topic <br />";
         echo "Autor: $author <br />";
@@ -69,16 +71,16 @@
         echo "<br />";
     }
 
+    // get content of articles
     foreach ($articles as $article) {
         $aid = explode("/", $article->link)[4];
         $articleContent;
 
+        // get content only for new articles
         if (in_array($aid, $newArticlesIDs)) {
             ?>
             <script type="text/javascript">
                 var articleID = <?php echo $aid; ?>;
-                /*var div = document.getElementById('target');
-                div.innerHTML = div.innerHTML + ("X: " + articleID);*/
                 getArticleContent(articleID);
             </script>
             <?php

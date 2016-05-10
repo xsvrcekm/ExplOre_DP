@@ -1,4 +1,5 @@
 <?php
+    /*Page show every user with his viewed/readed articles*/
 
     require('../../controllers/registration/configDBLogin.php');
     if(!$user->is_logged_in()){ header('Location: registration/login.php'); }

@@ -1,4 +1,5 @@
 <?php
+    /*Page to extract key words from article content*/
 
     require('../../controllers/registration/configDBLogin.php');
     if(!$user->is_logged_in()){ header('Location: registration/login.php'); }
@@ -15,6 +16,7 @@
 
     $conn = get_connection();
     
+    // array to replace MS characters
     $chr_map = array(
         // Windows codepage 1252
         "\xC2\x82" => "'", // U+0082⇒U+201A single low-9 quotation mark
@@ -88,9 +90,9 @@
             }
         }
         
-        arsort($kws);
-        $i = 10;
-        $key_words = "";
+        arsort($kws);       //sort key_words according to number of occurence of particular tokens
+        $i = 10;            // max number of key_words for one article
+        $key_words = "";    // string with key_words divided by comma
         foreach($kws as $key => $value){
             if($i > 0){
                 echo $key."->".$value."<br />";
@@ -101,6 +103,7 @@
         echo $key_words."<br />";
         echo "-------------------------<br />";
         
+        // sql query
         $sql = "UPDATE articles SET key_words='$key_words' WHERE id='$aid'";  
     
         if ($conn->query($sql) === TRUE) {

@@ -7,11 +7,6 @@ function get_connection() {
     $username = "martin";
     $password = "Sv/11-m+T";
     $dbname = "explore";
-     
-    /*$servername = "mysql.hostinger.co.uk";
-    $username = "u133754443_user";
-    $password = "yeka03zede";
-    $dbname = "u133754443_db";*/
 
     // Create connection
     $connect = new mysqli($servername, $username, $password, $dbname);
@@ -35,6 +30,5 @@ function get_connection() {
     //$conn->close();
     return $connect;
 }
-
 ?>
 
